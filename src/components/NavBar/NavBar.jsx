@@ -4,6 +4,7 @@ import { FaAddressCard } from "react-icons/fa6";
 import { IoIosPaper } from "react-icons/io";
 import NavItem from "./NavItem";
 import { TfiWrite } from "react-icons/tfi";
+import { LuBinary } from "react-icons/lu";
 // Icons from https://react-icons.github.io/react-icons/
 const NavBar = ({ selected, setSelected }) => {
   return (
@@ -34,12 +35,15 @@ const NavBar = ({ selected, setSelected }) => {
         <SiGithub />
       </NavItem>
       <NavItem selected={selected === 3} id={3} setSelected={setSelected}>
-        <FaAddressCard />
+        <LuBinary />
       </NavItem>
       <NavItem selected={selected === 4} id={4} setSelected={setSelected}>
-        <IoIosPaper />
+        <FaAddressCard />
       </NavItem>
       <NavItem selected={selected === 5} id={5} setSelected={setSelected}>
+        <IoIosPaper />
+      </NavItem>
+      <NavItem selected={selected === 6} id={6} setSelected={setSelected}>
         <TfiWrite />
       </NavItem>
     </nav>
