@@ -9,6 +9,7 @@ const App = () => {
     <>
       <div className='bg-slate-900 text-slate-100 flex'>
         <NavBar selected={selected} setSelected={setSelected} />
+        {/* Replace h1's with components once implemented */}
         {selected === 0 && <h1>Home Page</h1>}
         {selected === 1 && <h1>About Me</h1>}
         {selected === 2 && <h1>Projects</h1>}

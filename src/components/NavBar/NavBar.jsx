@@ -12,30 +12,38 @@ import NavItem from "./NavItem";
 const NavBar = ({ selected, setSelected }) => {
   return (
     <nav className='h-screen w-fit bg-slate-950 p-4 flex flex-col items-center gap-2'>
+      {/* Main header icon */}
       <IconContext.Provider value={{ className: "w-11 h-11" }}>
         <div>
           <PiBracketsCurlyFill />
         </div>
       </IconContext.Provider>
-
+      {/* May need to rearrange these or change icons */}
+      {/* Home Page */}
       <NavItem selected={selected === 0} id={0} setSelected={setSelected}>
         <SlHome />
       </NavItem>
+      {/* About Me */}
       <NavItem selected={selected === 1} id={1} setSelected={setSelected}>
         <SlUser />
       </NavItem>
+      {/* Projects */}
       <NavItem selected={selected === 2} id={2} setSelected={setSelected}>
         <SiGithub />
       </NavItem>
+      {/* Skills and Technology */}
       <NavItem selected={selected === 3} id={3} setSelected={setSelected}>
         <LuBinary />
       </NavItem>
+      {/* Contact Me */}
       <NavItem selected={selected === 4} id={4} setSelected={setSelected}>
         <FaAddressCard />
       </NavItem>
+      {/* Resume */}
       <NavItem selected={selected === 5} id={5} setSelected={setSelected}>
         <IoIosPaper />
       </NavItem>
+      {/* Blog */}
       <NavItem selected={selected === 6} id={6} setSelected={setSelected}>
         <TfiWrite />
       </NavItem>
