@@ -9,6 +9,8 @@ import { PiBracketsCurlyFill } from "react-icons/pi";
 
 import NavItem from "./NavItem";
 // Icons from https://react-icons.github.io/react-icons/
+
+// TODO: Make NavBar responsive and not overflow
 const NavBar = ({ selected, setSelected }) => {
   return (
     <nav className='h-screen w-fit bg-slate-950 p-4 flex flex-col items-center gap-2'>
