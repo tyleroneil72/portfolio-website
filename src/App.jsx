@@ -12,18 +12,33 @@ import Blog from "./components/Blog.jsx";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
+
+  const renderSelectedComponent = () => {
+    switch (selected) {
+      case 0:
+        return <HomePage />;
+      case 1:
+        return <AboutMe />;
+      case 2:
+        return <Projects />;
+      case 3:
+        return <Skills />;
+      case 4:
+        return <ContactMe />;
+      case 5:
+        return <Resume />;
+      case 6:
+        return <Blog />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <>
       <div className='bg-slate-900 text-slate-100 flex'>
         <NavBar selected={selected} setSelected={setSelected} />
-        {/* Replace h1's with components once implemented */}
-        {selected === 0 && <HomePage />}
-        {selected === 1 && <AboutMe />}
-        {selected === 2 && <Projects />}
-        {selected === 3 && <Skills />}
-        {selected === 4 && <ContactMe />}
-        {selected === 5 && <Resume />}
-        {selected === 6 && <Blog />}
+        {renderSelectedComponent()}
       </div>
     </>
   );
