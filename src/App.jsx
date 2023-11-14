@@ -3,6 +3,12 @@ import { useState } from "react";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import "./App.css";
 import HomePage from "./components/HomePage.jsx";
+import AboutMe from "./components/AboutMe.jsx";
+import Projects from "./components/Projects.jsx";
+import Skills from "./components/Skills.jsx";
+import ContactMe from "./components/ContactMe.jsx";
+import Resume from "./components/Resume.jsx";
+import Blog from "./components/Blog.jsx";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
@@ -12,12 +18,12 @@ const App = () => {
         <NavBar selected={selected} setSelected={setSelected} />
         {/* Replace h1's with components once implemented */}
         {selected === 0 && <HomePage />}
-        {selected === 1 && <h1>About Me</h1>}
-        {selected === 2 && <h1>Projects</h1>}
-        {selected === 3 && <h1>Skills and Technology</h1>}
-        {selected === 4 && <h1>Contact Me</h1>}
-        {selected === 5 && <h1>Resume</h1>}
-        {selected === 6 && <h1>Blog</h1>}
+        {selected === 1 && <AboutMe />}
+        {selected === 2 && <Projects />}
+        {selected === 3 && <Skills />}
+        {selected === 4 && <ContactMe />}
+        {selected === 5 && <Resume />}
+        {selected === 6 && <Blog />}
       </div>
     </>
   );
