@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-
+// More information -> https://www.framer.com/motion/
 const NavItem = ({ children, selected, id, setSelected }) => {
   return (
     <motion.button
