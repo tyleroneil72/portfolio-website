@@ -13,7 +13,7 @@ import NavItem from "./NavItem";
 // TODO: Make NavBar responsive and not overflow
 const NavBar = ({ selected, setSelected }) => {
   return (
-    <nav className='h-screen w-fit bg-slate-950 p-4 flex flex-col items-center gap-2'>
+    <nav className='h-screen w-fit bg-slate-950 p-4 flex flex-col items-center gap-3'>
       {/* Main header icon */}
       <IconContext.Provider value={{ className: "w-11 h-11" }}>
         <div>
