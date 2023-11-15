@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-import NavBar from "./components/NavBar/NavBar.jsx";
 import "./App.css";
+
+import NavBar from "./components/NavBar/NavBar.jsx";
 import HomePage from "./components/HomePage.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Projects from "./components/Projects.jsx";
@@ -9,6 +10,7 @@ import Skills from "./components/Skills.jsx";
 import ContactMe from "./components/ContactMe.jsx";
 import Resume from "./components/Resume.jsx";
 import Blog from "./components/Blog.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
@@ -39,6 +41,7 @@ const App = () => {
       <div className='bg-slate-900 text-slate-100 flex'>
         <NavBar selected={selected} setSelected={setSelected} />
         {renderSelectedComponent()}
+        <Footer />
       </div>
     </>
   );
