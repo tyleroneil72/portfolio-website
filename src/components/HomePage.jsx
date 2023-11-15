@@ -4,7 +4,7 @@ import headshot from "../assets/headshot.jpg";
 function HomePage() {
   return (
     <div className='h-screen w-screen flex flex-col items-center'>
-      <h1 className='text-4xl font-bold text-slate-100 mt-16 mb-4 w-screen text-center'>
+      <h1 className='text-4xl font-bold text-slate-100 mt-16 mb-4 text-center'>
         Home Page
       </h1>
       <Typewriter
