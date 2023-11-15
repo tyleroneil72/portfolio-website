@@ -20,7 +20,6 @@ const NavBar = ({ selected, setSelected }) => {
           <PiBracketsCurlyFill />
         </div>
       </IconContext.Provider>
-      {/* May need to rearrange these or change icons */}
       {/* Home Page */}
       <NavItem selected={selected === 0} id={0} setSelected={setSelected}>
         <SlHome />
