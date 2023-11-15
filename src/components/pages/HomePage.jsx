@@ -19,25 +19,27 @@ function HomePage() {
         }`}
       >
         <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800'>
-          <p className='text-lg font-semibold mb-4'>Site Coming Soon</p>
+          <p className='text-lg font-semibold mb-4'>
+            I'm currently reworking my website. Stay tuned!
+          </p>
           <p className='text-base'>
-            I am currently reworking my website. Stay tuned! Feel free to
-            connect with me on&nbsp;
+            But in the meantime, feel free to connect with me on{" "}
             <a
               class='text-blue-500 hover:underline'
               target='_blank'
               href='https://www.linkedin.com/in/tyler-oneil-dev/'
             >
               LinkedIn
-            </a>
-            .&nbsp;Check out my&nbsp;
+            </a>{" "}
+            or check out my github projects{" "}
             <a
               class='text-blue-500 hover:underline'
               target='_blank'
               href='https://github.com/tyleroneil72'
             >
-              GitHub Profile
+              here
             </a>
+            .
           </p>
         </div>
       </div>

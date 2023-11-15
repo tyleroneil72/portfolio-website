@@ -17,8 +17,9 @@ const AboutMe = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
+        <p className='mt-2'>Coming Soon...</p>
         {/* This doesnt look that good but its a good start */}
-        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800'>
+        {/* <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800'>
           <p className='text-lg font-semibold mb-4'>
             Highly motivated and aspiring Software Developer
           </p>
@@ -29,7 +30,7 @@ const AboutMe = () => {
             George Brown College. Previously attended The University of Toronto
             majoring in Computer Science and Mathematics.
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   );
