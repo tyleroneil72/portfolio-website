@@ -17,7 +17,7 @@ const AboutMe = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <p className='mt-2'>This is the about me page</p>
+        <p className='mt-2'>Coming Soon...</p>
       </div>
     </>
   );
