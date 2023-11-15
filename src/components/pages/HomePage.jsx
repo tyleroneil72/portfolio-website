@@ -18,7 +18,28 @@ function HomePage() {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <p className='mt-2'>Coming Soon...</p>
+        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800'>
+          <p className='text-lg font-semibold mb-4'>Site Coming Soon</p>
+          <p className='text-base'>
+            I am currently reworking my website. Stay tuned! Feel free to
+            connect with me on&nbsp;
+            <a
+              class='text-blue-500 hover:underline'
+              target='_blank'
+              href='https://www.linkedin.com/in/tyler-oneil-dev/'
+            >
+              LinkedIn
+            </a>
+            .&nbsp;Check out my&nbsp;
+            <a
+              class='text-blue-500 hover:underline'
+              target='_blank'
+              href='https://github.com/tyleroneil72'
+            >
+              GitHub Profile
+            </a>
+          </p>
+        </div>
       </div>
     </>
   );
