@@ -1,6 +1,6 @@
-import Typewriter from "./effects/Typewriter";
-import headshot from "../assets/headshot.jpg";
-import Title from "./Title";
+import Typewriter from "../effects/Typewriter";
+import headshot from "../../assets/headshot.jpg";
+import Title from "../Title";
 
 function HomePage() {
   return (

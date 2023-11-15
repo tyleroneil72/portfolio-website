@@ -3,13 +3,13 @@ import { useState } from "react";
 import "./App.css";
 
 import NavBar from "./components/NavBar/NavBar.jsx";
-import HomePage from "./components/HomePage.jsx";
-import AboutMe from "./components/AboutMe.jsx";
-import Projects from "./components/Projects.jsx";
-import Skills from "./components/Skills.jsx";
-import ContactMe from "./components/ContactMe.jsx";
-import Resume from "./components/Resume.jsx";
-import Blog from "./components/Blog.jsx";
+import HomePage from "./components/pages/HomePage.jsx";
+import AboutMe from "./components/pages/AboutMe.jsx";
+import Projects from "./components/pages/Projects.jsx";
+import Skills from "./components/pages/Skills.jsx";
+import ContactMe from "./components/pages/ContactMe.jsx";
+import Resume from "./components/pages/Resume.jsx";
+import Blog from "./components/pages/Blog.jsx";
 import Footer from "./components/Footer.jsx";
 
 const App = () => {
