@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 const Typewriter = ({ text, delay, infinite }) => {
   const [currentText, setCurrentText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [showCursor, setShowCursor] = useState(true);
 
   useEffect(() => {
     let timeout;
@@ -20,7 +21,26 @@ const Typewriter = ({ text, delay, infinite }) => {
     return () => clearTimeout(timeout);
   }, [currentIndex, delay, infinite, text]);
 
-  return <span>{currentText}</span>;
+  useEffect(() => {
+    const cursorInterval = setInterval(() => {
+      setShowCursor((prevShowCursor) => !prevShowCursor);
+    }, 500); // blinking cursor interval
+
+    return () => clearInterval(cursorInterval);
+  }, []);
+
+  return (
+    <span className='relative'>
+      <span>{currentText}</span>
+      <span
+        className={`absolute opacity-25 ${
+          showCursor ? "visible" : "invisible"
+        }`}
+      >
+        |
+      </span>
+    </span>
+  );
 };
 
 export default Typewriter;
