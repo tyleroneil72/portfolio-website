@@ -6,14 +6,14 @@ function HomePage() {
   return (
     <>
       <Title title={"Home Page"} />
-      {/* <Typewriter
+
+      {/* Make this a component */}
+      <div className='absolute mt-40 ml-20'>
+        <Typewriter
           text='Welcome to My Website...'
           delay={100}
           infinite={false}
-        /> */}
-      {/* Make this a component */}
-      <div className='absolute mt-40 ml-20'>
-        <p>Put Content here</p>
+        />
       </div>
     </>
   );
