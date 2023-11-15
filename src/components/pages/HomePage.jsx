@@ -11,7 +11,10 @@ function HomePage() {
           delay={100}
           infinite={false}
         /> */}
-      {/* Create component below that has the correct css so things can be put in it */}
+      {/* Make this a component */}
+      <div className='absolute mt-40 ml-20'>
+        <p>Put Content here</p>
+      </div>
     </>
   );
 }
