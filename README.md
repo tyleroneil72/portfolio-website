@@ -5,7 +5,7 @@
 
 # Description
 
-This is a portfolio website built using React (Vite), styled with Tailwind CSS and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development.
+This is a portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development.
 
 # Link
 
