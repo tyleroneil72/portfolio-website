@@ -17,6 +17,7 @@ const Resume = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
+        <p className='mt-2 mb-5'>Coming Soon...</p>
         {/* TODO: Fill out, Maybe delete this and put in the about me section */}
         <a
           href='/resume.pdf'
