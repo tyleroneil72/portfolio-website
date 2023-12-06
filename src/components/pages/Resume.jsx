@@ -19,7 +19,7 @@ const Resume = () => {
       >
         {/* TODO: Fill out, Maybe delete this and put in the about me section */}
         <a
-          href="/Tyler-O'Neil-Resume-github.pdf"
+          href='/resume.pdf'
           class='relative px-5 py-2 font-medium text-white group'
           target='_blank'
         >
