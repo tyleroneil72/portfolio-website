@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <>
-      <div className='bg-slate-900 text-slate-100 flex'>
+      <div className='text-slate-100 flex'>
         <NavBar selected={selected} setSelected={setSelected} />
         {renderSelectedComponent()}
         <Footer />
