@@ -13,7 +13,7 @@ const AboutMe = () => {
       <Title title={"About Me"} />
 
       <div
-        className={`absolute mt-40 ml-24 transition-opacity duration-1000 ${
+        className={`absolute mt-36 ml-24 transition-opacity duration-1000 ${
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
