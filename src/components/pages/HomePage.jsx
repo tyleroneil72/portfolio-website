@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import headshot from "../../assets/headshot.jpg";
 import Title from "../Title";
 
 function HomePage() {
