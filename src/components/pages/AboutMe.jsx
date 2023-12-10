@@ -17,7 +17,7 @@ const AboutMe = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <p className='mt-2'>Coming Soon... </p>
+        <p className='mt-2 mb-5'>Coming Soon... </p>
         <div className='bg-white rounded-lg shadow-md p-6 mr-4'>
           <p className='mt-2 text-lg leading-relaxed text-gray-800'>
             Highly motivated Software Developer with hands-on experience in
