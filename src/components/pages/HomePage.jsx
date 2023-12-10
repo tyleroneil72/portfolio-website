@@ -25,7 +25,7 @@ function HomePage() {
           <p className='text-base'>
             But in the meantime, feel free to connect with me on{" "}
             <a
-              class='text-blue-500 hover:underline'
+              className='text-blue-500 hover:underline'
               target='_blank'
               href='https://www.linkedin.com/in/tyler-oneil-dev/'
             >
@@ -33,7 +33,7 @@ function HomePage() {
             </a>{" "}
             or check out my github projects{" "}
             <a
-              class='text-blue-500 hover:underline'
+              className='text-blue-500 hover:underline'
               target='_blank'
               href='https://github.com/tyleroneil72'
             >
