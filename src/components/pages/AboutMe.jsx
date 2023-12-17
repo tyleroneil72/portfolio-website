@@ -39,6 +39,8 @@ const AboutMe = () => {
               {/* This might not work */}
               {new Date().toLocaleTimeString([], {
                 timeZone: "America/Toronto",
+                hour: "numeric",
+                minute: "numeric",
               })}
             </p>
           </div>
