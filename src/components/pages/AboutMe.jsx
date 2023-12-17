@@ -63,17 +63,17 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <div className='border-2 border-gray-300 rounded-md p-4 w-full md:w-2/3 lg:w-1/2 mr-6'>
-          <p className='text-lg font-semibold mb-4'>
-            tyleroneil/AboutMe<span className='text-gray-600'>.md</span>
+        <div className='border-2 border-gray-300 p-4 w-full md:w-2/3 lg:w-1/2 mr-6 rounded-lg bg-gray-300'>
+          <p className='text-lg font-semibold mb-4 text-gray-600'>
+            tyleroneil/AboutMe<span className='text-gray-500'>.md</span>
           </p>
 
           <div className='space-y-4'>
             <div>
-              <h2 className='text-xl font-semibold mb-2'>
+              <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 Professional Information
               </h2>
-              <p className='text-gray-600'>
+              <p className='text-gray-800'>
                 Highly motivated aspiring Software Developer with hands-on
                 experience in crafting applications and websites. I've served as
                 a Software Developer Intern at Exchange Solutions Inc,
@@ -91,10 +91,10 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <h2 className='text-xl font-semibold mb-2'>
+              <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 Personal Information
               </h2>
-              <p className='text-gray-600'>
+              <p className='text-gray-800'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 consequat turpis in purus vestibulum, non sodales quam
                 blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
