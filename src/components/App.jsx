@@ -35,13 +35,11 @@ const App = () => {
   };
 
   return (
-    <>
-      <div className='text-slate-100 flex'>
-        {renderSelectedComponent()}
-        <NavBar selected={selected} setSelected={setSelected} />
-        <Footer />
-      </div>
-    </>
+    <div className='text-slate-100 flex'>
+      {renderSelectedComponent()}
+      <NavBar selected={selected} setSelected={setSelected} />
+      <Footer />
+    </div>
   );
 };
 
