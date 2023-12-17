@@ -35,8 +35,11 @@ const AboutMe = () => {
               <span className='font-semibold'>Location:</span> Toronto
             </p>
             <p className='mb-2'>
-              <span className='font-semibold'>Current time:</span>{" "}
-              {new Date().toLocaleTimeString()}
+              <span className='font-semibold'>Current Time:</span>{" "}
+              {/* This might not work */}
+              {new Date().toLocaleTimeString([], {
+                timeZone: "America/Toronto",
+              })}
             </p>
           </div>
 
