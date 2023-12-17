@@ -18,7 +18,7 @@ const AboutMe = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96'>
+        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96 mr-4'>
           <img
             src={headshot}
             alt='Profile'
