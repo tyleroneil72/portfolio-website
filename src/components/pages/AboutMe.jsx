@@ -32,7 +32,7 @@ const AboutMe = () => {
 
           <div className='text-left mt-4'>
             <p className='mb-2'>
-              <span className='font-semibold'>Location:</span> Toronto
+              <span className='font-semibold'>Location:</span> Toronto, ON
             </p>
             <p className='mb-2'>
               <span className='font-semibold'>Current Time:</span>{" "}
