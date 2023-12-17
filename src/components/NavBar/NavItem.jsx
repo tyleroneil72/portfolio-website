@@ -19,7 +19,7 @@ const NavItem = ({ children, selected, id, setSelected, title }) => {
     >
       <span className='block relative z-10'>{children}</span>
       {isHovered && (
-        <div className='fixed top-0 left-full ml-4 bg-gray-900 text-white rounded-md shadow-md p-4 z-50'>
+        <div className='fixed top-0 left-full ml-4 bg-gray-900 text-white rounded-md shadow-md p-4 z-50 max-w-xs truncate'>
           {title}
         </div>
       )}
