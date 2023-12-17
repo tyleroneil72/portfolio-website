@@ -47,7 +47,7 @@ const AboutMe = () => {
               rel='noopener noreferrer'
               className='text-blue-500 hover:underline'
             >
-              GitHub Profile
+              GitHub
             </a>
 
             <a
@@ -56,7 +56,7 @@ const AboutMe = () => {
               rel='noopener noreferrer'
               className='text-blue-500 hover:underline'
             >
-              LinkedIn Profile
+              LinkedIn
             </a>
           </div>
         </div>
