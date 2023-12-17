@@ -27,7 +27,7 @@ const AboutMe = () => {
 
           <div className='text-center'>
             <p className='text-lg font-semibold'>Tyler O'Neil</p>
-            <p className='text-gray-600'>Passionate Software Developer</p>
+            <p className='text-gray-600'>Aspiring Software Developer</p>
           </div>
 
           <div className='text-left mt-4'>
