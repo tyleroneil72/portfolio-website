@@ -60,7 +60,7 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <div className='border-2 border-gray-300 rounded-md p-4 w-full md:w-2/3 lg:w-1/2'>
+        <div className='border-2 border-gray-300 rounded-md p-4 w-full md:w-2/3 lg:w-1/2 mr-4'>
           <p className='text-lg font-semibold mb-4'>tyleroneil/AboutMe.md</p>
 
           <div className='space-y-4'>
