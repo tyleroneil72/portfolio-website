@@ -1,24 +1,28 @@
-import { AnimatePresence, motion } from "framer-motion";
-// More information -> https://www.framer.com/motion/
-const NavItem = ({ children, selected, id, setSelected }) => {
+import { useState } from "react";
+import { motion } from "framer-motion";
+
+const NavItem = ({ children, selected, id, setSelected, title }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleHover = (hovered) => {
+    setIsHovered(hovered);
+  };
+
   return (
     <motion.button
-      className='p-3 text-xl bg-slate-800 hover:bg-slate-700 rounded-md transition-colors relative'
+      className='p-3 text-xl bg-slate-800 hover:bg-slate-700 rounded-md transition-colors relative z-10'
       onClick={() => setSelected(id)}
+      onMouseEnter={() => handleHover(true)}
+      onMouseLeave={() => handleHover(false)}
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
       <span className='block relative z-10'>{children}</span>
-      <AnimatePresence>
-        {selected && (
-          <motion.span
-            className='absolute inset-0 rounded-md bg-indigo-600 z-0'
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            exit={{ scale: 0 }}
-          ></motion.span>
-        )}
-      </AnimatePresence>
+      {isHovered && (
+        <div className='fixed top-0 left-full ml-4 bg-gray-900 text-white rounded-md shadow-md p-4 z-50'>
+          {title}
+        </div>
+      )}
     </motion.button>
   );
 };

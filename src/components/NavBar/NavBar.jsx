@@ -20,31 +20,66 @@ const NavBar = ({ selected, setSelected }) => {
         </div>
       </IconContext.Provider>
       {/* Home Page */}
-      <NavItem selected={selected === 0} id={0} setSelected={setSelected}>
+      <NavItem
+        selected={selected === 0}
+        id={0}
+        setSelected={setSelected}
+        title='Home Page'
+      >
         <SlHome />
       </NavItem>
       {/* About Me */}
-      <NavItem selected={selected === 1} id={1} setSelected={setSelected}>
+      <NavItem
+        selected={selected === 1}
+        id={1}
+        setSelected={setSelected}
+        title='About Me'
+      >
         <SlUser />
       </NavItem>
       {/* Projects */}
-      <NavItem selected={selected === 2} id={2} setSelected={setSelected}>
+      <NavItem
+        selected={selected === 2}
+        id={2}
+        setSelected={setSelected}
+        title='Projects'
+      >
         <SiGithub />
       </NavItem>
       {/* Skills and Technology */}
-      <NavItem selected={selected === 3} id={3} setSelected={setSelected}>
+      <NavItem
+        selected={selected === 3}
+        id={3}
+        setSelected={setSelected}
+        title='Skills'
+      >
         <LuBinary />
       </NavItem>
       {/* Contact Me */}
-      <NavItem selected={selected === 4} id={4} setSelected={setSelected}>
+      <NavItem
+        selected={selected === 4}
+        id={4}
+        setSelected={setSelected}
+        title='Contact Me'
+      >
         <FaAddressCard />
       </NavItem>
       {/* Resume */}
-      <NavItem selected={selected === 5} id={5} setSelected={setSelected}>
+      <NavItem
+        selected={selected === 5}
+        id={5}
+        setSelected={setSelected}
+        title='Resume'
+      >
         <IoIosPaper />
       </NavItem>
       {/* Blog */}
-      <NavItem selected={selected === 6} id={6} setSelected={setSelected}>
+      <NavItem
+        selected={selected === 6}
+        id={6}
+        setSelected={setSelected}
+        title='Blog'
+      >
         <TfiWrite />
       </NavItem>
     </nav>
