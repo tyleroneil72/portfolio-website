@@ -17,7 +17,7 @@ function HomePage() {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800 mr-4'>
+        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800 mr-6'>
           <p className='text-lg font-semibold mb-4'>
             I'm currently reworking my website. Stay tuned!
           </p>

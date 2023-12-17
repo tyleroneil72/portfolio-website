@@ -18,7 +18,7 @@ const AboutMe = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96 mr-4'>
+        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96 mr-6'>
           <img
             src={headshot}
             alt='Profile'
@@ -63,7 +63,7 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <div className='border-2 border-gray-300 rounded-md p-4 w-full md:w-2/3 lg:w-1/2 mr-4'>
+        <div className='border-2 border-gray-300 rounded-md p-4 w-full md:w-2/3 lg:w-1/2 mr-6'>
           <p className='text-lg font-semibold mb-4'>tyleroneil/AboutMe.md</p>
 
           <div className='space-y-4'>
