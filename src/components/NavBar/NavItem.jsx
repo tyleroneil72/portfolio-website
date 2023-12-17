@@ -29,17 +29,19 @@ const NavItem = ({ children, selected, id, setSelected, title }) => {
           ></motion.span>
         )}
       </AnimatePresence>
-      {isHovered && (
-        <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -20 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
-          className='fixed top-0 left-full ml-4 bg-gray-400 text-white rounded-md shadow-md px-3 py-2 z-50 max-w-xs truncate'
-        >
-          {title}
-        </motion.div>
-      )}
+      <AnimatePresence>
+        {isHovered && (
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+            className='fixed top-0 left-full ml-4 bg-gray-400 text-white rounded-md shadow-md px-3 py-2 z-50 max-w-xs truncate'
+          >
+            {title}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.button>
   );
 };
