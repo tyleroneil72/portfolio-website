@@ -18,7 +18,7 @@ const AboutMe = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 w-80'>
+        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96'>
           <img
             src={headshot}
             alt='Profile'
@@ -60,7 +60,7 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <div className='border-2 border-gray-300 rounded-md p-4 w-full md:w-auto'>
+        <div className='border-2 border-gray-300 rounded-md p-4 w-full md:w-2/3 lg:w-1/2'>
           <p className='text-lg font-semibold mb-4'>tyleroneil/AboutMe.md</p>
 
           <div className='space-y-4'>
@@ -69,21 +69,25 @@ const AboutMe = () => {
                 Professional Information
               </h2>
               <p className='text-gray-600'>
-                Add your professional information here. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Proin consequat turpis in
-                purus vestibulum, non sodales quam blandit.Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Proin consequat turpis in
-                purus vestibulum, non sodales quam blandit.Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Proin consequat turpis in
-                purus vestibulum, non sodales quam blandit.Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Proin consequat turpis in
-                purus vestibulum, non sodales quam blandit.Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Proin consequat turpis in
-                purus vestibulum, non sodales quam blandit.Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Proin consequat turpis in
-                purus vestibulum, non sodales quam blandit.Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Proin consequat turpis in
-                purus vestibulum, non sodales quam blandit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.
               </p>
             </div>
 
@@ -92,8 +96,25 @@ const AboutMe = () => {
                 Personal Information
               </h2>
               <p className='text-gray-600'>
-                Add your personal information here. Sed faucibus sem eu dapibus
-                tincidunt. Vestibulum quis odio ac tortor dapibus convallis.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Proin consequat turpis in purus vestibulum, non sodales quam
+                blandit.
               </p>
             </div>
           </div>
