@@ -36,7 +36,6 @@ const AboutMe = () => {
             </p>
             <p className='mb-2'>
               <span className='font-semibold'>Current Time:</span>{" "}
-              {/* This might not work */}
               {new Date().toLocaleTimeString([], {
                 timeZone: "America/Toronto",
                 hour: "numeric",
