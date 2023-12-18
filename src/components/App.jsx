@@ -10,6 +10,8 @@ import Blog from "./pages/Blog.jsx";
 import Footer from "./Footer.jsx";
 import Modal from "./effects/Modal.jsx";
 
+import AnimatedCursor from "react-animated-cursor";
+
 const App = () => {
   const [selected, setSelected] = useState(0);
 
@@ -34,6 +36,20 @@ const App = () => {
 
   return (
     <div className='text-slate-100 flex'>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        hasBlendMode={true}
+        innerStyle={{
+          backgroundColor: "rgb(79, 70, 229)",
+        }}
+        outerStyle={{
+          border: "3px solid rgb(79, 70, 229)",
+        }}
+      />
       <Modal />
       {renderSelectedComponent()}
       <NavBar selected={selected} setSelected={setSelected} />
