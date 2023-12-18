@@ -143,7 +143,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className='w-full h-auto rounded-md mb-4 max-h-80 object-cover cursor-pointer'
+                  className='w-full h-auto rounded-md mb-4 max-h-80 object-cover'
                 />
               </a>
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
