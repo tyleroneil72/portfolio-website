@@ -142,7 +142,7 @@ const Projects = () => {
             </h2>
             <p className='text-gray-800 mb-4'>{project.description}</p>
 
-            <div className='flex flex-wrap items-center mb-4'>
+            <div className='flex flex-wrap items-center justify-center mb-4'>
               {project.techstack &&
                 project.techstack.map((tech, index) => (
                   <img
