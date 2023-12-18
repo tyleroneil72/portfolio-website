@@ -18,11 +18,9 @@ function HomePage() {
         }`}
       >
         <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 mr-6'>
-          <p className='text-lg font-semibold mb-4'>
-            I'm currently reworking my website. Stay tuned!
-          </p>
+          <p className='text-lg font-semibold mb-4'>Welcome To My Website!</p>
           <p className='text-base'>
-            But in the meantime, feel free to connect with me on{" "}
+            While I rework my site feel free to connect with me on{" "}
             <a
               className='text-blue-500 hover:underline'
               target='_blank'
