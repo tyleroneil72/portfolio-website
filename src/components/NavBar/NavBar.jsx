@@ -64,19 +64,10 @@ const NavBar = ({ selected, setSelected }) => {
       >
         <FaAddressCard />
       </NavItem>
-      {/* Resume */}
+      {/* Blog */}
       <NavItem
         selected={selected === 5}
         id={5}
-        setSelected={setSelected}
-        title='Resume'
-      >
-        <IoIosPaper />
-      </NavItem>
-      {/* Blog */}
-      <NavItem
-        selected={selected === 6}
-        id={6}
         setSelected={setSelected}
         title='Blog'
       >

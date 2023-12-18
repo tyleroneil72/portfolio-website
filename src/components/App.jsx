@@ -6,7 +6,6 @@ import AboutMe from "./pages/AboutMe.jsx";
 import Projects from "./pages/Projects.jsx";
 import Skills from "./pages/Skills.jsx";
 import ContactMe from "./pages/ContactMe.jsx";
-import Resume from "./pages/Resume.jsx";
 import Blog from "./pages/Blog.jsx";
 import Footer from "./Footer.jsx";
 import Modal from "./effects/Modal.jsx";
@@ -27,8 +26,6 @@ const App = () => {
       case 4:
         return <ContactMe />;
       case 5:
-        return <Resume />;
-      case 6:
         return <Blog />;
       default:
         return null;

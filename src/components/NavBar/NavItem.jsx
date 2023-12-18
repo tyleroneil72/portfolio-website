@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const NavItem = ({ children, selected, id, setSelected, title }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const isMobile = window.innerWidth <= 768; // Adjust the screen width breakpoint as needed
+  const isMobile = window.innerWidth <= 768; // 768px is the breakpoint for mobile
 
   const handleHover = (hovered) => {
     if (!isMobile) {
