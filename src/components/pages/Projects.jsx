@@ -5,6 +5,8 @@ import chatbot from "../../assets/images/chatbot.jpeg";
 import learningPath from "../../assets/images/learningPath.png";
 import hrPayroll from "../../assets/images/hrAndPayroll.png";
 import sorting from "../../assets/images/sorting.jpeg";
+import misc from "../../assets/images/misc.jpeg";
+import portfolio from "../../assets/images/portfolio.jpeg";
 
 const Projects = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -52,7 +54,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Portfolio Website",
-      image: headshot,
+      image: portfolio,
       description:
         "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. (This is the project you are currently viewing!)",
       githubLink: "link_to_github_project",
@@ -60,7 +62,7 @@ const Projects = () => {
     {
       id: 6,
       title: "Miscellaneous Projects",
-      image: headshot,
+      image: misc,
       description:
         "Repo for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
       githubLink: "https://github.com/tyleroneil72/misc-code",
