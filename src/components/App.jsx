@@ -9,6 +9,7 @@ import ContactMe from "./pages/ContactMe.jsx";
 import Resume from "./pages/Resume.jsx";
 import Blog from "./pages/Blog.jsx";
 import Footer from "./Footer.jsx";
+import Modal from "./effects/Modal.jsx";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
@@ -36,6 +37,7 @@ const App = () => {
 
   return (
     <div className='text-slate-100 flex'>
+      <Modal />
       {renderSelectedComponent()}
       <NavBar selected={selected} setSelected={setSelected} />
       <Footer />
