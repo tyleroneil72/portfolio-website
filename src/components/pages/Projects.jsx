@@ -14,6 +14,14 @@ const Projects = () => {
     setFadeIn(true);
   }, []);
 
+  const techStack = [
+    "https://img.shields.io/badge/License-MIT-blue.svg",
+    "https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge",
+    "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
+    "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
+    "https://img.shields.io/badge/Openai-404D59?style=for-the-badge",
+  ];
+
   const projects = [
     {
       id: 1,
@@ -22,6 +30,13 @@ const Projects = () => {
       description:
         "This is a chat bot built with React.js, Node.js and Express.js, integrated with OpenAI's API to provide natural language processing capabilities. The bot can engage in conversations with users, answer questions, and provide responses based on the context of the conversation.",
       githubLink: "https://github.com/tyleroneil72/react-chat-bot",
+      techstack: [
+        techStack[0],
+        techStack[1],
+        techStack[2],
+        techStack[3],
+        techStack[4],
+      ],
     },
     {
       id: 2,
@@ -91,6 +106,12 @@ const Projects = () => {
               {project.title}
             </h2>
             <p className='text-gray-800 mb-4'>{project.description}</p>
+
+            {project.techstack &&
+              project.techstack.map((tech) => (
+                <img key={tech} src={tech} alt='techstack' className='h-6' />
+              ))}
+
             <div className='flex justify-between'>
               <a
                 href={project.githubLink}
