@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
-import headshot from "../../assets/headshot.jpg";
+import headshot from "../../assets/images/headshot.jpg";
 
 const AboutMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
