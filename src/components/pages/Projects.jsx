@@ -133,10 +133,11 @@ const Projects = () => {
             className='border-2 border-gray-300 rounded-md p-4 bg-gray-300 flex flex-col'
           >
             <div>
+              {/* Temporary Fix, Need to edit images to fit properly */}
               <img
                 src={project.image}
                 alt={project.title}
-                className='w-full h-80 object-cover rounded-md mb-4'
+                className='w-full h-80 rounded-md mb-4'
               />
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 {project.title}
