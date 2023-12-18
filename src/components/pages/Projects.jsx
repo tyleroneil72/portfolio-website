@@ -133,12 +133,17 @@ const Projects = () => {
             className='border-2 border-gray-300 rounded-md p-4 bg-gray-300 flex flex-col'
           >
             <div>
-              {/* Temporary Fix, Need to edit images to fit properly */}
-              <img
-                src={project.image}
-                alt={project.title}
-                className='w-full h-auto rounded-md mb-4 max-h-80 object-cover'
-              />
+              <a
+                href={project.githubLink}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className='w-full h-auto rounded-md mb-4 max-h-80 object-cover cursor-pointer'
+                />
+              </a>
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 {project.title}
               </h2>
@@ -159,6 +164,7 @@ const Projects = () => {
               </div>
 
               <div className='flex justify-between'>
+                {/* Keep the GitHub link outside of the image */}
                 <a
                   href={project.githubLink}
                   target='_blank'
