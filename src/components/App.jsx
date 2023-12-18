@@ -25,6 +25,7 @@ const App = () => {
   };
 
   const renderSelectedComponent = () => {
+    window.scrollTo(0, 0);
     switch (selected) {
       case 0:
         return <HomePage />;
