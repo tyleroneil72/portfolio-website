@@ -20,6 +20,23 @@ const Projects = () => {
     "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
     "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
     "https://img.shields.io/badge/Openai-404D59?style=for-the-badge",
+    "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white",
+    "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white",
+    "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white",
+    "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black",
+    "https://img.shields.io/badge/Apache%20Web%20Server-404D59?style=for-the-badge",
+    "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white",
+    "https://img.shields.io/badge/JavaFX-208691?style=for-the-badge&logo=openjdk&logoColor=white",
+    "https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/Maven-404D59?style=for-the-badge",
+    "https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white",
+    "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+    "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white",
+    "https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white",
+    "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+    "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white",
+    "https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white",
   ];
 
   const projects = [
@@ -45,6 +62,14 @@ const Projects = () => {
       description:
         "The Learning Path Creator is a full stack web application designed to facilitate collaborative learning and knowledge sharing. This project when deployed operates on the LAMP stack, leveraging Linux, Apache web server, MySQL, and PHP. Additionally, Bootstrap is employed for frontend development, ensuring a visually appealing and responsive website.",
       githubLink: "https://github.com/tyleroneil72/learning-path-creator",
+      techstack: [
+        techStack[0],
+        techStack[5],
+        techStack[6],
+        techStack[7],
+        techStack[8],
+        techStack[9],
+      ],
     },
     {
       id: 3,
@@ -53,6 +78,13 @@ const Projects = () => {
       description:
         "This project represents a Human Resources Payroll System developed in Java, utilizing JavaFX and Maven for its implementation. FXML and CSS were used for styling. Completed as part of an 'Application Development Using Java' course, the system facilitates employee management functionalities such as addition, editing, and deletion from the payroll. Additionally, it provides the capability to generate individual employee reports.",
       githubLink: "https://github.com/tyleroneil72/hr-payroll-system",
+      techstack: [
+        techStack[0],
+        techStack[10],
+        techStack[11],
+        techStack[12],
+        techStack[13],
+      ],
     },
     {
       id: 4,
@@ -64,6 +96,7 @@ const Projects = () => {
         "https://github.com/tyleroneil72/sorting-algorithm-visualizer",
       productionLink:
         "https://htmlpreview.github.io/?https://github.com/tyleroneil72/sorting-algorithm-visualizer/blob/main/sorting_algorithms/index.html",
+      techstack: [techStack[0], techStack[14], techStack[15], techStack[16]],
     },
     {
       id: 5,
@@ -72,6 +105,7 @@ const Projects = () => {
       description:
         "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. (This is the project you are currently viewing!)",
       githubLink: "https://github.com/tyleroneil72/portfolio-website",
+      techstack: [techStack[1], techStack[17], techStack[18]],
     },
     {
       id: 6,
@@ -80,6 +114,7 @@ const Projects = () => {
       description:
         "Repo for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
       githubLink: "https://github.com/tyleroneil72/misc-code",
+      techstack: [techStack[0], techStack[19], techStack[20], techStack[21]],
     },
   ];
 
@@ -107,10 +142,17 @@ const Projects = () => {
             </h2>
             <p className='text-gray-800 mb-4'>{project.description}</p>
 
-            {project.techstack &&
-              project.techstack.map((tech) => (
-                <img key={tech} src={tech} alt='techstack' className='h-6' />
-              ))}
+            <div className='flex flex-wrap items-center mb-4'>
+              {project.techstack &&
+                project.techstack.map((tech, index) => (
+                  <img
+                    key={index}
+                    src={tech}
+                    alt='techstack'
+                    className='h-6 mr-2 mb-2'
+                  />
+                ))}
+            </div>
 
             <div className='flex justify-between'>
               <a
