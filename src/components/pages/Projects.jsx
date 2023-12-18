@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
-import headshot from "../../assets/images/headshot.jpg";
 import chatbot from "../../assets/images/chatbot.jpeg";
 import learningPath from "../../assets/images/learningPath.png";
 import hrPayroll from "../../assets/images/hrAndPayroll.png";
