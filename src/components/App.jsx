@@ -14,6 +14,15 @@ import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
+
+  const isMobile = window.innerWidth <= 768; // 768px is the breakpoint for mobile
+
+  const handleHover = (hovered) => {
+    if (!isMobile) {
+      setIsHovered(hovered);
+    }
+  };
 
   const renderSelectedComponent = () => {
     switch (selected) {
@@ -36,20 +45,22 @@ const App = () => {
 
   return (
     <div className='text-slate-100 flex'>
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={35}
-        innerScale={1}
-        outerScale={2}
-        outerAlpha={0}
-        hasBlendMode={true}
-        innerStyle={{
-          backgroundColor: "rgb(79, 70, 229)",
-        }}
-        outerStyle={{
-          border: "3px solid rgb(79, 70, 229)",
-        }}
-      />
+      {!isMobile && (
+        <AnimatedCursor
+          innerSize={8}
+          outerSize={35}
+          innerScale={1}
+          outerScale={2}
+          outerAlpha={0}
+          hasBlendMode={true}
+          innerStyle={{
+            backgroundColor: "rgb(79, 70, 229)",
+          }}
+          outerStyle={{
+            border: "3px solid rgb(79, 70, 229)",
+          }}
+        />
+      )}
       <Modal />
       {renderSelectedComponent()}
       <NavBar selected={selected} setSelected={setSelected} />
