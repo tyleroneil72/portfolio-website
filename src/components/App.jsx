@@ -48,9 +48,9 @@ const App = () => {
       {!isMobile && (
         <AnimatedCursor
           innerSize={8}
-          outerSize={35}
+          outerSize={30}
           innerScale={1}
-          outerScale={2}
+          outerScale={1.5}
           outerAlpha={0}
           hasBlendMode={true}
           innerStyle={{
