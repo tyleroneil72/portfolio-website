@@ -123,14 +123,14 @@ const Projects = () => {
       <Title title={"Projects"} />
 
       <div
-        className={`absolute mt-36 ml-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 transition-opacity duration-1000${
+        className={`absolute mt-24 ml-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 py-8 transition-opacity duration-1000 ${
           fadeIn ? " opacity-100" : " opacity-0"
         }`}
       >
         {projects.map((project) => (
           <div
             key={project.id}
-            className='border-2 border-gray-300 rounded-md p-6 bg-gray-300 flex flex-col'
+            className='border-2 border-gray-300 rounded-md p-4 bg-gray-300 flex flex-col'
           >
             <div>
               <img
