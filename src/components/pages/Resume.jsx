@@ -17,8 +17,14 @@ const Resume = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <p className='mt-2 mb-5'>Coming Soon...</p>
-        {/* TODO: Fill out, Maybe delete this and put in the about me section */}
+        {/* TODO: Fill out, Maybe delete this, but if not needs to look nicer*/}
+        <div className='mb-8'>
+          <iframe
+            src='/resume.pdf'
+            className='w-full h-96 border-2 border-gray-300 rounded-md shadow-md'
+            title='Resume'
+          />
+        </div>
         <a
           href='/resume.pdf'
           class='relative px-5 py-2 font-medium text-white group'
