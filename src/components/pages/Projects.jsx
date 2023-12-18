@@ -5,6 +5,7 @@ import chatbot from "../../assets/images/chatbot.jpeg";
 import learningPath from "../../assets/images/learningPath.png";
 import hrPayroll from "../../assets/images/hrAndPayroll.png";
 import sorting from "../../assets/images/sorting.jpeg";
+
 const Projects = () => {
   const [fadeIn, setFadeIn] = useState(false);
 
