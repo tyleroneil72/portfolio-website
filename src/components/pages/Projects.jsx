@@ -130,49 +130,53 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className='border-2 border-gray-300 rounded-md p-6 bg-gray-300'
+            className='border-2 border-gray-300 rounded-md p-6 bg-gray-300 flex flex-col'
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              className='w-full h-80 object-cover rounded-md mb-4'
-            />
-            <h2 className='text-xl font-semibold mb-2 text-gray-900'>
-              {project.title}
-            </h2>
-            <p className='text-gray-800 mb-4'>{project.description}</p>
-
-            <div className='flex flex-wrap items-center justify-center mb-4'>
-              {project.techstack &&
-                project.techstack.map((tech, index) => (
-                  <img
-                    key={index}
-                    src={tech}
-                    alt='techstack'
-                    className='h-6 mr-2 mb-2'
-                  />
-                ))}
+            <div>
+              <img
+                src={project.image}
+                alt={project.title}
+                className='w-full h-80 object-cover rounded-md mb-4'
+              />
+              <h2 className='text-xl font-semibold mb-2 text-gray-900'>
+                {project.title}
+              </h2>
+              <p className='text-gray-800 mb-4'>{project.description}</p>
             </div>
 
-            <div className='flex justify-between'>
-              <a
-                href={project.githubLink}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='text-blue-500 hover:underline'
-              >
-                Github
-              </a>
-              {project.productionLink && (
+            <div className='mt-auto'>
+              <div className='flex flex-wrap items-center justify-center mb-4'>
+                {project.techstack &&
+                  project.techstack.map((tech, index) => (
+                    <img
+                      key={index}
+                      src={tech}
+                      alt='techstack'
+                      className='h-6 mr-2 mb-2'
+                    />
+                  ))}
+              </div>
+
+              <div className='flex justify-between'>
                 <a
-                  href={project.productionLink}
+                  href={project.githubLink}
                   target='_blank'
                   rel='noopener noreferrer'
                   className='text-blue-500 hover:underline'
                 >
-                  Production
+                  Github
                 </a>
-              )}
+                {project.productionLink && (
+                  <a
+                    href={project.productionLink}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='text-blue-500 hover:underline'
+                  >
+                    Production
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         ))}
