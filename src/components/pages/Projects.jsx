@@ -79,15 +79,17 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className='border-2 border-gray-300 rounded-md p-6'
+            className='border-2 border-gray-300 rounded-md p-6 bg-gray-300'
           >
             <img
               src={project.image}
               alt={project.title}
               className='w-full h-80 object-cover rounded-md mb-4'
             />
-            <h2 className='text-xl font-semibold mb-2'>{project.title}</h2>
-            <p className='text-gray-600 mb-4'>{project.description}</p>
+            <h2 className='text-xl font-semibold mb-2 text-gray-900'>
+              {project.title}
+            </h2>
+            <p className='text-gray-800 mb-4'>{project.description}</p>
             <div className='flex justify-between'>
               <a
                 href={project.githubLink}
