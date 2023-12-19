@@ -12,14 +12,7 @@ import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // 768px is the breakpoint for mobile
-
-  const handleHover = (hovered) => {
-    if (!isMobile) {
-      setIsHovered(hovered);
-    }
-  };
 
   const renderSelectedComponent = () => {
     window.scrollTo(0, 0);
