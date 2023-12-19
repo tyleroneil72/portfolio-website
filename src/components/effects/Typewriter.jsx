@@ -29,20 +29,12 @@ const Typewriter = ({ text, delay, infinite }) => {
     return () => clearInterval(cursorInterval);
   }, []);
 
-  const textStyle = {
-    fontFamily: "sans-serif", // Change this to the appropriate Segoe font name
-  };
-
-  const cursorStyle = {
-    opacity: 0.25,
-    visibility: showCursor ? "visible" : "hidden",
-    fontFamily: "sans-serif",
-  };
-
   return (
     <span className='relative'>
-      <span style={textStyle}>{currentText}</span>
-      <span style={cursorStyle}>|</span>
+      <span className='font-sans'>{currentText}</span>
+      <span className={`opacity-25 ${showCursor ? "visible" : "hidden"} `}>
+        |
+      </span>
     </span>
   );
 };
