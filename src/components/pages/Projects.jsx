@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Title from "../Title";
 import Github from "../svgs/Github";
 import Gear from "../svgs/Gear";
+import Notification from "../effects/Notification";
 import chatbot from "../../assets/images/chatbot.jpeg";
 import learningPath from "../../assets/images/learningPath.png";
 import hrPayroll from "../../assets/images/hrAndPayroll.png";
@@ -122,6 +123,11 @@ const Projects = () => {
 
   return (
     <>
+      {/* Dont load after 775px width */}
+      <Notification
+        text='If you like any of my projects check out my Github!'
+        icon={Github}
+      />
       <Title title={"Projects"} />
 
       <div
