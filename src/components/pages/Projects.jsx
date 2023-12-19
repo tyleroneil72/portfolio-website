@@ -151,7 +151,7 @@ const Projects = () => {
                   className='w-full h-auto rounded-md mb-4 max-h-80 object-cover'
                 />
               </a>
-              <h2 className='text-l font-bold mb-2 text-gray-900'>
+              <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 {project.title}
               </h2>
               <p className='text-gray-800 mb-4 text-sm'>
