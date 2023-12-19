@@ -18,7 +18,7 @@ const Notification = ({ text, icon: Icon }) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
-          className='fixed top-8 right-8 p-4 rounded-lg shadow-md flex items-center bg-indigo-400 z-50'
+          className='fixed top-8 right-8 p-4 rounded-lg shadow-md flex items-center bg-indigo-500 z-50'
         >
           {Icon && (
             <div className='mr-4'>
@@ -27,7 +27,7 @@ const Notification = ({ text, icon: Icon }) => {
           )}
           <p className='text-gray-50'>{text}</p>
           <button onClick={handleClose} className='ml-4'>
-            <FiX className='w-4 h-4 text-gray-200 cursor-pointer' />
+            <FiX className='w-4 h-4 text-gray-200' />
           </button>
         </motion.div>
       )}
