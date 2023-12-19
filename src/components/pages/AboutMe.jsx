@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
-import headshot from "../../assets/images/headshot.jpg";
+import headshot from "../../assets/images/headshot.png";
 import ResumeButton from "../resumeButton";
 import Notification from "../effects/Notification";
 import Github from "../svgs/Github";
