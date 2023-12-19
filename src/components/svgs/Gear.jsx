@@ -4,13 +4,13 @@ const Gear = () => {
       fill='currentColor'
       viewBox='0 0 45.973 45.973'
       className='h-5 w-5 mr-1 inline-block mb-1'
-      xml:space='preserve'
+      xmlSpace='preserve'
     >
-      <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+      <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
       <g
         id='SVGRepo_tracerCarrier'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       ></g>
       <g id='SVGRepo_iconCarrier'>
         <g>
