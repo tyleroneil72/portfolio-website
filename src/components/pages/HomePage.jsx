@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
+import Notification from "../effects/Notification.jsx";
+import Github from "../svgs/Github.jsx";
 
 function HomePage() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -10,6 +12,10 @@ function HomePage() {
 
   return (
     <>
+      <Notification
+        text="I'm currently seeking Summer 2024 Opportunities!"
+        icon={Github}
+      />
       <Title title={"Home Page"} />
 
       <div
