@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
 import Notification from "../effects/Notification.jsx";
-import Github from "../svgs/Github.jsx";
+import { BiAlarmExclamation } from "react-icons/bi";
 
 function HomePage() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -14,7 +14,7 @@ function HomePage() {
     <>
       <Notification
         text="I'm currently seeking Summer 2024 Opportunities!"
-        icon={Github}
+        icon={() => <BiAlarmExclamation size={25} />}
       />
       <Title title={"Home Page"} />
 
