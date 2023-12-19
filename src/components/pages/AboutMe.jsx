@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Title from "../Title";
 import headshot from "../../assets/images/headshot.jpg";
 import ResumeButton from "../resumeButton";
+import Notification from "../effects/Notification";
 import Github from "../svgs/Github";
 import LinkedIn from "../svgs/LinkedIn";
 
@@ -14,6 +15,10 @@ const AboutMe = () => {
 
   return (
     <>
+      <Notification
+        text='Feel free to connect with me on LinkedIn!'
+        icon={LinkedIn}
+      />
       <Title title={"About Me"} />
 
       <div
