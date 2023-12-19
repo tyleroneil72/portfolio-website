@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Notification = ({ text, icon: Icon }) => {
   const [showNotification, setShowNotification] = useState(true);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 775);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const handleClose = () => {
     setShowNotification(false);
@@ -12,7 +12,7 @@ const Notification = ({ text, icon: Icon }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 775);
+      setIsMobile(window.innerWidth <= 768);
     };
 
     window.addEventListener("resize", handleResize);
