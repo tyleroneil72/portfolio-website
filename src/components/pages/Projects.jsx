@@ -123,7 +123,6 @@ const Projects = () => {
 
   return (
     <>
-      {/* Dont load after 775px width */}
       <Notification
         text='If you like any of my projects check out my Github!'
         icon={Github}
@@ -131,14 +130,14 @@ const Projects = () => {
       <Title title={"Projects"} />
 
       <div
-        className={`absolute mt-28 ml-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 pb-14 transition-opacity duration-1000 ${
+        className={`absolute mt-28 ml-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 pb-14 transition-opacity duration-1000 ${
           fadeIn ? " opacity-100" : " opacity-0"
         }`}
       >
         {projects.map((project) => (
           <div
             key={project.id}
-            className='border-2 border-gray-300 rounded-md p-4 bg-gray-300 flex flex-col'
+            className='border-2 border-gray-300 rounded-md p-3 bg-gray-300 flex flex-col'
           >
             <div>
               <a
@@ -152,10 +151,12 @@ const Projects = () => {
                   className='w-full h-auto rounded-md mb-4 max-h-80 object-cover'
                 />
               </a>
-              <h2 className='text-xl font-semibold mb-2 text-gray-900'>
+              <h2 className='text-l font-bold mb-2 text-gray-900'>
                 {project.title}
               </h2>
-              <p className='text-gray-800 mb-4'>{project.description}</p>
+              <p className='text-gray-800 mb-4 text-sm'>
+                {project.description}
+              </p>
             </div>
 
             <div className='mt-auto'>
@@ -166,7 +167,7 @@ const Projects = () => {
                       key={index}
                       src={tech}
                       alt='techstack'
-                      className='h-6 mr-2 mb-2'
+                      className='h-5 mr-2 mb-2'
                     />
                   ))}
               </div>
