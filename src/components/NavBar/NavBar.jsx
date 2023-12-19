@@ -2,7 +2,6 @@ import { IconContext } from "react-icons";
 import { SiGithub } from "react-icons/si";
 import { SlUser, SlHome } from "react-icons/sl";
 import { FaAddressCard } from "react-icons/fa6";
-import { IoIosPaper } from "react-icons/io";
 import { TfiWrite } from "react-icons/tfi";
 import { LuBinary } from "react-icons/lu";
 import { PiBracketsCurlyFill } from "react-icons/pi";
