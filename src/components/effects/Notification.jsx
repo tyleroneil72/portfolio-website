@@ -16,8 +16,8 @@ const Notification = ({ text, icon: Icon }) => {
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -100, transition: { duration: 0.5 } }}
-          transition={{ duration: 0.5 }}
+          exit={{ opacity: 0, y: -100, transition: { duration: 0.3 } }}
+          transition={{ duration: 0.4 }}
           className='fixed top-8 right-8 p-4 rounded-lg shadow-md flex items-center bg-indigo-500 z-50'
           key='notification'
         >
