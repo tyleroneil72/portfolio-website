@@ -13,7 +13,7 @@ const Footer = () => {
             href='https://github.com/tyleroneil72'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-center mx-4'
+            className='flex items-center mx-4 hover:scale-105 transition-transform duration-300'
           >
             <Github /> Github
           </a>
@@ -21,7 +21,7 @@ const Footer = () => {
             href='https://linkedin.com/in/tyler-oneil-dev'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-center'
+            className='flex items-center hover:scale-105 transition-transform duration-300'
           >
             <LinkedIn /> LinkedIn
           </a>
