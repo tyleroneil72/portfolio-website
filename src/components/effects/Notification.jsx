@@ -1,6 +1,6 @@
 import React from "react";
 import { FiX } from "react-icons/fi";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Notification = ({ text, icon: Icon }) => {
   const [showNotification, setShowNotification] = React.useState(true);
@@ -11,14 +11,15 @@ const Notification = ({ text, icon: Icon }) => {
   };
 
   return (
-    <>
+    <AnimatePresence>
       {!isMobile && showNotification && (
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -100 }}
+          exit={{ opacity: 0, y: -100, transition: { duration: 0.5 } }}
           transition={{ duration: 0.5 }}
           className='fixed top-8 right-8 p-4 rounded-lg shadow-md flex items-center bg-indigo-500 z-50'
+          key='notification'
         >
           {Icon && (
             <div className='mr-4'>
@@ -31,7 +32,7 @@ const Notification = ({ text, icon: Icon }) => {
           </button>
         </motion.div>
       )}
-    </>
+    </AnimatePresence>
   );
 };
 
