@@ -1,14 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Notification = ({ text, icon: Icon }) => {
   const [showNotification, setShowNotification] = useState(true);
-  const isMobile = window.innerWidth <= 775;
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 775);
 
   const handleClose = () => {
     setShowNotification(false);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 775);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <AnimatePresence>
