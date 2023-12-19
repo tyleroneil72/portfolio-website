@@ -1,0 +1,26 @@
+const techStack = [
+  "https://img.shields.io/badge/License-MIT-blue.svg",
+  "https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge",
+  "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
+  "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
+  "https://img.shields.io/badge/Openai-404D59?style=for-the-badge",
+  "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white",
+  "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white",
+  "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white",
+  "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black",
+  "https://img.shields.io/badge/Apache%20Web%20Server-404D59?style=for-the-badge",
+  "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white",
+  "https://img.shields.io/badge/JavaFX-208691?style=for-the-badge&logo=openjdk&logoColor=white",
+  "https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white",
+  "https://img.shields.io/badge/Maven-404D59?style=for-the-badge",
+  "https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white",
+  "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+  "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+  "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white",
+  "https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white",
+  "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+  "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white",
+  "https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white",
+];
+
+export default techStack;
