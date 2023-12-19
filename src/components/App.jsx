@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
 import NavBar from "./NavBar/NavBar.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
@@ -9,14 +8,12 @@ import ContactMe from "./pages/ContactMe.jsx";
 import Blog from "./pages/Blog.jsx";
 import Footer from "./Footer.jsx";
 import Modal from "./effects/Modal.jsx";
-
 import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
-
-  const isMobile = window.innerWidth <= 768; // 768px is the breakpoint for mobile
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // 768px is the breakpoint for mobile
 
   const handleHover = (hovered) => {
     if (!isMobile) {
@@ -43,6 +40,18 @@ const App = () => {
         return null;
     }
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <div className='text-slate-100 flex'>
