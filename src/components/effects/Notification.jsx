@@ -1,9 +1,9 @@
-import React from "react";
+import { useState } from "react";
 import { FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Notification = ({ text, icon: Icon }) => {
-  const [showNotification, setShowNotification] = React.useState(true);
+  const [showNotification, setShowNotification] = useState(true);
   const isMobile = window.innerWidth <= 775;
 
   const handleClose = () => {
