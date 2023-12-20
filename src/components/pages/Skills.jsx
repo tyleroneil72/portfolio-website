@@ -10,9 +10,9 @@ const Skills = () => {
   }, []);
 
   const slides = [
-    <img src='https://via.placeholder.com/600x300' alt='Slide 1' />,
-    <img src='https://via.placeholder.com/600x400' alt='Slide 2' />,
-    <img src='https://via.placeholder.com/600x500' alt='Slide 3' />,
+    <img src='https://via.placeholder.com/1250x500' alt='Slide 1' />,
+    <img src='https://via.placeholder.com/1250x500' alt='Slide 2' />,
+    <img src='https://via.placeholder.com/1250x500' alt='Slide 3' />,
   ];
 
   return (
@@ -20,7 +20,7 @@ const Skills = () => {
       <Title title={"Skills"} />
 
       <div
-        className={`absolute mt-28 ml-24 transition-opacity duration-1000 ${
+        className={`absolute mt-28 ml-24 mr-6 transition-opacity duration-1000 ${
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >

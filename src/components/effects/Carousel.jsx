@@ -2,28 +2,32 @@ import { useState } from "react";
 
 const Carousel = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = slides.length;
 
   const nextSlide = () => {
-    setCurrentSlide((prevSlide) =>
-      prevSlide === slides.length - 1 ? 0 : prevSlide + 1
-    );
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prevSlide) =>
-      prevSlide === 0 ? slides.length - 1 : prevSlide - 1
-    );
+    setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides);
   };
 
   return (
     <div className='relative'>
       <div className='overflow-hidden w-full'>
         <div
-          className='flex justify-center align-center' // Add justify-center class here
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          className='flex transition-transform ease-in-out duration-300'
+          style={{
+            transform: `translateX(-${currentSlide * (100 / totalSlides)}%)`,
+            width: `${totalSlides * 100}%`,
+          }}
         >
           {slides.map((slide, index) => (
-            <div key={index} className='w-full flex-shrink-0'>
+            <div
+              key={index}
+              className='w-full flex-shrink-0'
+              style={{ width: `${100 / totalSlides}%` }}
+            >
               {slide}
             </div>
           ))}
