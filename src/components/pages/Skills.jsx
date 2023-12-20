@@ -17,19 +17,17 @@ const Skills = () => {
   const labels = ["Label 1", "Label 2", "Label 3"];
 
   return (
-    <div className='h-screen flex items-center justify-center'>
-      <>
-        <Title title={"Skills"} />
+    <>
+      <Title title={"Skills"} />
 
-        <div
-          className={`absolute mt-6 ml-6 mr-6 transition-opacity duration-1000 ${
-            fadeIn ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Carousel slides={slides} labels={labels} />
-        </div>
-      </>
-    </div>
+      <div
+        className={`absolute mt-28 ml-24 mr-6 transition-opacity duration-1000 ${
+          fadeIn ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <Carousel slides={slides} labels={labels} />
+      </div>
+    </>
   );
 };
 
