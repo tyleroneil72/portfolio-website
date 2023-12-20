@@ -10,9 +10,9 @@ const Skills = () => {
   }, []);
 
   const slides = [
-    <img src='https://via.placeholder.com/1300x500' alt='Slide 1' />,
-    <img src='https://via.placeholder.com/1300x500' alt='Slide 2' />,
-    <img src='https://via.placeholder.com/1300x500' alt='Slide 3' />,
+    <img src='https://via.placeholder.com/900x500' alt='Slide 1' />,
+    <img src='https://via.placeholder.com/900x500' alt='Slide 2' />,
+    <img src='https://via.placeholder.com/900x500' alt='Slide 3' />,
   ];
   const labels = ["Label 1", "Label 2", "Label 3"];
 
