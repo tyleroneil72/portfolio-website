@@ -12,6 +12,9 @@ const Carousel = ({ slides }) => {
     setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides);
   };
 
+  const isAtFirstSlide = currentSlide === 0;
+  const isAtLastSlide = currentSlide === totalSlides - 1;
+
   return (
     <div className='relative'>
       <div className='overflow-hidden w-full'>
@@ -34,14 +37,22 @@ const Carousel = ({ slides }) => {
         </div>
       </div>
       <button
-        className='absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-l-md'
+        className={`absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-l-md ${
+          isAtFirstSlide ? "opacity-50 cursor-not-allowed" : ""
+        }`}
         onClick={prevSlide}
+        disabled={isAtFirstSlide}
+        aria-label='Previous Slide'
       >
         Prev
       </button>
       <button
-        className='absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-r-md'
+        className={`absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-r-md ${
+          isAtLastSlide ? "opacity-50 cursor-not-allowed" : ""
+        }`}
         onClick={nextSlide}
+        disabled={isAtLastSlide}
+        aria-label='Next Slide'
       >
         Next
       </button>
