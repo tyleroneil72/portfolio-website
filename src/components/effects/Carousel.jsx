@@ -33,7 +33,6 @@ const Carousel = ({ slides, labels }) => {
             <div
               key={index}
               className='w-full flex items-center justify-center'
-              style={{ width: `${100 / totalSlides}%` }}
             >
               <div className='relative'>
                 {slide}
