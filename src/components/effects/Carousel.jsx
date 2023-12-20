@@ -65,7 +65,7 @@ const Carousel = ({ slides, labels }) => {
         disabled={isAtFirstSlide}
         aria-label='Previous Slide'
       >
-        Prev
+        {"<"} Prev
       </button>
       <button
         className={`absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-r-md ${
@@ -75,7 +75,7 @@ const Carousel = ({ slides, labels }) => {
         disabled={isAtLastSlide}
         aria-label='Next Slide'
       >
-        Next
+        Next {">"}
       </button>
     </div>
   );
