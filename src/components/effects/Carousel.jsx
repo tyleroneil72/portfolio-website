@@ -28,12 +28,14 @@ const Carousel = ({ slides, labels }) => {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className='w-full flex items-center justify-center relative'
+              className='w-full flex items-center justify-center'
               style={{ width: `${100 / totalSlides}%` }}
             >
-              {slide}
-              <div className='absolute bottom-0 left-0 right-0 text-center'>
-                {labels[index]}
+              <div className='relative'>
+                {slide}
+                <div className='absolute bottom-0 left-0 right-0 text-center bg-black bg-opacity-50 text-white py-2'>
+                  {labels[index]}
+                </div>
               </div>
             </div>
           ))}
