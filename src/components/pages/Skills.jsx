@@ -9,12 +9,37 @@ const Skills = () => {
     setFadeIn(true);
   }, []);
 
-  const slides = [
-    <img src='https://via.placeholder.com/900x500' alt='Slide 1' />,
-    <img src='https://via.placeholder.com/900x500' alt='Slide 2' />,
-    <img src='https://via.placeholder.com/900x500' alt='Slide 3' />,
+  const labels = [
+    "Javascript / Typescript ",
+    "HTML & CSS",
+    "Node.js & Express.js",
+    "React.js & Vite",
+    "Java",
+    "C# & .NET",
+    "Python",
+    "SQL & MySQL & Snowflake",
+    "Git & Github",
+    "Bash & Linux",
+    "PHP",
+    "AWS",
+    "Wordpress",
   ];
-  const labels = ["Label 1", "Label 2", "Label 3"];
+
+  const slides = [
+    <img src='https://via.placeholder.com/900x500' alt={labels[0]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[1]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[2]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[3]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[4]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[5]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[6]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[7]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[8]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[9]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[10]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[11]} />,
+    <img src='https://via.placeholder.com/900x500' alt={labels[12]} />,
+  ];
 
   return (
     <>
