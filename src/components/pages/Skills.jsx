@@ -14,6 +14,7 @@ const Skills = () => {
     <img src='https://via.placeholder.com/1300x500' alt='Slide 2' />,
     <img src='https://via.placeholder.com/1300x500' alt='Slide 3' />,
   ];
+  const labels = ["Label 1", "Label 2", "Label 3"];
 
   return (
     <>
@@ -24,7 +25,7 @@ const Skills = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <Carousel slides={slides} />
+        <Carousel slides={slides} labels={labels} />
       </div>
     </>
   );

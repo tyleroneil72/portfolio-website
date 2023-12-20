@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Carousel = ({ slides }) => {
+const Carousel = ({ slides, labels }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const totalSlides = slides.length;
 
@@ -32,6 +32,7 @@ const Carousel = ({ slides }) => {
               style={{ width: `${100 / totalSlides}%` }}
             >
               {slide}
+              <p className='text-center'>{labels && labels[index]}</p>
             </div>
           ))}
         </div>
