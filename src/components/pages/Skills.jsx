@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
+import Carousel from "../effects/Carousel";
 
 const Skills = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -7,6 +8,12 @@ const Skills = () => {
   useEffect(() => {
     setFadeIn(true);
   }, []);
+
+  const slides = [
+    <img src='https://via.placeholder.com/600x300' alt='Slide 1' />,
+    <img src='https://via.placeholder.com/600x400' alt='Slide 2' />,
+    <img src='https://via.placeholder.com/600x500' alt='Slide 3' />,
+  ];
 
   return (
     <>
@@ -17,7 +24,7 @@ const Skills = () => {
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <p className='mt-2 mb-5'>Coming Soon...</p>
+        <Carousel slides={slides} />
       </div>
     </>
   );
