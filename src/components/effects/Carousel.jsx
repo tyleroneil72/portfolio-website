@@ -15,6 +15,10 @@ const Carousel = ({ slides, labels }) => {
   const isAtFirstSlide = currentSlide === 0;
   const isAtLastSlide = currentSlide === totalSlides - 1;
 
+  const handleIndicatorClick = (index) => {
+    setCurrentSlide(index);
+  };
+
   return (
     <div className='relative'>
       <div className='overflow-hidden w-full'>
@@ -40,6 +44,18 @@ const Carousel = ({ slides, labels }) => {
             </div>
           ))}
         </div>
+      </div>
+      <div className='flex justify-center mt-4'>
+        {slides.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => handleIndicatorClick(index)}
+            className={`mx-1 w-3 h-3 rounded-full ${
+              index === currentSlide ? "bg-gray-800" : "bg-gray-500"
+            }`}
+            aria-label={`Go to slide ${index + 1}`}
+          ></button>
+        ))}
       </div>
       <button
         className={`absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-l-md ${
