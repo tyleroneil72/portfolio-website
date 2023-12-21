@@ -66,6 +66,11 @@ const slides = [
     className='max-h-96 max-w-96'
     alt={labels[12]}
   />,
+  <img
+    src='https://via.placeholder.com/900x500'
+    className='max-h-96 max-w-96'
+    alt={labels[13]}
+  />,
 ];
 
 export default slides;
