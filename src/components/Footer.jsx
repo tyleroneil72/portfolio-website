@@ -1,5 +1,5 @@
-import Github from "./svgs/Github";
-import LinkedIn from "./svgs/LinkedIn";
+import { IconContext } from "react-icons";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,7 +15,10 @@ const Footer = () => {
             rel='noopener noreferrer'
             className='flex items-center mx-4 hover:scale-105 transition-transform duration-300'
           >
-            <Github /> Github
+            <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+              <SiGithub />
+            </IconContext.Provider>
+            Github
           </a>
           <a
             href='https://linkedin.com/in/tyler-oneil-dev'
@@ -23,7 +26,10 @@ const Footer = () => {
             rel='noopener noreferrer'
             className='flex items-center hover:scale-105 transition-transform duration-300'
           >
-            <LinkedIn /> LinkedIn
+            <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+              <SiLinkedin />
+            </IconContext.Provider>
+            LinkedIn
           </a>
         </span>
       </p>

@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
-import Github from "../svgs/Github";
-import Gear from "../svgs/Gear";
+import { IconContext } from "react-icons";
+import { SiGithub } from "react-icons/si";
+import { FaGear } from "react-icons/fa6";
 import Notification from "../effects/Notification";
 import projects from "../../assets/data/projects";
 
@@ -16,7 +17,11 @@ const Projects = () => {
     <>
       <Notification
         text='If you like any of my projects check out my Github!'
-        icon={Github}
+        icon={() => (
+          <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+            <SiGithub />
+          </IconContext.Provider>
+        )}
       />
       <Title title={"Projects"} />
 
@@ -68,9 +73,11 @@ const Projects = () => {
                   href={project.githubLink}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-blue-500 hover:underline'
+                  className='flex items-center text-blue-500 hover:underline'
                 >
-                  <Github />
+                  <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+                    <SiGithub />
+                  </IconContext.Provider>
                   Github
                 </a>
                 {project.productionLink && (
@@ -78,9 +85,11 @@ const Projects = () => {
                     href={project.productionLink}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-blue-500 hover:underline'
+                    className='flex items-center text-blue-500 hover:underline'
                   >
-                    <Gear />
+                    <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+                      <FaGear />
+                    </IconContext.Provider>
                     Production
                   </a>
                 )}

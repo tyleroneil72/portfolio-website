@@ -14,9 +14,7 @@ const NavBar = ({ selected, setSelected }) => {
     <nav className='h-full w-fit bg-slate-950 p-4 flex flex-col items-center gap-3 fixed'>
       {/* Main header icon */}
       <IconContext.Provider value={{ className: "w-11 h-11" }}>
-        <div>
-          <PiBracketsCurlyFill />
-        </div>
+        <PiBracketsCurlyFill />
       </IconContext.Provider>
       {/* Home Page */}
       <NavItem

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
 import Notification from "../effects/Notification.jsx";
+import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
 
 function HomePage() {
@@ -14,7 +15,11 @@ function HomePage() {
     <>
       <Notification
         text="I'm currently seeking Summer 2024 Opportunities!"
-        icon={() => <BiAlarmExclamation size={25} />}
+        icon={() => (
+          <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+            <BiAlarmExclamation />
+          </IconContext.Provider>
+        )}
       />
       <Title title={"Home Page"} />
 

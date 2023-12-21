@@ -1,10 +1,10 @@
+import { IconContext } from "react-icons";
 import { useState, useEffect } from "react";
 import Title from "../Title";
 import headshot from "../../assets/images/headshot.png";
 import ResumeButton from "../resumeButton";
 import Notification from "../effects/Notification";
-import Github from "../svgs/Github";
-import LinkedIn from "../svgs/LinkedIn";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 const AboutMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -17,7 +17,11 @@ const AboutMe = () => {
     <>
       <Notification
         text='Feel free to connect with me on LinkedIn!'
-        icon={LinkedIn}
+        icon={() => (
+          <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+            <SiLinkedin />
+          </IconContext.Provider>
+        )}
       />
       <Title title={"About Me"} />
 
@@ -59,8 +63,10 @@ const AboutMe = () => {
               rel='noopener noreferrer'
               className='text-blue-500 hover:underline flex items-center'
             >
-              <Github />
-              GitHub
+              <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+                <SiGithub />
+              </IconContext.Provider>
+              Github
             </a>
 
             <a
@@ -69,7 +75,9 @@ const AboutMe = () => {
               rel='noopener noreferrer'
               className='text-blue-500 hover:underline flex items-center'
             >
-              <LinkedIn />
+              <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+                <SiLinkedin />
+              </IconContext.Provider>
               LinkedIn
             </a>
           </div>
