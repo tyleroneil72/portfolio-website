@@ -61,6 +61,7 @@ const ContactMe = () => {
               <p className='text-gray-800'>
                 Coming soon! In the meantime, please use the provided contact
                 information.
+                {/* USE AWS LAMBDAS */}
               </p>
             </div>
           </div>
