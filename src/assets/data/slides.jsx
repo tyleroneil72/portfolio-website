@@ -1,8 +1,11 @@
 import labels from "./labels";
-import jsts from "../images/js-ts.png";
 
 const slides = [
-  <img src={jsts} className='max-h-96 max-w-96' alt={labels[0]} />,
+  <img
+    src='https://via.placeholder.com/900x500'
+    className='max-h-96 max-w-96'
+    alt={labels[0]}
+  />,
   <img
     src='https://via.placeholder.com/900x500'
     className='max-h-96 max-w-96'
