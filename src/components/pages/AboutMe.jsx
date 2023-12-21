@@ -91,7 +91,7 @@ const AboutMe = () => {
           <ResumeButton />
         </div>
 
-        <div className='border-2 border-gray-300 p-4 w-full md:w-2/3 lg:w-1/2 rounded-lg bg-gray-300 mb-14'>
+        <div className='border-2 border-gray-300 p-4 w-full md:w-2/3 lg:w-2/3 rounded-lg bg-gray-300 mb-14'>
           <p className='text-lg font-semibold mb-4 text-gray-900'>
             tyleroneil/AboutMe<span className='text-gray-600'>.md</span>
           </p>
