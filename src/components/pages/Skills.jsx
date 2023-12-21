@@ -16,7 +16,7 @@ const Skills = () => {
       <Title title={"Skills"} />
 
       <div
-        className={`absolute mt-28 ml-24 mr-6 transition-opacity duration-1000 ${
+        className={`absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >

@@ -26,11 +26,11 @@ const AboutMe = () => {
       <Title title={"About Me"} />
 
       <div
-        className={`absolute mt-28 ml-24 flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
+        className={`absolute mt-28 ml-[5.5rem] mr-5 flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96 mr-6'>
+        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96'>
           <img
             src={headshot}
             alt='Profile'
@@ -84,7 +84,7 @@ const AboutMe = () => {
           <ResumeButton />
         </div>
 
-        <div className='border-2 border-gray-300 p-4 w-full md:w-2/3 lg:w-1/2 mr-6 rounded-lg bg-gray-300 mb-14'>
+        <div className='border-2 border-gray-300 p-4 w-full md:w-2/3 lg:w-1/2 rounded-lg bg-gray-300 mb-14'>
           <p className='text-lg font-semibold mb-4 text-gray-900'>
             tyleroneil/AboutMe<span className='text-gray-600'>.md</span>
           </p>
