@@ -33,7 +33,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className='border-2 border-gray-300 rounded-md p-3 bg-gray-300 flex flex-col'
+            className='border-2 border-gray-300 rounded-md p-3 bg-gray-300 flex flex-col transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
           >
             <div>
               <a
