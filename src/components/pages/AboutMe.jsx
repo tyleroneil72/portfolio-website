@@ -34,7 +34,7 @@ const AboutMe = () => {
           <img
             src={headshot}
             alt='Profile'
-            className='w-80 h-80 rounded-full object-cover mb-4'
+            className='w-60 h-60 sm:h-72 sm:w-72 lg:h-80 lg:w-80 rounded-full object-cover mb-4'
           />
 
           <div className='text-center'>
