@@ -5,6 +5,7 @@ import headshot from "../../assets/images/headshot.png";
 import ResumeButton from "../resumeButton";
 import Notification from "../effects/Notification";
 import { SiGithub, SiLinkedin } from "react-icons/si";
+import { IoLocation, IoTime } from "react-icons/io5";
 
 const AboutMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -43,16 +44,22 @@ const AboutMe = () => {
           </div>
 
           <div className='text-left mt-4'>
-            <p className='mb-2'>
-              <span className='font-semibold'>Location:</span> Toronto, ON
+            <p className='mb-2 flex items-center'>
+              <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+                <IoLocation />
+              </IconContext.Provider>
+              Toronto, Ontario
             </p>
-            <p className='mb-2'>
-              <span className='font-semibold'>Current Time:</span>{" "}
+            <p className='mb-2 flex items-center'>
+              <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+                <IoTime />
+              </IconContext.Provider>
               {new Date().toLocaleTimeString([], {
                 timeZone: "America/Toronto",
                 hour: "numeric",
                 minute: "numeric",
               })}
+              <p>&nbsp; (UTC -05:00)</p>
             </p>
           </div>
 
