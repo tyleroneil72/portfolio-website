@@ -5,15 +5,15 @@ import { FaAddressCard } from "react-icons/fa6";
 import { TfiWrite } from "react-icons/tfi";
 import { LuBinary } from "react-icons/lu";
 import { PiBracketsCurlyFill } from "react-icons/pi";
-
 import NavItem from "./NavItem";
 // Icons from https://react-icons.github.io/react-icons/
 
 const NavBar = ({ selected, setSelected }) => {
+  const navSize = 17;
   return (
-    <nav className='h-full w-fit bg-slate-950 p-4 flex flex-col items-center gap-3 fixed'>
+    <nav className='h-full w-fit bg-slate-950 p-[0.8rem] flex flex-col items-center gap-[0.6rem] fixed'>
       {/* Main header icon */}
-      <IconContext.Provider value={{ className: "w-11 h-11" }}>
+      <IconContext.Provider value={{ className: "w-10 h-10" }}>
         <PiBracketsCurlyFill />
       </IconContext.Provider>
       {/* Home Page */}
@@ -23,7 +23,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='Home Page'
       >
-        <SlHome />
+        <SlHome size={navSize} />
       </NavItem>
       {/* About Me */}
       <NavItem
@@ -32,7 +32,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='About Me'
       >
-        <SlUser />
+        <SlUser size={navSize} />
       </NavItem>
       {/* Projects */}
       <NavItem
@@ -41,7 +41,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='Projects'
       >
-        <SiGithub />
+        <SiGithub size={navSize} />
       </NavItem>
       {/* Skills and Technology */}
       <NavItem
@@ -50,7 +50,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='Skills'
       >
-        <LuBinary />
+        <LuBinary size={navSize} />
       </NavItem>
       {/* Contact Me */}
       <NavItem
@@ -59,7 +59,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='Contact Me'
       >
-        <FaAddressCard />
+        <FaAddressCard size={navSize} />
       </NavItem>
       {/* Blog */}
       <NavItem
@@ -68,7 +68,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='Blog'
       >
-        <TfiWrite />
+        <TfiWrite size={navSize} />
       </NavItem>
     </nav>
   );
