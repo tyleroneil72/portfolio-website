@@ -28,7 +28,7 @@ function HomePage() {
       <Title title={"Home Page"} />
 
       <div className={containerClasses}>
-        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-4 w-full'>
+        <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-4 w-full'>
           <h2 className='text-2xl mb-2'>Welcome To My Website!</h2>
           <p className='mb-4'>
             I am currently working on enhancing my portfolio. Check out my
