@@ -11,9 +11,9 @@ function HomePage() {
     setFadeIn(true);
   }, []);
 
-  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
-    fadeIn ? "opacity-100" : "opacity-0"
-  }`;
+  const containerClasses =
+    "absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 w-[calc(100%-7rem)] " +
+    (fadeIn ? "opacity-100" : "opacity-0");
 
   return (
     <>
@@ -28,27 +28,31 @@ function HomePage() {
       <Title title={"Home Page"} />
 
       <div className={containerClasses}>
-        <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800'>
-          <p className='text-lg font-semibold mb-4'>Welcome To My Website!</p>
-          <p className='text-base'>
-            While I rework my site feel free to connect with me on{" "}
-            <a
-              className='text-blue-500 hover:underline'
-              target='_blank'
-              href='https://www.linkedin.com/in/tyler-oneil-dev/'
-            >
-              LinkedIn
-            </a>{" "}
-            or check out my github projects{" "}
-            <a
-              className='text-blue-500 hover:underline'
-              target='_blank'
-              href='https://github.com/tyleroneil72'
-            >
-              here
-            </a>
-            .
+        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-4'>
+          <h2 className='text-2xl mb-2'>Welcome To My Website!</h2>
+          <p className='mb-4'>
+            I am currently working on enhancing my portfolio. Check out my
+            latest updates below:
           </p>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <a
+              href='https://github.com/tyleroneil72/portfolio-website'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300'
+            >
+              <img
+                src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=dark'
+                alt='Github Repo Card'
+                className='w-full'
+              />
+            </a>
+            <img
+              src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=compact&theme=dark'
+              alt='Github Stats Card'
+              className='rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300'
+            />
+          </div>
         </div>
       </div>
     </>
