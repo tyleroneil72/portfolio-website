@@ -53,7 +53,7 @@ function HomePage() {
                 className='w-full h-auto rounded-lg shadow-md'
               />
               <p className='text-center flex items-center justify-center pt-3'>
-                <span className='bg-gray-700 rounded flex items-center px-3 py-2 text-gray-50'>
+                <span className='bg-gray-600 rounded flex items-center px-3 py-2 text-gray-50'>
                   I am currently Working on&nbsp;&nbsp; <FaArrowTurnUp />
                 </span>
               </p>
