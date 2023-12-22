@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
+import Notification from "../effects/Notification.jsx";
+import { IconContext } from "react-icons";
+import { LuConstruction } from "react-icons/lu";
 
 const Blog = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -14,6 +17,14 @@ const Blog = () => {
 
   return (
     <>
+      <Notification
+        text="I'm currently working on this page!"
+        icon={() => (
+          <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+            <LuConstruction />
+          </IconContext.Provider>
+        )}
+      />
       <Title title={"Blog"} />
 
       <div className={containerClasses}>
