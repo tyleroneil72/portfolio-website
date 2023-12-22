@@ -9,7 +9,7 @@ const ContactMe = () => {
     setFadeIn(true);
   }, []);
 
-  const containerClasses = `absolute mt-28 ml-[5.5rem] flex mr-5 transition-opacity duration-1000 ${
+  const containerClasses = `absolute mt-28 ml-[5.5rem] flex mr-5 transition-opacity duration-1000  ${
     fadeIn ? "opacity-100" : "opacity-0"
   }`;
 
@@ -17,7 +17,7 @@ const ContactMe = () => {
     <>
       <Title title='Contact Me' />
 
-      <div className={containerClasses}>
+      <div className={containerClasses} style={{ width: "calc(100% - 7rem)" }}>
         <div className='bg-gray-100 rounded-lg shadow-md p-6 w-full'>
           <h2 className='text-2xl font-bold mb-4 text-gray-800'>
             Let's Connect!
