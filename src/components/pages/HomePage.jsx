@@ -29,7 +29,7 @@ function HomePage() {
       <Title title={"Home Page"} />
 
       <div className={containerClasses}>
-        <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-8 md:mb-16'>
+        <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 mb-8 md:mb-16'>
           <h2 className='text-3xl mb-4'>Welcome To My Website!</h2>
           <p className='mb-6'>
             Here, I present a collection of my projects and skills. I encourage
