@@ -28,37 +28,37 @@ function HomePage() {
       <Title title={"Home Page"} />
 
       <div className={containerClasses}>
-        <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-4 w-full'>
-          <h2 className='text-2xl mb-2'>Welcome To My Website!</h2>
-          <p className='mb-5 md:mb-14'>
+        <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-8 md:mb-16'>
+          <h2 className='text-3xl mb-4'>Welcome To My Website!</h2>
+          <p className='mb-6'>
             Here, I present a collection of my projects and skills. I encourage
             you to explore the site and delve into the showcased projects.
             Should you have any inquiries or wish to get in touch, please feel
             free to contact me.
           </p>
 
-          <div className='flex flex-col md:flex-row items-center w-full gap-4 justify-center'>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
             <a
               href='https://github.com/tyleroneil72/portfolio-website'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-full md:w-auto'
+              className='w-full'
             >
               <img
                 src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight&show_owner=true'
                 alt='Github Repo Card'
-                className='w-full h-auto'
+                className='w-full h-auto rounded-lg shadow-md'
               />
             </a>
             <img
               src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=donut&theme=material-palenight'
               alt='Github Stats Card'
-              className='w-full md:w-1/3 h-auto'
+              className='w-full h-auto rounded-lg shadow-md'
             />
             <img
               src='https://github-readme-stats.vercel.app/api?username=tyleroneil72&show_icons=true&theme=material-palenight&hide_rank=true'
               alt='Github Stats Card'
-              className='w-full md:w-1/3 h-auto'
+              className='w-full h-auto rounded-lg shadow-md'
             />
           </div>
         </div>
