@@ -43,7 +43,7 @@ function HomePage() {
               className='w-full md:w-auto'
             >
               <img
-                src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
+                src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight&show_owner=true'
                 alt='Github Repo Card'
                 className='w-full h-auto'
               />
