@@ -62,6 +62,7 @@ const Projects = () => {
                       src={tech}
                       alt='techstack'
                       className='h-5 mr-2 mb-2'
+                      loading='lazy'
                     />
                   ))}
               </div>
