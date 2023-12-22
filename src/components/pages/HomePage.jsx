@@ -41,23 +41,24 @@ function HomePage() {
           </p>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-            <a
-              href='https://github.com/tyleroneil72/portfolio-website'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='w-full'
-            >
-              <img
-                src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
-                alt='Github Repo Card'
-                className='w-full h-auto rounded-lg shadow-md'
-              />
+            <div className='w-full'>
+              <a
+                href='https://github.com/tyleroneil72/portfolio-website'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img
+                  src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
+                  alt='Github Repo Card'
+                  className='w-full h-auto rounded-lg shadow-md'
+                />
+              </a>
               <p className='text-center flex items-center justify-center pt-3'>
                 <span className='bg-gray-600 rounded flex items-center px-3 py-2 text-gray-50'>
                   I am currently Working on&nbsp;&nbsp; <FaArrowTurnUp />
                 </span>
               </p>
-            </a>
+            </div>
             <img
               src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=donut&theme=material-palenight'
               alt='Github Stats Card'
