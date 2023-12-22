@@ -40,23 +40,23 @@ function HomePage() {
               href='https://github.com/tyleroneil72/portfolio-website'
               target='_blank'
               rel='noopener noreferrer'
-              className=''
+              className='w-full md:w-auto'
             >
               <img
                 src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
                 alt='Github Repo Card'
-                className='h-full'
+                className='w-full h-auto'
               />
             </a>
             <img
               src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=donut&theme=material-palenight'
               alt='Github Stats Card'
-              className='h-full w-80'
+              className='w-full md:w-1/3 h-auto'
             />
             <img
               src='https://github-readme-stats.vercel.app/api?username=tyleroneil72&show_icons=true&theme=material-palenight&hide_rank=true'
               alt='Github Stats Card'
-              className='h-full w-80'
+              className='w-full md:w-1/3 h-auto'
             />
           </div>
         </div>
