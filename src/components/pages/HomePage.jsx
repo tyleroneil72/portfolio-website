@@ -11,9 +11,9 @@ function HomePage() {
     setFadeIn(true);
   }, []);
 
-  const containerClasses =
-    "absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 w-[calc(100%-7rem)] " +
-    (fadeIn ? "opacity-100" : "opacity-0");
+  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 w-[calc(100%-7rem)] ${
+    fadeIn ? "opacity-100" : "opacity-0"
+  }`;
 
   return (
     <>
