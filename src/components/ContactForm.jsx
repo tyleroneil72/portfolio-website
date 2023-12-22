@@ -6,6 +6,7 @@ const FORM_ENDPOINT =
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
