@@ -53,7 +53,7 @@ const ContactForm = () => {
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method='POST'
-      className='max-w-md mx-auto'
+      className='flex flex-col max-w-md mx-auto border border-gray-300 p-4 rounded shadow-lg bg-white'
     >
       <div className='hidden'>
         <input type='text' name='_gotcha' tabIndex='-1' autoComplete='off' />
@@ -84,7 +84,7 @@ const ContactForm = () => {
           required
         />
       </div>
-      <div>
+      <div className='flex justify-center'>
         <Button type='submit' text='Submit' />
       </div>
     </form>
