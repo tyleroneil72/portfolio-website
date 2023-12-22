@@ -53,7 +53,7 @@ const ContactForm = () => {
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method='POST'
-      className='flex flex-col max-w-xl mx-auto mt-10 border-gray-300 border p-4  rounded shadow-lg bg-gray-200'
+      className='flex flex-col max-w-xl mx-auto mt-10 border-gray-300 border p-4 rounded shadow-lg bg-gray-200'
     >
       <div className='hidden'>
         <input type='text' name='_gotcha' tabIndex='-1' autoComplete='off' />
