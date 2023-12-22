@@ -5,7 +5,7 @@ const FORM_ENDPOINT =
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const inputs = e.target.elements;
@@ -17,24 +17,24 @@ const ContactForm = () => {
       }
     }
 
-    fetch(FORM_ENDPOINT, {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Form response was not ok");
-        }
-
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        e.target.submit();
+    try {
+      const response = await fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
       });
+
+      if (!response.ok) {
+        throw new Error("Form response was not ok");
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   if (submitted) {
@@ -47,37 +47,42 @@ const ContactForm = () => {
   }
 
   return (
-    <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method='POST'>
+    <form
+      action={FORM_ENDPOINT}
+      onSubmit={handleSubmit}
+      method='POST'
+      className='max-w-md mx-auto'
+    >
       <div className='hidden'>
-        <input type='text' name='_gotcha' tabindex='-1' autocomplete='off' />
+        <input type='text' name='_gotcha' tabIndex='-1' autoComplete='off' />
       </div>
-      <div className='pt-0 mb-3'>
+      <div className='mb-4'>
         <input
           type='text'
           placeholder='Your name'
           name='name'
-          className='focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none'
+          className='focus:outline-none focus:ring w-full px-3 py-2 text-sm text-gray-600 placeholder-gray-400 bg-white border-2 border-gray-300 rounded shadow outline-none transition duration-300 ease-in-out'
           required
         />
       </div>
-      <div className='pt-0 mb-3'>
+      <div className='mb-4'>
         <input
           type='email'
           placeholder='Email'
           name='email'
-          className='focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none'
+          className='focus:outline-none focus:ring w-full px-3 py-2 text-sm text-gray-600 placeholder-gray-400 bg-white border-2 border-gray-300 rounded shadow outline-none transition duration-300 ease-in-out'
           required
         />
       </div>
-      <div className='pt-0 mb-3'>
+      <div className='mb-4'>
         <textarea
           placeholder='Your message'
           name='message'
-          className='focus:outline-none focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none'
+          className='focus:outline-none focus:ring w-full px-3 py-2 text-sm text-gray-600 placeholder-gray-400 bg-white border-2 border-gray-300 rounded shadow outline-none resize-none transition duration-300 ease-in-out'
           required
         />
       </div>
-      <div className='pt-0 mb-3'>
+      <div>
         <button
           className='active:bg-blue-600 hover:shadow-lg focus:outline-none px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 rounded shadow outline-none'
           type='submit'
