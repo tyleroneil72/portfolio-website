@@ -2,7 +2,7 @@ import { IconContext } from "react-icons";
 import { useState, useEffect } from "react";
 import Title from "../Title";
 import headshot from "../../assets/images/headshot.png";
-import ResumeButton from "../resumeButton";
+import Button from "../Button";
 import Notification from "../effects/Notification";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { IoLocation, IoTime } from "react-icons/io5";
@@ -88,7 +88,7 @@ const AboutMe = () => {
               LinkedIn
             </a>
           </div>
-          <ResumeButton />
+          <Button href='/resume.pdf' text='View Resume' />
         </div>
 
         <div className='border-2 border-gray-300 p-4 w-full md:w-2/3 lg:w-2/3 rounded-lg bg-gray-300 mb-14'>

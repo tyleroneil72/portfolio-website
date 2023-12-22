@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ContactButton from "./ContactButton";
+import Button from "./Button";
 
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/85365cd0-a059-11ee-9dec-893a2542e245";
@@ -84,7 +84,7 @@ const ContactForm = () => {
         />
       </div>
       <div>
-        <ContactButton />
+        <Button type='submit' text='Submit' />
       </div>
     </form>
   );
