@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
+import ContactForm from "../ContactForm";
 
 const ContactMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -58,11 +59,7 @@ const ContactMe = () => {
 
             <div>
               <h3 className='text-lg font-bold text-gray-800'>Contact Form:</h3>
-              <p className='text-gray-800'>
-                Coming soon! In the meantime, please use the provided contact
-                information.
-                {/* USE AWS LAMBDAS */}
-              </p>
+              <ContactForm />
             </div>
           </div>
         </div>
