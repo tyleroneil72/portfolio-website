@@ -34,7 +34,7 @@ function HomePage() {
             I am currently working on enhancing my portfolio. Check out my
             latest updates below:
           </p>
-          <div className='flex flex-col md:flex-row items-center w-full'>
+          <div className='flex flex-col md:flex-row items-center w-full gap-2'>
             <a
               href='https://github.com/tyleroneil72/portfolio-website'
               target='_blank'
@@ -42,13 +42,13 @@ function HomePage() {
               className=''
             >
               <img
-                src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=dark'
+                src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
                 alt='Github Repo Card'
                 className='h-full'
               />
             </a>
             <img
-              src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=compact&theme=dark'
+              src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=donut&theme=material-palenight'
               alt='Github Stats Card'
               className='h-full'
             />
