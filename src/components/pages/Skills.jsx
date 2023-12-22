@@ -11,15 +11,15 @@ const Skills = () => {
     setFadeIn(true);
   }, []);
 
+  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
+    fadeIn ? "opacity-100" : "opacity-0"
+  }`;
+
   return (
     <>
       <Title title={"Skills"} />
 
-      <div
-        className={`absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
-          fadeIn ? "opacity-100" : "opacity-0"
-        }`}
-      >
+      <div className={containerClasses}>
         <Carousel slides={slides} labels={labels} />
       </div>
     </>

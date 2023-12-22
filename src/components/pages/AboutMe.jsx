@@ -14,6 +14,10 @@ const AboutMe = () => {
     setFadeIn(true);
   }, []);
 
+  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
+    fadeIn ? "opacity-100" : "opacity-0"
+  }`;
+
   return (
     <>
       <Notification
@@ -26,11 +30,7 @@ const AboutMe = () => {
       />
       <Title title={"About Me"} />
 
-      <div
-        className={`absolute mt-28 ml-[5.5rem] mr-5 flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
-          fadeIn ? "opacity-100" : "opacity-0"
-        }`}
-      >
+      <div className={containerClasses}>
         <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96'>
           <img
             src={headshot}

@@ -8,15 +8,15 @@ const Blog = () => {
     setFadeIn(true);
   }, []);
 
+  const containerClasses = `absolute mt-28 ml-[5.5rem] transition-opacity duration-1000 ${
+    fadeIn ? "opacity-100" : "opacity-0"
+  }`;
+
   return (
     <>
       <Title title={"Blog"} />
 
-      <div
-        className={`absolute mt-28 ml-[5.5rem] transition-opacity duration-1000 ${
-          fadeIn ? "opacity-100" : "opacity-0"
-        }`}
-      >
+      <div className={containerClasses}>
         <p className='mt-2'>Coming Soon...</p>
       </div>
     </>

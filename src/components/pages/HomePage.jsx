@@ -11,6 +11,10 @@ function HomePage() {
     setFadeIn(true);
   }, []);
 
+  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
+    fadeIn ? "opacity-100" : "opacity-0"
+  }`;
+
   return (
     <>
       <Notification
@@ -23,11 +27,7 @@ function HomePage() {
       />
       <Title title={"Home Page"} />
 
-      <div
-        className={`absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
-          fadeIn ? "opacity-100" : "opacity-0"
-        }`}
-      >
+      <div className={containerClasses}>
         <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800'>
           <p className='text-lg font-semibold mb-4'>Welcome To My Website!</p>
           <p className='text-base'>
