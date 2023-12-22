@@ -28,29 +28,29 @@ function HomePage() {
       <Title title={"Home Page"} />
 
       <div className={containerClasses}>
-        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-4'>
+        <div className='bg-gray-100 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-4 w-full'>
           <h2 className='text-2xl mb-2'>Welcome To My Website!</h2>
           <p className='mb-4'>
             I am currently working on enhancing my portfolio. Check out my
             latest updates below:
           </p>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+          <div className='flex flex-col md:flex-row items-center w-full'>
             <a
               href='https://github.com/tyleroneil72/portfolio-website'
               target='_blank'
               rel='noopener noreferrer'
-              className='rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300'
+              className=''
             >
               <img
                 src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=dark'
                 alt='Github Repo Card'
-                className='w-full'
+                className='h-full'
               />
             </a>
             <img
               src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=compact&theme=dark'
               alt='Github Stats Card'
-              className='rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300'
+              className='h-full'
             />
           </div>
         </div>
