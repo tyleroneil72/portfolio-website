@@ -41,10 +41,14 @@ const ContactForm = () => {
 
   if (submitted) {
     return (
-      <>
-        <div className='text-2xl text-gray-800'>Thank you!</div>
-        <div className='text-md text-gray-800'>I'll be in touch soon.</div>
-      </>
+      <div className='flex flex-col items-center justify-center text-center border border-gray-300 py-10 bg-gray-200 rounded'>
+        <div className='text-3xl font-bold text-gray-800 mb-4'>Thank you!</div>
+        <div className='text-lg text-gray-800 mb-8'>
+          Your message has been successfully submitted.
+          <br />
+          I'll get back to you as soon as possible.
+        </div>
+      </div>
     );
   }
 
