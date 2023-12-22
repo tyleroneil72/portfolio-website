@@ -31,10 +31,10 @@ function HomePage() {
         <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 text-lg font-semibold mb-4 w-full'>
           <h2 className='text-2xl mb-2'>Welcome To My Website!</h2>
           <p className='mb-5 md:mb-14'>
-            Welcome to my website! Here, I present a collection of my projects
-            and skills. I encourage you to explore the site and delve into the
-            showcased projects. Should you have any inquiries or wish to get in
-            touch, please feel free to contact me.
+            Here, I present a collection of my projects and skills. I encourage
+            you to explore the site and delve into the showcased projects.
+            Should you have any inquiries or wish to get in touch, please feel
+            free to contact me.
           </p>
 
           <div className='flex flex-col md:flex-row items-center w-full gap-4 justify-center'>
