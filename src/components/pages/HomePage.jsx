@@ -50,7 +50,7 @@ function HomePage() {
                 alt='Github Repo Card'
                 className='w-full h-auto rounded-lg shadow-md'
               />
-              <p className='text-center flex items-center justify-center'>
+              <p className='text-center flex items-center justify-center pt-3 '>
                 I am currently Working on&nbsp;&nbsp; <FaArrowTurnUp />
               </p>
             </a>
