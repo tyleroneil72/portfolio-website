@@ -10,8 +10,28 @@ import { IoLocation, IoTime } from "react-icons/io5";
 const AboutMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
 
+  const [currentTime, setCurrentTime] = useState(
+    new Date().toLocaleTimeString([], {
+      timeZone: "America/Toronto",
+      hour: "numeric",
+      minute: "numeric",
+    })
+  );
+
   useEffect(() => {
     setFadeIn(true);
+
+    const intervalId = setInterval(() => {
+      setCurrentTime(
+        new Date().toLocaleTimeString([], {
+          timeZone: "America/Toronto",
+          hour: "numeric",
+          minute: "numeric",
+        })
+      );
+    }, 1000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
@@ -54,11 +74,7 @@ const AboutMe = () => {
               <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
                 <IoTime />
               </IconContext.Provider>
-              {new Date().toLocaleTimeString([], {
-                timeZone: "America/Toronto",
-                hour: "numeric",
-                minute: "numeric",
-              })}
+              {currentTime}
               <p>&nbsp; (UTC -05:00)</p>
             </p>
           </div>
