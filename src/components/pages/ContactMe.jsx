@@ -18,7 +18,7 @@ const ContactMe = () => {
       <Title title='Contact Me' />
 
       <div className={containerClasses}>
-        <div className='bg-gray-100 rounded-lg shadow-md p-6 pb-10 w-full'>
+        <div className='bg-gray-300 rounded-lg shadow-md p-6 pb-10 w-full'>
           <h2 className='text-2xl font-bold mb-4 text-gray-800'>
             Let's Connect!
           </h2>
