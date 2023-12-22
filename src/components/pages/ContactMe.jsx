@@ -9,7 +9,7 @@ const ContactMe = () => {
     setFadeIn(true);
   }, []);
 
-  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
+  const containerClasses = `absolute mt-28 ml-[5.5rem] flex mr-5 transition-opacity duration-1000 ${
     fadeIn ? "opacity-100" : "opacity-0"
   }`;
 
@@ -18,7 +18,7 @@ const ContactMe = () => {
       <Title title='Contact Me' />
 
       <div className={containerClasses}>
-        <div className='bg-gray-100 rounded-lg shadow-md p-6'>
+        <div className='bg-gray-100 rounded-lg shadow-md p-6 w-au'>
           <h2 className='text-2xl font-bold mb-4 text-gray-800'>
             Let's Connect!
           </h2>
@@ -27,10 +27,7 @@ const ContactMe = () => {
             Thank you for visiting my website. I'd love to hear from you! Please
             feel free to reach out using the form below or at my email address
             directly{" "}
-            <a href='mailto:tyleroneildev@gmail.com' className='text-blue-500'>
-              tyleroneildev@gmail.com
-            </a>
-            .
+            <span className='text-blue-500'>tyleroneildev@gmail.com</span>.
           </p>
 
           <ContactForm />
