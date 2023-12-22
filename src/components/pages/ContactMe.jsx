@@ -28,7 +28,7 @@ const ContactMe = () => {
             feel free to reach out using the form below or my email address
             directly at{" "}
             <span className='text-blue-500'>tyleroneildev@gmail.com</span> and I
-            will get back to you as soon as possible{" "}
+            will get back to you as soon as possible.
           </p>
 
           <ContactForm />
