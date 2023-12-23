@@ -57,7 +57,7 @@ const ContactForm = () => {
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method='POST'
-      className='flex flex-col max-w-xl mx-auto mt-10 border-gray-300 border p-4 rounded shadow-lg bg-gray-200'
+      className='flex flex-col md:w-[calc(100%-5rem)] w-full mx-auto mt-10 border-gray-300 border p-4 rounded shadow-lg bg-gray-200'
     >
       <div className='hidden'>
         <input type='text' name='_gotcha' tabIndex='-1' autoComplete='off' />
@@ -84,7 +84,7 @@ const ContactForm = () => {
         <textarea
           placeholder='Your message'
           name='message'
-          className='focus:outline-none focus:ring w-full px-3 py-2 text-sm text-gray-600 placeholder-gray-400 bg-white border-2 border-gray-300 rounded shadow outline-none resize-none transition duration-300 ease-in-out'
+          className='focus:outline-none h-40 focus:ring w-full px-3 py-2 text-sm text-gray-600 placeholder-gray-400 bg-white border-2 border-gray-300 rounded shadow outline-none resize-none transition duration-300 ease-in-out'
           required
         />
       </div>
