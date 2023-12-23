@@ -1,9 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+
+// Custom hook for checking window size
+function useWindowSize() {
+  const [size, setSize] = useState([window.innerWidth, window.innerHeight]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSize([window.innerWidth, window.innerHeight]);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return size;
+}
 
 const NavItem = ({ children, selected, id, setSelected, title }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const isMobile = window.innerWidth <= 768; // 768px is the breakpoint for mobile
+  const [width] = useWindowSize();
+  const isMobile = width <= 768; // 768px is the breakpoint for mobile
 
   const handleHover = (hovered) => {
     if (!isMobile) {
