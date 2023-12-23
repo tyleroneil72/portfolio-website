@@ -5,6 +5,7 @@ import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
 import { FaArrowTurnUp } from "react-icons/fa6";
 import { MdOutlineWavingHand } from "react-icons/md";
+import { motion, AnimatePresence } from "framer-motion";
 
 function HomePage() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -34,7 +35,14 @@ function HomePage() {
           <h2 className='text-3xl mb-4 font-semibold'>
             Welcome To My Website!
             <span className='inline-block ml-2'>
-              <MdOutlineWavingHand />
+              <motion.span
+                className='inline-block animate-waving-hand'
+                initial={{ rotate: 0 }}
+                animate={{ rotate: [0, -40, 0] }}
+                transition={{ duration: 1.5, repeat: Infinity }}
+              >
+                <MdOutlineWavingHand />
+              </motion.span>
             </span>
           </h2>
           <p className='mb-6'>
