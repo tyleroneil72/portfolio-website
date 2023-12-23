@@ -34,7 +34,7 @@ const AboutMe = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
+  const containerClasses = `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-16 mr-0  flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
     fadeIn ? "opacity-100" : "opacity-0"
   }`;
 
@@ -107,7 +107,7 @@ const AboutMe = () => {
           <Button href='/resume.pdf' text='View Resume' />
         </div>
 
-        <div className='border-2 border-gray-300 p-4 w-full md:w-2/3 lg:w-2/3 rounded-lg bg-gray-300 mb-14'>
+        <div className='border-2 border-gray-300 p-4 w-[calc(100%-2rem)] md:w-2/3 lg:w-2/3 rounded-lg bg-gray-300 mb-14'>
           <p className='text-lg font-semibold mb-4 text-gray-900'>
             tyleroneil/AboutMe<span className='text-gray-600'>.md</span>
           </p>
