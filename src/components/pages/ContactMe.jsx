@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import Title from "../Title";
 import ContactForm from "../ContactForm";
 import { TfiEmail } from "react-icons/tfi";
+import Notification from "../effects/Notification.jsx";
+import { IconContext } from "react-icons";
 
 const ContactMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -16,6 +18,14 @@ const ContactMe = () => {
 
   return (
     <>
+      <Notification
+        text='I will get back to you as soon as possible!'
+        icon={() => (
+          <IconContext.Provider value={{ className: "w-5 h-5" }}>
+            <TfiEmail />
+          </IconContext.Provider>
+        )}
+      />
       <Title title='Contact Me' />
 
       <div className={containerClasses}>
