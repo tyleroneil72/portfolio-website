@@ -55,7 +55,7 @@ const App = () => {
           innerScale={1}
           outerScale={1.5}
           outerAlpha={0}
-          hasBlendMode={true}
+          trailingSpeed={7}
           innerStyle={{
             backgroundColor: "rgb(79, 70, 229)",
           }}
