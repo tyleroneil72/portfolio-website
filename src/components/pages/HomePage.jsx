@@ -50,7 +50,7 @@ function HomePage() {
                 <img
                   src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
                   alt='Github Repo Card'
-                  className='w-full h-auto rounded-lg shadow-md'
+                  className='w-full h-auto rounded-lg shadow-md transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
                 />
               </a>
               <p className='text-center flex items-center justify-center pt-3'>
