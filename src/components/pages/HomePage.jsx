@@ -75,7 +75,7 @@ function HomePage() {
                 />
               </a>
               <p className='text-center flex items-center justify-center pt-3'>
-                <span className='bg-gray-600 rounded flex items-center px-3 py-2 text-gray-50'>
+                <span className='text-gray-200 bg-indigo-500 rounded flex items-center px-3 py-2'>
                   I am currently Working on&nbsp;&nbsp; <FaArrowTurnUp />
                 </span>
               </p>
