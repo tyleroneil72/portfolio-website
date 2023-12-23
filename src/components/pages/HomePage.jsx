@@ -68,7 +68,7 @@ function HomePage() {
                 rel='noopener noreferrer'
               >
                 <img
-                  src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
+                  src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight&title_color=FFF'
                   alt='Github Repo Card'
                   className='w-full h-auto rounded-lg shadow-md transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
                   loading='lazy'
@@ -81,13 +81,13 @@ function HomePage() {
               </p>
             </div>
             <img
-              src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=donut&theme=material-palenight'
+              src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=donut&theme=material-palenight&title_color=FFF'
               alt='Github Stats Card'
               className='w-full h-auto rounded-lg shadow-md'
               loading='lazy'
             />
             <img
-              src='https://github-readme-stats.vercel.app/api?username=tyleroneil72&show_icons=true&theme=material-palenight&hide_rank=true'
+              src='https://github-readme-stats.vercel.app/api?username=tyleroneil72&show_icons=true&theme=material-palenight&hide_rank=true&title_color=FFF'
               alt='Github Stats Card'
               className='w-full h-auto rounded-lg shadow-md'
               loading='lazy'
