@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import Title from "../Title";
 import ContactForm from "../ContactForm";
-import { TfiEmail } from "react-icons/tfi";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
+import { TfiEmail } from "react-icons/tfi";
+import { LuMailWarning } from "react-icons/lu";
 
 const ContactMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -19,10 +20,10 @@ const ContactMe = () => {
   return (
     <>
       <Notification
-        text='I will get back to you as soon as possible!'
+        text="I'll get back to you as soon as possible!"
         icon={() => (
           <IconContext.Provider value={{ className: "w-5 h-5" }}>
-            <TfiEmail />
+            <LuMailWarning />
           </IconContext.Provider>
         )}
       />
@@ -38,11 +39,15 @@ const ContactMe = () => {
           </h2>
 
           <p className='text-lg mb-4 text-gray-800'>
-            Thank you for visiting my website. I'd love to hear from you! Please
-            feel free to reach out using the form below or my email address
-            directly at{" "}
-            <span className='text-blue-500'>tyleroneildev@gmail.com</span> and I
-            will get back to you as soon as possible.{" "}
+            Thank you for exploring my portfolio! Your visit means a lot as I
+            strive to connect with potential opportunities. I'm enthusiastic
+            about the prospect of collaborating or discussing how my skills
+            align with your needs. Whether you have inquiries, job
+            opportunities, or simply want to connect, please feel free to reach
+            out via the form below or directly at{" "}
+            <span className='text-blue-500'>tyleroneildev@gmail.com</span>. Your
+            interest and consideration are genuinely appreciated as I pursue new
+            avenues and career possibilities.
           </p>
 
           <ContactForm />
