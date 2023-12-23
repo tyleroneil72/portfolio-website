@@ -55,6 +55,7 @@ function HomePage() {
                   src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=portfolio-website&theme=material-palenight'
                   alt='Github Repo Card'
                   className='w-full h-auto rounded-lg shadow-md transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
+                  loading='lazy'
                 />
               </a>
               <p className='text-center flex items-center justify-center pt-3'>
@@ -67,11 +68,13 @@ function HomePage() {
               src='https://github-readme-stats.vercel.app/api/top-langs/?username=tyleroneil72&layout=donut&theme=material-palenight'
               alt='Github Stats Card'
               className='w-full h-auto rounded-lg shadow-md'
+              loading='lazy'
             />
             <img
               src='https://github-readme-stats.vercel.app/api?username=tyleroneil72&show_icons=true&theme=material-palenight&hide_rank=true'
               alt='Github Stats Card'
               className='w-full h-auto rounded-lg shadow-md'
+              loading='lazy'
             />
           </div>
         </div>
