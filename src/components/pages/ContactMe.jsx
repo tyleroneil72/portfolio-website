@@ -45,9 +45,20 @@ const ContactMe = () => {
             align with your needs. Whether you have inquiries, job
             opportunities, or simply want to connect, please feel free to reach
             out via the form below or directly at{" "}
-            <span className='text-blue-500'>tyleroneildev@gmail.com</span>. Your
-            interest and consideration are genuinely appreciated as I pursue new
-            avenues and career possibilities.
+            <span className='text-gray-200 bg-indigo-400 rounded px-1 py-1'>
+              tyleroneildev@gmail.com
+            </span>{" "}
+            or connect with me on{" "}
+            <a
+              href='https://linkedin.com/in/tyler-oneil-dev'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-blue-500 hover:underline'
+            >
+              LinkedIn
+            </a>
+            . Your interest and consideration are genuinely appreciated as I
+            pursue new avenues and career possibilities.
           </p>
 
           <ContactForm />
