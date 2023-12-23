@@ -22,7 +22,7 @@ const Projects = () => {
       <Notification
         text='If you like any of my projects check out my Github!'
         icon={() => (
-          <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+          <IconContext.Provider value={{ className: "w-5 h-5" }}>
             <SiGithub />
           </IconContext.Provider>
         )}

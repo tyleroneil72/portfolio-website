@@ -20,7 +20,7 @@ const Blog = () => {
       <Notification
         text="I'm currently working on this page!"
         icon={() => (
-          <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
+          <IconContext.Provider value={{ className: "w-5 h-5" }}>
             <LuConstruction />
           </IconContext.Provider>
         )}
