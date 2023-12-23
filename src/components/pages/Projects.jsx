@@ -42,7 +42,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className='w-full h-auto rounded-md mb-4 max-h-80 object-cover'
+                className='w-full h-auto rounded-md mb-4 max-h-80 object-fill'
                 loading='lazy'
               />
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
