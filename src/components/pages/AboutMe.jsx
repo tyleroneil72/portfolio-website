@@ -1,15 +1,14 @@
 import { IconContext } from "react-icons";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Title from "../Title";
 import headshot from "../../assets/images/headshot.png";
-import Button from "../Button";
 import Notification from "../effects/Notification";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { IoLocation, IoTime } from "react-icons/io5";
+import Button from "../Button";
 
 const AboutMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
-
   const [currentTime, setCurrentTime] = useState(
     new Date().toLocaleTimeString([], {
       timeZone: "America/Toronto",
@@ -38,15 +37,20 @@ const AboutMe = () => {
     fadeIn ? "opacity-100" : "opacity-0"
   }`;
 
+  const iconProvider = useCallback(
+    (icon) => (
+      <IconContext.Provider value={{ className: "w-5 h-5" }}>
+        {icon}
+      </IconContext.Provider>
+    ),
+    []
+  );
+
   return (
     <>
       <Notification
         text='Feel free to connect with me on LinkedIn!'
-        icon={() => (
-          <IconContext.Provider value={{ className: "w-5 h-5" }}>
-            <SiLinkedin />
-          </IconContext.Provider>
-        )}
+        icon={() => iconProvider(<SiLinkedin />)}
       />
       <Title title={"About Me"} />
 
