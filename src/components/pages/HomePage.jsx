@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Title from "../Title";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
 import { FaArrowTurnUp } from "react-icons/fa6";
 import { MdOutlineWavingHand } from "react-icons/md";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 function HomePage() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -14,19 +14,27 @@ function HomePage() {
     setFadeIn(true);
   }, []);
 
-  const containerClasses = `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-20 mr-0 pb-10 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-6rem)] ${
-    fadeIn ? "opacity-100" : "opacity-0"
-  }`;
+  // Use useMemo for containerClasses to prevent unnecessary calculations
+  const containerClasses = useMemo(() => {
+    return `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-20 mr-0 pb-10 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-6rem)] ${
+      fadeIn ? "opacity-100" : "opacity-0"
+    }`;
+  }, [fadeIn]);
+
+  const iconProvider = useMemo(
+    () => (
+      <IconContext.Provider value={{ className: "w-5 h-5" }}>
+        <BiAlarmExclamation />
+      </IconContext.Provider>
+    ),
+    []
+  );
 
   return (
     <>
       <Notification
         text="I'm currently seeking Summer 2024 Opportunities!"
-        icon={() => (
-          <IconContext.Provider value={{ className: "w-5 h-5" }}>
-            <BiAlarmExclamation />
-          </IconContext.Provider>
-        )}
+        icon={() => iconProvider}
       />
       <Title title={"Home Page"} />
 
