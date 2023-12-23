@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import Title from "../Title";
 import { IconContext } from "react-icons";
 import { SiGithub } from "react-icons/si";
@@ -13,19 +13,28 @@ const Projects = () => {
     setFadeIn(true);
   }, []);
 
-  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-14 transition-opacity duration-1000 ${
-    fadeIn ? "opacity-100" : "opacity-0"
-  }`;
+  // useMemo for calculating class names to avoid recalculations on each render
+  const containerClasses = useMemo(() => {
+    return `absolute mt-28 ml-[5.5rem] mr-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-14 transition-opacity duration-1000 ${
+      fadeIn ? "opacity-100" : "opacity-0"
+    }`;
+  }, [fadeIn]);
+
+  // useCallback for memoizing the icon provider
+  const iconProvider = useCallback(
+    (icon) => (
+      <IconContext.Provider value={{ className: "w-5 h-5" }}>
+        {icon}
+      </IconContext.Provider>
+    ),
+    []
+  );
 
   return (
     <>
       <Notification
         text='If you like any of my projects check out my Github!'
-        icon={() => (
-          <IconContext.Provider value={{ className: "w-5 h-5" }}>
-            <SiGithub />
-          </IconContext.Provider>
-        )}
+        icon={() => iconProvider(<SiGithub />)}
       />
       <Title title={"Projects"} />
 
@@ -74,9 +83,7 @@ const Projects = () => {
                   rel='noopener noreferrer'
                   className='flex items-center text-blue-500 hover:underline'
                 >
-                  <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
-                    <SiGithub />
-                  </IconContext.Provider>
+                  {iconProvider(<SiGithub />)}
                   Github
                 </a>
                 {project.productionLink && (
@@ -86,9 +93,7 @@ const Projects = () => {
                     rel='noopener noreferrer'
                     className='flex items-center text-blue-500 hover:underline'
                   >
-                    <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
-                      <FaGear />
-                    </IconContext.Provider>
+                    {iconProvider(<FaGear />)}
                     Production
                   </a>
                 )}
