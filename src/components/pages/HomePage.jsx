@@ -4,6 +4,7 @@ import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
 import { FaArrowTurnUp } from "react-icons/fa6";
+import { MdOutlineWavingHand } from "react-icons/md";
 
 function HomePage() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -32,6 +33,9 @@ function HomePage() {
         <div className='bg-gray-300 p-6 rounded-lg shadow-md text-gray-800 mb-8 md:mb-16'>
           <h2 className='text-3xl mb-4 font-semibold'>
             Welcome To My Website!
+            <span className='inline-block ml-2'>
+              <MdOutlineWavingHand />
+            </span>
           </h2>
           <p className='mb-6'>
             Here, I present a collection of my projects and skills. I encourage
