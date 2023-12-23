@@ -34,7 +34,7 @@ const AboutMe = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  const containerClasses = `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-16 mr-0  flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
+  const containerClasses = `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-16 mr-0 flex flex-col md:flex-row justify-center items-center md:items-start gap-8 transition-opacity duration-1000 ${
     fadeIn ? "opacity-100" : "opacity-0"
   }`;
 
