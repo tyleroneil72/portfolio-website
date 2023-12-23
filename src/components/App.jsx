@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import NavBar from "./NavBar/NavBar.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
@@ -12,10 +12,22 @@ import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
-  const isMobile = window.innerWidth <= 768; // 768px is the breakpoint for mobile
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [selected]);
 
   const renderSelectedComponent = () => {
-    window.scrollTo(0, 0);
     switch (selected) {
       case 0:
         return <HomePage />;
