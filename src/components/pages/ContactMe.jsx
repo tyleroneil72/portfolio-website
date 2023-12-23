@@ -13,7 +13,7 @@ const ContactMe = () => {
     setFadeIn(true);
   }, []);
 
-  const containerClasses = `absolute mt-28 ml-[5.5rem] flex pb-14 transition-opacity duration-1000 w-[calc(100%-7rem)] ${
+  const containerClasses = `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-20 mr-0 flex pb-14 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-6rem)] ${
     fadeIn ? "opacity-100" : "opacity-0"
   }`;
 
