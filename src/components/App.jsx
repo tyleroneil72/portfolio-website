@@ -12,7 +12,7 @@ import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   const [selected, setSelected] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // 768px is the breakpoint for mobile
+  const isMobile = window.innerWidth <= 768; // 768px is the breakpoint for mobile
 
   const renderSelectedComponent = () => {
     window.scrollTo(0, 0);
@@ -33,18 +33,6 @@ const App = () => {
         return null;
     }
   };
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   return (
     <div className='text-slate-100 flex'>
