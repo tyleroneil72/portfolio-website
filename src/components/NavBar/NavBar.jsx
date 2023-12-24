@@ -43,7 +43,7 @@ const NavBar = ({ selected, setSelected }) => {
       >
         <SiGithub size={navSize} />
       </NavItem>
-      {/* Skills and Technology */}
+      {/* Skills and Experience */}
       <NavItem
         selected={selected === 3}
         id={3}
