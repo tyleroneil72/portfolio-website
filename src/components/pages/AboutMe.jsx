@@ -140,29 +140,16 @@ const AboutMe = () => {
 
             <div>
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
-                Personal Information
+                My Skills and Tools
               </h2>
-              <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin consequat turpis in purus vestibulum, non sodales quam
-                blandit.
-              </p>
+              <div className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
+                <p className='flex items-center justify-center pb-2'>
+                  <img src='https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,expressjs,php,python,java,cs,bash' />
+                </p>
+                <p className='flex items-center justify-center'>
+                  <img src='https://skillicons.dev/icons?i=aws,vscode,visualstudio,git,linux,mysql,wordpress,firebase,dotnet,vite' />
+                </p>
+              </div>
             </div>
           </div>
         </div>
