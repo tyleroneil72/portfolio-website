@@ -121,7 +121,7 @@ const AboutMe = () => {
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 Professional Information
               </h2>
-              <p className='text-gray-800'>
+              <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
                 Highly motivated aspiring Software Developer with hands-on
                 experience in crafting applications and websites. I've served as
                 a Software Developer Intern at Exchange Solutions Inc,
@@ -142,7 +142,7 @@ const AboutMe = () => {
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 Personal Information
               </h2>
-              <p className='text-gray-800'>
+              <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 consequat turpis in purus vestibulum, non sodales quam
                 blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
