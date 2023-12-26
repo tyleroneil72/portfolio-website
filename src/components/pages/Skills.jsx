@@ -28,7 +28,7 @@ const Skills = () => {
           </IconContext.Provider>
         )}
       />
-      <Title title={"Skills"} />
+      <Title title={"Experience"} />
 
       <div className={containerClasses}>
         <Carousel slides={slides} labels={labels} />
