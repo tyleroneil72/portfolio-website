@@ -16,11 +16,15 @@ const App = () => {
 
   useEffect(() => {
     const handleBlur = () => {
-      document.title = "Thank You For Visiting!";
+      if (!isMobile) {
+        document.title = "Thank You For Visiting!";
+      }
     };
 
     const handleFocus = () => {
-      document.title = "Tyler O'Neil";
+      if (!isMobile) {
+        document.title = "Tyler O'Neil";
+      }
     };
 
     window.addEventListener("blur", handleBlur);
