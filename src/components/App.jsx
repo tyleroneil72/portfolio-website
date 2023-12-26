@@ -3,7 +3,7 @@ import NavBar from "./NavBar/NavBar.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
 import Projects from "./pages/Projects.jsx";
-import Skills from "./pages/Skills.jsx";
+import Experience from "./pages/Experience.jsx";
 import ContactMe from "./pages/ContactMe.jsx";
 import Blog from "./pages/Blog.jsx";
 import Footer from "./Footer.jsx";
@@ -36,7 +36,7 @@ const App = () => {
       case 2:
         return <Projects />;
       case 3:
-        return <Skills />;
+        return <Experience />;
       case 4:
         return <ContactMe />;
       case 5:

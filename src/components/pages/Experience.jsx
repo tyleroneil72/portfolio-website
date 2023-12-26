@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import Title from "../Title";
-import Carousel from "../effects/Carousel";
-import labels from "../../assets/data/labels";
-import slides from "../../assets/data/slides";
+import Title from "../Title.jsx";
+import Carousel from "../effects/Carousel.jsx";
+import labels from "../../assets/data/labels.js";
+import slides from "../../assets/data/slides.jsx";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { LuConstruction } from "react-icons/lu";

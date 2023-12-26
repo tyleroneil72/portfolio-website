@@ -4,6 +4,7 @@ import { SlUser, SlHome } from "react-icons/sl";
 import { FaAddressCard } from "react-icons/fa6";
 import { TfiWrite } from "react-icons/tfi";
 import { LuBinary } from "react-icons/lu";
+import { MdOutlineWork } from "react-icons/md";
 import { PiBracketsCurlyFill } from "react-icons/pi";
 import NavItem from "./NavItem";
 // Icons from https://react-icons.github.io/react-icons/
@@ -43,14 +44,14 @@ const NavBar = ({ selected, setSelected }) => {
       >
         <SiGithub size={navSize} />
       </NavItem>
-      {/* Skills and Experience */}
+      {/* Experience and Skills */}
       <NavItem
         selected={selected === 3}
         id={3}
         setSelected={setSelected}
-        title='Skills'
+        title='Experience'
       >
-        <LuBinary size={navSize} />
+        <MdOutlineWork size={navSize} />
       </NavItem>
       {/* Contact Me */}
       <NavItem
