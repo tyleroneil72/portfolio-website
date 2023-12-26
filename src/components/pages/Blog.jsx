@@ -28,7 +28,7 @@ const Blog = () => {
       <Title title={"Blog"} />
 
       <div className={containerClasses}>
-        <p className='mt-2'>Coming Soon...</p>
+        <p>Coming Soon...</p>
       </div>
     </>
   );

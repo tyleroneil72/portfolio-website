@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Title from "../Title.jsx";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
@@ -10,10 +10,11 @@ const Skills = () => {
   useEffect(() => {
     setFadeIn(true);
   }, []);
-
-  const containerClasses = `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
-    fadeIn ? "opacity-100" : "opacity-0"
-  }`;
+  const containerClasses = useMemo(() => {
+    return `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
+      fadeIn ? "opacity-100" : "opacity-0"
+    }`;
+  }, [fadeIn]);
 
   return (
     <>
@@ -27,7 +28,9 @@ const Skills = () => {
       />
       <Title title={"Experience"} />
 
-      <div className={containerClasses}></div>
+      <div className={containerClasses}>
+        <p>Coming Soon...</p>
+      </div>
     </>
   );
 };
