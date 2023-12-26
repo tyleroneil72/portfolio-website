@@ -1,9 +1,9 @@
 import { IconContext } from "react-icons";
 import { SiGithub } from "react-icons/si";
 import { SlUser, SlHome } from "react-icons/sl";
+import { HiHome } from "react-icons/hi";
 import { FaAddressCard } from "react-icons/fa6";
 import { TfiWrite } from "react-icons/tfi";
-import { LuBinary } from "react-icons/lu";
 import { MdOutlineWork } from "react-icons/md";
 import { PiBracketsCurlyFill } from "react-icons/pi";
 import NavItem from "./NavItem";
@@ -24,7 +24,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='Home Page'
       >
-        <SlHome size={navSize} />
+        <HiHome size={navSize} />
       </NavItem>
       {/* About Me */}
       <NavItem
