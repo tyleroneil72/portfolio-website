@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
 import Title from "../Title.jsx";
-import Carousel from "../effects/Carousel.jsx";
-import labels from "../../assets/data/labels.js";
-import slides from "../../assets/data/slides.jsx";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { LuConstruction } from "react-icons/lu";
@@ -30,9 +27,7 @@ const Skills = () => {
       />
       <Title title={"Experience"} />
 
-      <div className={containerClasses}>
-        <Carousel slides={slides} labels={labels} />
-      </div>
+      <div className={containerClasses}></div>
     </>
   );
 };
