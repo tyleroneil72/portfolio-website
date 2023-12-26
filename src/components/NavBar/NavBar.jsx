@@ -1,6 +1,6 @@
 import { IconContext } from "react-icons";
 import { SiGithub } from "react-icons/si";
-import { SlUser, SlHome } from "react-icons/sl";
+import { IoPerson } from "react-icons/io5";
 import { HiHome } from "react-icons/hi";
 import { FaAddressCard } from "react-icons/fa6";
 import { TfiWrite } from "react-icons/tfi";
@@ -33,7 +33,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='About Me'
       >
-        <SlUser size={navSize} />
+        <IoPerson size={navSize} />
       </NavItem>
       {/* Projects */}
       <NavItem
