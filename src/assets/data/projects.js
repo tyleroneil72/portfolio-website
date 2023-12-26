@@ -3,7 +3,7 @@ import learningPath from "../images/learningPath.png";
 import hrPayroll from "../images/hrAndPayroll.png";
 import sorting from "../images/sorting.jpeg";
 import misc from "../images/misc.jpeg";
-import portfolio from "../images/portfolio.jpeg";
+import portfolio from "../images/portfolio.png";
 import techStack from "./techStack";
 
 const projects = [
