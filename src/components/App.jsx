@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     const handleBlur = () => {
       if (!isMobile) {
-        document.title = "Thank You For Visiting!";
+        document.title = "Thank You For Visiting! - Tyler O'Neil";
       }
     };
 
