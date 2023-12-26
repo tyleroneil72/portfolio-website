@@ -1,4 +1,4 @@
-const labels = [
+const skills = [
   "Javascript / Typescript ",
   "HTML & CSS",
   "Bootstrap & Tailwind CSS",
@@ -15,4 +15,4 @@ const labels = [
   "Wordpress",
 ];
 
-export default labels;
+export default skills;
