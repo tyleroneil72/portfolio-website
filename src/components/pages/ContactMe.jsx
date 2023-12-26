@@ -45,7 +45,7 @@ const ContactMe = () => {
             </span>
           </h2>
 
-          <p className='text-lg mb-4 text-gray-800'>
+          <p className='text-lg mb-4 text-gray-800 rounded bg-gray-200 px-3 py-2'>
             Thank you for exploring my portfolio! Your visit means a lot as I
             strive to connect with potential opportunities. I'm enthusiastic
             about the prospect of collaborating or discussing how my skills
