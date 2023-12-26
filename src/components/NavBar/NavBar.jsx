@@ -3,8 +3,8 @@ import { SiGithub } from "react-icons/si";
 import { IoPerson } from "react-icons/io5";
 import { HiHome } from "react-icons/hi";
 import { FaAddressCard } from "react-icons/fa6";
-import { TfiWrite } from "react-icons/tfi";
 import { MdOutlineWork } from "react-icons/md";
+import { IoIosPaper } from "react-icons/io";
 import { PiBracketsCurlyFill } from "react-icons/pi";
 import NavItem from "./NavItem";
 // Icons from https://react-icons.github.io/react-icons/
@@ -69,7 +69,7 @@ const NavBar = ({ selected, setSelected }) => {
         setSelected={setSelected}
         title='Blog'
       >
-        <TfiWrite size={navSize} />
+        <IoIosPaper size={navSize} />
       </NavItem>
     </nav>
   );
