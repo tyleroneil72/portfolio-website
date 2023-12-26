@@ -5,7 +5,7 @@ import { HiHome } from "react-icons/hi";
 import { FaAddressCard } from "react-icons/fa6";
 import { MdOutlineWork } from "react-icons/md";
 import { IoIosPaper } from "react-icons/io";
-import { PiBracketsCurlyFill } from "react-icons/pi";
+import mainIcon from "../../assets/images/portfolio.png";
 import NavItem from "./NavItem";
 // Icons from https://react-icons.github.io/react-icons/
 
@@ -14,9 +14,7 @@ const NavBar = ({ selected, setSelected }) => {
   return (
     <nav className='h-full w-fit bg-slate-950 p-[0.8rem] flex flex-col items-center gap-[0.6rem] fixed'>
       {/* Main header icon */}
-      <IconContext.Provider value={{ className: "w-10 h-10" }}>
-        <PiBracketsCurlyFill />
-      </IconContext.Provider>
+      <img src={mainIcon} alt='Main Icon' className='w-10 h-10 my-3' />
       {/* Home Page */}
       <NavItem
         selected={selected === 0}
