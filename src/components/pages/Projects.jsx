@@ -81,7 +81,7 @@ const Projects = () => {
                   href={project.githubLink}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='flex items-center text-blue-500 hover:underline'
+                  className='flex items-center text-blue-500 hover:underline gap-1'
                 >
                   {iconProvider(<SiGithub />)}
                   Github
@@ -91,7 +91,7 @@ const Projects = () => {
                     href={project.productionLink}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='flex items-center text-blue-500 hover:underline'
+                    className='flex items-center text-blue-500 hover:underline gap-1'
                   >
                     {iconProvider(<FaGear />)}
                     Production
