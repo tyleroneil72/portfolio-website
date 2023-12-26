@@ -53,7 +53,7 @@ function HomePage() {
               </motion.span>
             </span>
           </h2>
-          <p className='mb-6'>
+          <p className='mb-6 rounded bg-gray-200 px-3 py-2'>
             Here, I present a collection of my projects and skills. I encourage
             you to explore the site and delve into the showcased projects.
             Should you have any inquiries or wish to get in touch, please feel
