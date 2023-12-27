@@ -159,10 +159,18 @@ const AboutMe = () => {
               </h2>
               <div className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
                 <p className='flex items-center justify-center pb-2'>
-                  <img src='https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,expressjs,php,python,java,cs,bash' />
+                  <img
+                    src='https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,expressjs,php,python,java,cs,bash'
+                    alt='Skills and Tools'
+                    loading='lazy'
+                  />
                 </p>
                 <p className='flex items-center justify-center'>
-                  <img src='https://skillicons.dev/icons?i=aws,vscode,visualstudio,git,linux,mysql,wordpress,firebase,dotnet,vite' />
+                  <img
+                    src='https://skillicons.dev/icons?i=aws,vscode,visualstudio,git,github,linux,mysql,wordpress,firebase,dotnet,vite'
+                    alt='Skills and Tools'
+                    loading='lazy'
+                  />
                 </p>
               </div>
             </div>
