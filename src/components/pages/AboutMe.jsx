@@ -125,15 +125,25 @@ const AboutMe = () => {
                 Highly motivated aspiring Software Developer with hands-on
                 experience in crafting applications and websites. I've served as
                 a{" "}
-                <span className='text-gray-200 bg-indigo-400 rounded px-1 py-1'>
+                <a
+                  href='https://www.exchangesolutions.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-gray-200 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                >
                   Software Developer Intern at Exchange Solutions Inc
-                </span>
+                </a>
                 , contributing to cutting-edge projects involving Node.js for
                 applications like Retrieval Augmented AI Agents and Digital
                 Coupon Automation. Additionally, my role as a{" "}
-                <span className='text-gray-200 bg-indigo-400 rounded px-1 py-1'>
+                <a
+                  href='https://presentecsolutions.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-gray-200 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                >
                   Front-End Developer Intern at PresenTEC Solutions
-                </span>{" "}
+                </a>{" "}
                 involved maintaining and enhancing company websites using
                 WordPress, ensuring optimal functionality and user experience.
                 Currently pursuing an Advanced Diploma in Computer Programming
