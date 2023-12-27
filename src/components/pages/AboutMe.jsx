@@ -116,6 +116,12 @@ const AboutMe = () => {
             tyleroneil/AboutMe<span className='text-gray-600'>.md</span>
           </p>
 
+          <p className='text-gray-800 rounded bg-gray-200 px-3'>
+            <h2 className='text-2xl font-bold mb-2 text-gray-900'>
+              Hi, I'm Tyler O'Neil!
+            </h2>
+          </p>
+
           <div className='space-y-4'>
             <div>
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
