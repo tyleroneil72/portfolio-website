@@ -161,14 +161,14 @@ const AboutMe = () => {
                 <p className='flex items-center justify-center pb-2'>
                   <img
                     src='https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,expressjs,php,python,java,cs,bash'
-                    alt='Skills and Tools'
+                    alt='HTML, CSS, Bootstrap, Tailwind, JavaScript, TypeScript, React, Node.js, Express.js, PHP, Python, Java, C#, Bash'
                     loading='lazy'
                   />
                 </p>
                 <p className='flex items-center justify-center'>
                   <img
                     src='https://skillicons.dev/icons?i=aws,vscode,visualstudio,git,github,linux,mysql,wordpress,firebase,dotnet,vite'
-                    alt='Skills and Tools'
+                    alt='AWS, VSCode, Visual Studio, Git, Github, Linux, MySQL, Wordpress, Firebase, .Net, Vite'
                     loading='lazy'
                   />
                 </p>
