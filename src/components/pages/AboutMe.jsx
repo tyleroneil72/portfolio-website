@@ -124,17 +124,22 @@ const AboutMe = () => {
               <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
                 Highly motivated aspiring Software Developer with hands-on
                 experience in crafting applications and websites. I've served as
-                a Software Developer Intern at Exchange Solutions Inc,
-                contributing to cutting-edge projects involving Node.js for
+                a{" "}
+                <span className='text-gray-200 bg-indigo-400 rounded px-1 py-1'>
+                  Software Developer Intern at Exchange Solutions Inc
+                </span>
+                , contributing to cutting-edge projects involving Node.js for
                 applications like Retrieval Augmented AI Agents and Digital
-                Coupon Automation. Additionally, my role as a Front-End
-                Developer Intern at PresenTEC Solutions involved maintaining and
-                enhancing company websites using WordPress, ensuring optimal
-                functionality and user experience. Currently pursuing an
-                Advanced Diploma in Computer Programming and Analysis at George
-                Brown College after previously attending The University of
-                Toronto majoring in Computer Science and Mathematics before
-                transferring.
+                Coupon Automation. Additionally, my role as a{" "}
+                <span className='text-gray-200 bg-indigo-400 rounded px-1 py-1'>
+                  Front-End Developer Intern at PresenTEC Solutions
+                </span>{" "}
+                involved maintaining and enhancing company websites using
+                WordPress, ensuring optimal functionality and user experience.
+                Currently pursuing an Advanced Diploma in Computer Programming
+                and Analysis at George Brown College after previously attending{" "}
+                The University of Toronto majoring in Computer Science and
+                Mathematics before transferring.
               </p>
             </div>
 
