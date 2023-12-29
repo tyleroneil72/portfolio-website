@@ -10,6 +10,7 @@ const Skills = () => {
   useEffect(() => {
     setFadeIn(true);
   }, []);
+
   const containerClasses = useMemo(() => {
     return `absolute mt-28 ml-[5.5rem] mr-5 transition-opacity duration-1000 ${
       fadeIn ? "opacity-100" : "opacity-0"
