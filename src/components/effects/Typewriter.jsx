@@ -32,7 +32,9 @@ const Typewriter = ({ text, delay, infinite }) => {
   return (
     <span className='relative'>
       <span className='font-sans'>{currentText}</span>
-      <span className={`opacity-25 ${showCursor ? "visible" : "hidden"} `}>
+      <span
+        className={`absolute opacity-25 ${showCursor ? "visible" : "hidden"} `}
+      >
         |
       </span>
     </span>

@@ -26,7 +26,7 @@ const Skills = () => {
           </IconContext.Provider>
         )}
       />
-      <Title title={"Experience & Skills"} />
+      <Title title={"Experience and Skills"} />
 
       <div className={containerClasses}>
         <p>Coming Soon...</p>
