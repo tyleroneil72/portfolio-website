@@ -47,7 +47,7 @@ const NavBar = ({ selected, setSelected }) => {
         selected={selected === 3}
         id={3}
         setSelected={setSelected}
-        title='Experience'
+        title='Experience & Skills'
       >
         <MdOutlineWork size={navSize} />
       </NavItem>
