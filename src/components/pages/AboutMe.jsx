@@ -161,6 +161,31 @@ const AboutMe = () => {
 
             <div>
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
+                Hobbies and Interests
+              </h2>
+              <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
+                Programming is more than a job for me; it's a passion. I'm
+                constantly diving into new side projects and experimenting with
+                the latest tech trends. I particularly enjoy creating things
+                with Raspberry Pi's and Arduino's, finding innovative ways to
+                bring ideas to life. I'm an enthusiastic NBA fan, with a special
+                loyalty to the Raptors. Additionally, I'm an avid chess player,
+                boasting a bullet rating of 1143 and a puzzle rating of 2173 on{" "}
+                <a
+                  href='https://www.chess.com/member/tyleroneil'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-gray-200 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                >
+                  Chess.com
+                </a>
+                . I also enjoy a variety of music, especially R&B, hip-hop, and
+                alternative.
+              </p>
+            </div>
+
+            <div>
+              <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 My Skills and Tools
               </h2>
               <div className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
