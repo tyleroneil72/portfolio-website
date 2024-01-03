@@ -125,7 +125,7 @@ const AboutMe = () => {
           <div className='space-y-4'>
             <div>
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
-                Career Profile
+                Profile
               </h2>
               <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
                 Highly motivated aspiring Software Developer with hands-on
