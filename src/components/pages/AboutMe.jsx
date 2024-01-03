@@ -170,8 +170,8 @@ const AboutMe = () => {
                 with Raspberry Pi's and Arduino's, and finding innovative ways
                 to bring ideas to life. I'm an enthusiastic NBA fan, with a
                 special loyalty to the Raptors. Additionally, I'm an avid chess
-                player, boasting a bullet rating of 1143 and a puzzle rating of
-                2173 on{" "}
+                player, boasting a bullet rating of 1100+ and a puzzle rating of
+                2100+ on{" "}
                 <a
                   href='https://www.chess.com/member/tyleroneil'
                   target='_blank'
