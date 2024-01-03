@@ -15,7 +15,7 @@ const Projects = () => {
 
   // useMemo for calculating class names to avoid recalculations on each render
   const containerClasses = useMemo(() => {
-    return `absolute mt-28 ml-[5.5rem] mr-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-14 transition-opacity duration-1000 ${
+    return `absolute mt-28 ml-[5.5rem] mr-5 grid grid-cols-1 md:grid-cols-2 lg:ml-24 lg:mr-8 lg:grid-cols-3 gap-6 pb-14 transition-opacity duration-1000 ${
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
