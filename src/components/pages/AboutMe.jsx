@@ -167,10 +167,11 @@ const AboutMe = () => {
                 Programming is more than a job for me; it's a passion. I'm
                 constantly diving into new side projects and experimenting with
                 the latest tech trends. I particularly enjoy creating things
-                with Raspberry Pi's and Arduino's, finding innovative ways to
-                bring ideas to life. I'm an enthusiastic NBA fan, with a special
-                loyalty to the Raptors. Additionally, I'm an avid chess player,
-                boasting a bullet rating of 1143 and a puzzle rating of 2173 on{" "}
+                with Raspberry Pi's and Arduino's, and finding innovative ways
+                to bring ideas to life. I'm an enthusiastic NBA fan, with a
+                special loyalty to the Raptors. Additionally, I'm an avid chess
+                player, boasting a bullet rating of 1143 and a puzzle rating of
+                2173 on{" "}
                 <a
                   href='https://www.chess.com/member/tyleroneil'
                   target='_blank'
