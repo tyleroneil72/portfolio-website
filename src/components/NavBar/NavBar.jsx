@@ -1,4 +1,3 @@
-import { IconContext } from "react-icons";
 import { SiGithub } from "react-icons/si";
 import { IoPerson } from "react-icons/io5";
 import { HiHome } from "react-icons/hi";
