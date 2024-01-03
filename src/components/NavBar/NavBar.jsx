@@ -6,7 +6,6 @@ import { MdOutlineWork } from "react-icons/md";
 import { IoIosPaper } from "react-icons/io";
 import mainIcon from "../../assets/images/portfolio.png";
 import NavItem from "./NavItem";
-// Icons from https://react-icons.github.io/react-icons/
 
 const NavBar = ({ selected, setSelected }) => {
   const navSize = 17;
