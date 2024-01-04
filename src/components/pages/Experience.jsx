@@ -54,6 +54,25 @@ const Experience = () => {
                 May 2023 - September 2023
               </span>
             </p>
+            <ul className='list-disc ml-6'>
+              <li>
+                Created Node.js scripts to build proof of concept applications
+                for cutting-edge projects, including Retrieval Augmented AI
+                Agents, Digital Coupon Automation, and the Snowflake Native
+                Application Framework.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to explore innovative
+                solutions, conduct experiments, and iterate on ideas to drive
+                the development of new technologies and applications.
+              </li>
+              <li>
+                Worked closely with senior developers and researchers to create
+                prototypes, conduct feasibility studies, and validate concepts,
+                ensuring alignment with project goals and objectives.
+              </li>
+            </ul>
+
             <p className='font-semibold mt-2 flex items-center'>
               <div className='text-2xl'>
                 <FaBusinessTime className='mr-2' />
@@ -63,6 +82,22 @@ const Experience = () => {
                 December 2022 - April 2023
               </span>
             </p>
+            <ul className='list-disc ml-6'>
+              <li>
+                Oversaw the ongoing maintenance and enhancements of the company
+                website using WordPress, ensuring it remained up-to-date and
+                functional.
+              </li>
+              <li>
+                Played a key role in selecting templates and shaping the user
+                interface to align with the company's branding, enhancing the
+                overall user experience.
+              </li>
+              <li>
+                Utilised HTML and CSS to fine-tune website layouts and styles,
+                optimising the site's performance and appearance
+              </li>
+            </ul>
           </div>
         </section>
 
