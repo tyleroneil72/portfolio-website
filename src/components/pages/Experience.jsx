@@ -45,7 +45,7 @@ const Experience = () => {
         <section className='mb-8'>
           <h2 className='text-2xl font-bold mb-3 flex justify-center md:justify-start text-gray-50'>
             <FaBriefcase className='mr-2' />
-            Experience
+            Work Experience
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
             <p className='font-semibold flex items-center justify-between'>
