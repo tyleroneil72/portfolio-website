@@ -6,6 +6,7 @@ import { LuConstruction } from "react-icons/lu";
 import ESI from "../../assets/images/esi.png";
 import presentec from "../../assets/images/presentec.jpeg";
 import gbc from "../../assets/images/gbc.png";
+import uoft from "../../assets/images/uoft.png";
 import {
   FaBriefcase,
   FaLaptopCode,
@@ -164,7 +165,12 @@ const Experience = () => {
               </span>
             </p>
             <p className='font-semibold mt-2 flex items-center'>
-              <FaGraduationCap className='mr-2' />
+              <img
+                src={uoft}
+                alt='UofT Image'
+                className='w-8 h-8 mr-2 object-contain'
+                loading='lazy'
+              />
               Honours Bachelor of Science, University of Toronto, Computer
               Science and Mathematics{" "}
               <span className='text-sm text-gray-500 ml-2'>2019 - 2022</span>
