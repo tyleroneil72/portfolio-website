@@ -24,7 +24,7 @@ const Experience = () => {
   }, []);
 
   const containerClasses = useMemo(() => {
-    return `absolute mt-28 ml-[4.5rem] mr-1 pb-14 pt-4 md:pt-0 transition-opacity duration-1000 text-gray-800 w-[calc(100%-5rem)] ${
+    return `absolute mt-28 ml-[4.5rem] mr-1 pb-14 pt-0 transition-opacity duration-1000 text-gray-800 w-[calc(100%-5rem)] ${
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
@@ -39,7 +39,7 @@ const Experience = () => {
           </IconContext.Provider>
         )}
       />
-      <Title title={"Experience and Skills"} />
+      <Title title={"Experience"} />
 
       <div className={containerClasses}>
         <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>

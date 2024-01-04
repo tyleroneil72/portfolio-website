@@ -40,12 +40,12 @@ const NavBar = ({ selected, setSelected }) => {
       >
         <SiGithub size={navSize} />
       </NavItem>
-      {/* Experience and Skills (Might take this out)*/}
+      {/* Experience */}
       <NavItem
         selected={selected === 3}
         id={3}
         setSelected={setSelected}
-        title='Experience & Skills'
+        title='Experience'
       >
         <MdOutlineWork size={navSize} />
       </NavItem>
