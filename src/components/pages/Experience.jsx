@@ -47,7 +47,7 @@ const Experience = () => {
             <FaBriefcase className='mr-2' />
             Work Experience
           </h2>
-          <div className='bg-white shadow-md rounded-md p-4'>
+          <div className='bg-gray-50 shadow-md rounded-md p-4'>
             <p className='font-semibold flex items-center justify-between'>
               <span className='flex items-center'>
                 <img
@@ -119,7 +119,7 @@ const Experience = () => {
             <FaGraduationCap className='mr-2' />
             Education
           </h2>
-          <div className='bg-white shadow-md rounded-md p-4'>
+          <div className='bg-gray-50 shadow-md rounded-md p-4'>
             <p className='font-semibold flex items-center justify-between'>
               <span className='flex items-center'>
                 <img
@@ -177,7 +177,7 @@ const Experience = () => {
             <FaLaptopCode className='mr-2' />
             Technical Skills
           </h2>
-          <div className='bg-white shadow-md rounded-md p-4'>
+          <div className='bg-gray-50 shadow-md rounded-md p-4'>
             <ul className='list-disc list-inside'>
               <li className='flex items-center'>
                 <div className='text-2xl my-1'>
