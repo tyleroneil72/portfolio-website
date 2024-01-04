@@ -43,7 +43,7 @@ const Experience = () => {
 
       <div className={containerClasses}>
         <section className='mb-8'>
-          <h2 className='text-2xl font-bold mb-3 flex justify-center text-gray-50'>
+          <h2 className='text-2xl font-bold mb-3 flex justify-center md:justify-start text-gray-50'>
             <FaBriefcase className='mr-2' />
             Experience
           </h2>
@@ -115,7 +115,7 @@ const Experience = () => {
         </section>
 
         <section className='mb-8'>
-          <h2 className='text-2xl font-bold mb-3 flex items-center justify-center text-gray-50'>
+          <h2 className='text-2xl font-bold mb-3 flex items-center justify-center md:justify-start text-gray-50'>
             <FaGraduationCap className='mr-2' />
             Education
           </h2>
@@ -173,7 +173,7 @@ const Experience = () => {
         </section>
 
         <section className='mb-8'>
-          <h2 className='text-2xl font-bold mb-3 flex items-center justify-center text-gray-50'>
+          <h2 className='text-2xl font-bold mb-3 flex items-center justify-center md:justify-start text-gray-50'>
             <FaLaptopCode className='mr-2' />
             Skills
           </h2>
