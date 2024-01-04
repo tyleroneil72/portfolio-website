@@ -86,7 +86,7 @@ const Experience = () => {
                 <img
                   src={presentec}
                   alt='presentec icon'
-                  className='w-8 h-8 mr-2 object-contain'
+                  className='w-8 h-8 mr-2 object-contain rounded'
                   loading='lazy'
                 />
                 Front-End Developer - Intern @ PresenTEC Solutions.{" "}
