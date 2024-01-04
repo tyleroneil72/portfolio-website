@@ -121,7 +121,7 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-gradient-to-b from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
+        <section className='mb-8 bg-gradient-to-b to-indigo-500 from-indigo-600 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start text-white'>
             <FaGraduationCap className='mr-2 text-xl' />
             Education
