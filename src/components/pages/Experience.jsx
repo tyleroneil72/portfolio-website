@@ -45,6 +45,7 @@ const Experience = () => {
         <section className='mb-8'>
           <h2 className='text-2xl font-bold mb-3 flex justify-center text-gray-50'>
             <FaBriefcase className='mr-2' />
+            Experience
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
             <p className='font-semibold flex items-center justify-between'>
@@ -116,6 +117,7 @@ const Experience = () => {
         <section className='mb-8'>
           <h2 className='text-2xl font-bold mb-3 flex items-center justify-center text-gray-50'>
             <FaGraduationCap className='mr-2' />
+            Education
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
             <p className='font-semibold flex items-center justify-between'>
@@ -152,6 +154,7 @@ const Experience = () => {
         <section className='mb-8'>
           <h2 className='text-2xl font-bold mb-3 flex items-center justify-center text-gray-50'>
             <FaLaptopCode className='mr-2' />
+            Skills
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
             <ul className='list-disc list-inside'>
