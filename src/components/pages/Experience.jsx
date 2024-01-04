@@ -23,7 +23,7 @@ const Experience = () => {
   }, []);
 
   const containerClasses = useMemo(() => {
-    return `absolute mt-28 ml-[5.5rem] mr-5 pb-14 pt-4 md:pt-0 transition-opacity duration-1000 text-gray-800 ${
+    return `absolute mt-28 ml-[5.5rem] mr-5 pb-14 pt-4 md:pt-0 transition-opacity duration-1000 text-gray-800 md:w-[calc(100%-7rem)] ${
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
