@@ -2,7 +2,6 @@ import { useState, useEffect, useMemo } from "react";
 import Title from "../Title.jsx";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
-import { LuConstruction } from "react-icons/lu";
 import ESI from "../../assets/images/esi.png";
 import presentec from "../../assets/images/presentec.jpeg";
 import gbc from "../../assets/images/gbc.png";
@@ -14,6 +13,7 @@ import {
   FaDatabase,
   FaTools,
   FaGraduationCap,
+  FaAws,
 } from "react-icons/fa";
 
 const Experience = () => {
@@ -32,10 +32,10 @@ const Experience = () => {
   return (
     <>
       <Notification
-        text="I'm currently working on this page!"
+        text="I'm currently studying for my AWS Cloud Practitioner Certification!"
         icon={() => (
           <IconContext.Provider value={{ className: "w-5 h-5" }}>
-            <LuConstruction />
+            <FaAws />
           </IconContext.Provider>
         )}
       />
