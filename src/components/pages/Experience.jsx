@@ -4,7 +4,7 @@ import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { LuConstruction } from "react-icons/lu";
 
-const Skills = () => {
+const Experience = () => {
   const [fadeIn, setFadeIn] = useState(false);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Experience;
