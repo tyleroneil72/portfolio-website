@@ -42,8 +42,8 @@ const Experience = () => {
       <Title title={"Experience and Skills"} />
 
       <div className={containerClasses}>
-        <section className='mb-8 bg-gradient-to-b from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
-          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start text-white'>
+        <section className='mb-8 bg-gray-300 p-5 rounded-lg shadow-lg'>
+          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
             <FaBriefcase className='mr-2 text-xl' />
             Work Experience
           </h2>
@@ -121,8 +121,8 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-gradient-to-b to-indigo-500 from-indigo-600 p-5 rounded-lg shadow-lg'>
-          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start text-white'>
+        <section className='mb-8 bg-gray-300 p-5 rounded-lg shadow-lg'>
+          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
             <FaGraduationCap className='mr-2 text-xl' />
             Education
           </h2>
@@ -179,8 +179,8 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-gradient-to-b from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
-          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start text-white'>
+        <section className='mb-8 bg-gray-300 p-5 rounded-lg shadow-lg'>
+          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
             <FaLaptopCode className='mr-2 text-xl' />
             Technical Skills
           </h2>
