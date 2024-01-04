@@ -56,7 +56,14 @@ const Experience = () => {
                   className='w-10 h-10 mr-2 object-contain'
                   loading='lazy'
                 />
-                Software Developer - Intern @ Exchange Solutions Inc.{" "}
+                <a
+                  href='https://www.exchangesolutions.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-gray-50 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                >
+                  Software Developer - Intern @ Exchange Solutions Inc.{" "}
+                </a>
               </span>
               <span className='text-sm text-gray-500 ml-2'>
                 May 2023 - September 2023
@@ -89,7 +96,14 @@ const Experience = () => {
                   className='w-10 h-10 mr-2 object-contain rounded'
                   loading='lazy'
                 />
-                Front-End Developer - Intern @ PresenTEC Solutions.{" "}
+                <a
+                  href='https://presentecsolutions.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-gray-50 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                >
+                  Front-End Developer - Intern @ PresenTEC Solutions{" "}
+                </a>
               </span>
               <span className='text-sm text-gray-500 ml-2'>
                 December 2022 - April 2023
