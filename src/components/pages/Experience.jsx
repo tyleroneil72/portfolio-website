@@ -42,12 +42,12 @@ const Experience = () => {
       <Title title={"Experience and Skills"} />
 
       <div className={containerClasses}>
-        <section className='mb-8 bg-gray-300 p-5 rounded-lg shadow-lg'>
+        <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
             <FaBriefcase className='mr-2 text-xl' />
             Work Experience
           </h2>
-          <div className='bg-white rounded-md p-6 shadow-sm'>
+          <div className='bg-slate-50 rounded-md p-6 shadow-sm'>
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3'>
               <span className='flex items-center text-gray-700'>
                 <img
@@ -121,12 +121,12 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-gray-300 p-5 rounded-lg shadow-lg'>
+        <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
             <FaGraduationCap className='mr-2 text-xl' />
             Education
           </h2>
-          <div className='bg-white rounded-md p-6 shadow-sm'>
+          <div className='bg-slate-50 rounded-md p-6 shadow-sm'>
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3'>
               <span className='flex items-center text-gray-700'>
                 <img
@@ -179,12 +179,12 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-gray-300 p-5 rounded-lg shadow-lg'>
+        <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
             <FaLaptopCode className='mr-2 text-xl' />
             Technical Skills
           </h2>
-          <div className='bg-white rounded-md p-6 shadow-sm'>
+          <div className='bg-slate-50 rounded-md p-6 shadow-sm'>
             <ul className='space-y-4'>
               <li className='flex items-center text-gray-700'>
                 <div className='text-2xl my-1'>
