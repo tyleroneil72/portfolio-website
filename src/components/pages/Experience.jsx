@@ -53,7 +53,7 @@ const Experience = () => {
                 <img
                   src={ESI}
                   alt='ESI icon'
-                  className='w-8 h-8 mr-2 object-contain'
+                  className='w-10 h-10 mr-2 object-contain'
                   loading='lazy'
                 />
                 Software Developer - Intern @ Exchange Solutions Inc.{" "}
@@ -86,7 +86,7 @@ const Experience = () => {
                 <img
                   src={presentec}
                   alt='presentec icon'
-                  className='w-8 h-8 mr-2 object-contain rounded'
+                  className='w-10 h-10 mr-2 object-contain rounded'
                   loading='lazy'
                 />
                 Front-End Developer - Intern @ PresenTEC Solutions.{" "}
@@ -125,7 +125,7 @@ const Experience = () => {
                 <img
                   src={gbc}
                   alt='GBC Image'
-                  className='w-8 h-8 mr-2 object-contain'
+                  className='w-10 h-10 mr-2 object-contain'
                   loading='lazy'
                 />
                 Advanced Diploma, George Brown College, Computer Programming and
@@ -151,7 +151,7 @@ const Experience = () => {
                 <img
                   src={uoft}
                   alt='UofT Image'
-                  className='w-8 h-8 mr-2 object-contain'
+                  className='w-10 h-10 mr-1 object-contain'
                   loading='lazy'
                 />
                 Honours Bachelor of Science, University of Toronto, Computer
