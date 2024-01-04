@@ -4,6 +4,7 @@ import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { LuConstruction } from "react-icons/lu";
 import ESI from "../../assets/images/esi.png";
+import presentec from "../../assets/images/presentec.jpeg";
 import {
   FaBriefcase,
   FaLaptopCode,
@@ -76,9 +77,11 @@ const Experience = () => {
             </ul>
 
             <p className='font-semibold mt-2 flex items-center'>
-              <div className='text-2xl'>
-                <FaBusinessTime className='mr-2' />
-              </div>
+              <img
+                src={presentec}
+                alt='presentec icon'
+                className='w-8 h-8 mr-2 object-contain'
+              />
               Front-End Developer - Intern @ PresenTEC Solutions.{" "}
               <span className='text-sm text-gray-500 ml-2'>
                 December 2022 - April 2023
