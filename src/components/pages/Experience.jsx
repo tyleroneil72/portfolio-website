@@ -135,6 +135,17 @@ const Experience = () => {
                 Graduating April 2025
               </span>
             </p>
+            <ul className='list-disc ml-6'>
+              <li>
+                Recognized for academic excellence and placed on the dean's list
+                with a 3.81 / 4.0 GPA (Fall 2022; Winter 2023; Fall 2023)
+              </li>
+              <li>
+                Relevant Courses: Advanced Web Programming, Introduction to
+                Full-Stack Development, Advanced Database Development, Advanced
+                Object Oriented Programming, Linux Essentials
+              </li>
+            </ul>
             <p className='font-semibold mt-2 flex items-center justify-between'>
               <span className='flex items-center'>
                 <img
@@ -148,6 +159,16 @@ const Experience = () => {
               </span>
               <span className='text-sm text-gray-500 ml-2'>2019 - 2022</span>
             </p>
+            <ul className='list-disc ml-6'>
+              <li>
+                Previously attended before transferring to George Brown College
+              </li>
+              <li>
+                Relevant Courses: Introduction to Computer Programming,
+                Introduction to Computer Science, Introduction to Mathematical
+                Proofs, Logic
+              </li>
+            </ul>
           </div>
         </section>
 
