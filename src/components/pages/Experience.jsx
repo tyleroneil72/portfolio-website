@@ -65,7 +65,7 @@ const Experience = () => {
                   Software Developer - Intern @ Exchange Solutions Inc.{" "}
                 </a>
               </span>
-              <span className='text-sm text-gray-500 ml-2'>
+              <span className='text-sm text-gray-700 ml-2'>
                 May 2023 - September 2023
               </span>
             </p>
@@ -105,7 +105,7 @@ const Experience = () => {
                   Front-End Developer - Intern @ PresenTEC Solutions{" "}
                 </a>
               </span>
-              <span className='text-sm text-gray-500 ml-2'>
+              <span className='text-sm text-gray-700 ml-2'>
                 December 2022 - April 2023
               </span>
             </p>
@@ -145,7 +145,7 @@ const Experience = () => {
                 Advanced Diploma, George Brown College, Computer Programming and
                 Analysis{" "}
               </span>
-              <span className='text-sm text-gray-500 ml-2'>
+              <span className='text-sm text-gray-700 ml-2'>
                 Graduating April 2025
               </span>
             </p>
@@ -171,7 +171,7 @@ const Experience = () => {
                 Honours Bachelor of Science, University of Toronto, Computer
                 Science and Mathematics{" "}
               </span>
-              <span className='text-sm text-gray-500 ml-2'>2019 - 2022</span>
+              <span className='text-sm text-gray-700 ml-2'>2019 - 2022</span>
             </p>
             <ul className='list-disc ml-6'>
               <li>
