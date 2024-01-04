@@ -12,7 +12,6 @@ import {
   FaDatabase,
   FaTools,
   FaGraduationCap,
-  FaBusinessTime,
 } from "react-icons/fa";
 
 const Experience = () => {
