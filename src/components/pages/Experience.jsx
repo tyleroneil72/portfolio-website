@@ -42,7 +42,7 @@ const Experience = () => {
       <Title title={"Experience and Skills"} />
 
       <div className={containerClasses}>
-        <section className='mb-8 bg-gradient-to-r from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
+        <section className='mb-8 bg-gradient-to-b from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start text-white'>
             <FaBriefcase className='mr-2 text-xl' />
             Work Experience
@@ -121,7 +121,7 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-gradient-to-r from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
+        <section className='mb-8 bg-gradient-to-b from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start text-white'>
             <FaGraduationCap className='mr-2 text-xl' />
             Education
@@ -179,7 +179,7 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-gradient-to-r from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
+        <section className='mb-8 bg-gradient-to-b from-indigo-500 to-indigo-600 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start text-white'>
             <FaLaptopCode className='mr-2 text-xl' />
             Technical Skills
