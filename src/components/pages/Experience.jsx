@@ -51,6 +51,7 @@ const Experience = () => {
                 src={ESI}
                 alt='ESI icon'
                 className='w-8 h-8 mr-2 object-contain'
+                loading='lazy'
               />
               Software Developer - Intern @ Exchange Solutions Inc.{" "}
               <span className='text-sm text-gray-500 ml-2'>
@@ -81,6 +82,7 @@ const Experience = () => {
                 src={presentec}
                 alt='presentec icon'
                 className='w-8 h-8 mr-2 object-contain'
+                loading='lazy'
               />
               Front-End Developer - Intern @ PresenTEC Solutions.{" "}
               <span className='text-sm text-gray-500 ml-2'>
