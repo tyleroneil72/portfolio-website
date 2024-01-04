@@ -115,6 +115,42 @@ const Experience = () => {
 
         <section className='mb-8'>
           <h2 className='text-2xl font-bold mb-3 flex items-center justify-center text-gray-50'>
+            <FaGraduationCap className='mr-2' />
+          </h2>
+          <div className='bg-white shadow-md rounded-md p-4'>
+            <p className='font-semibold flex items-center justify-between'>
+              <span className='flex items-center'>
+                <img
+                  src={gbc}
+                  alt='GBC Image'
+                  className='w-8 h-8 mr-2 object-contain'
+                  loading='lazy'
+                />
+                Advanced Diploma, George Brown College, Computer Programming and
+                Analysis{" "}
+              </span>
+              <span className='text-sm text-gray-500 ml-2'>
+                Graduating April 2025
+              </span>
+            </p>
+            <p className='font-semibold mt-2 flex items-center justify-between'>
+              <span className='flex items-center'>
+                <img
+                  src={uoft}
+                  alt='UofT Image'
+                  className='w-8 h-8 mr-2 object-contain'
+                  loading='lazy'
+                />
+                Honours Bachelor of Science, University of Toronto, Computer
+                Science and Mathematics{" "}
+              </span>
+              <span className='text-sm text-gray-500 ml-2'>2019 - 2022</span>
+            </p>
+          </div>
+        </section>
+
+        <section className='mb-8'>
+          <h2 className='text-2xl font-bold mb-3 flex items-center justify-center text-gray-50'>
             <FaLaptopCode className='mr-2' />
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
@@ -147,42 +183,6 @@ const Experience = () => {
                 Wordpress, Jira, Confluence, Slack
               </li>
             </ul>
-          </div>
-        </section>
-
-        <section className='mb-8'>
-          <h2 className='text-2xl font-bold mb-3 flex items-center justify-center text-gray-50'>
-            <FaGraduationCap className='mr-2' />
-          </h2>
-          <div className='bg-white shadow-md rounded-md p-4'>
-            <p className='font-semibold flex items-center justify-between'>
-              <span className='flex items-center'>
-                <img
-                  src={gbc}
-                  alt='GBC Image'
-                  className='w-8 h-8 mr-2 object-contain'
-                  loading='lazy'
-                />
-                Advanced Diploma, George Brown College, Computer Programming and
-                Analysis{" "}
-              </span>
-              <span className='text-sm text-gray-500 ml-2'>
-                Graduating April 2025
-              </span>
-            </p>
-            <p className='font-semibold mt-2 flex items-center justify-between'>
-              <span className='flex items-center'>
-                <img
-                  src={uoft}
-                  alt='UofT Image'
-                  className='w-8 h-8 mr-2 object-contain'
-                  loading='lazy'
-                />
-                Honours Bachelor of Science, University of Toronto, Computer
-                Science and Mathematics{" "}
-              </span>
-              <span className='text-sm text-gray-500 ml-2'>2019 - 2022</span>
-            </p>
           </div>
         </section>
       </div>
