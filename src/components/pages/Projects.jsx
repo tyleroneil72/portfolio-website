@@ -45,7 +45,7 @@ const Projects = () => {
             href={project.githubLink}
             target='_blank'
             rel='noopener noreferrer'
-            className='border-2 border-gray-300 rounded-md p-3 bg-gray-300 flex flex-col transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
+            className='border-2 border-gray-300 rounded-md p-3 bg-slate-300 flex flex-col transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
           >
             <div>
               <img
@@ -57,7 +57,7 @@ const Projects = () => {
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 {project.title}
               </h2>
-              <p className='text-gray-800 mb-4 text-sm rounded bg-gray-200 px-3 py-2'>
+              <p className='text-gray-800 mb-4 text-sm rounded bg-slate-50 px-3 py-2'>
                 {project.description}
               </p>
             </div>
