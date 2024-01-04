@@ -3,6 +3,7 @@ import Title from "../Title.jsx";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { LuConstruction } from "react-icons/lu";
+import ESI from "../../assets/images/esi.png";
 import {
   FaBriefcase,
   FaLaptopCode,
@@ -46,9 +47,11 @@ const Experience = () => {
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
             <p className='font-semibold flex items-center'>
-              <div className='text-2xl'>
-                <FaBusinessTime className='mr-2' />
-              </div>
+              <img
+                src={ESI}
+                alt='ESI icon'
+                className='w-8 h-8 mr-2 object-contain'
+              />
               Software Developer - Intern @ Exchange Solutions Inc.{" "}
               <span className='text-sm text-gray-500 ml-2'>
                 May 2023 - September 2023
