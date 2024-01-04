@@ -47,14 +47,16 @@ const Experience = () => {
             <FaBriefcase className='mr-2' />
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
-            <p className='font-semibold flex items-center'>
-              <img
-                src={ESI}
-                alt='ESI icon'
-                className='w-8 h-8 mr-2 object-contain'
-                loading='lazy'
-              />
-              Software Developer - Intern @ Exchange Solutions Inc.{" "}
+            <p className='font-semibold flex items-center justify-between'>
+              <span className='flex items-center'>
+                <img
+                  src={ESI}
+                  alt='ESI icon'
+                  className='w-8 h-8 mr-2 object-contain'
+                  loading='lazy'
+                />
+                Software Developer - Intern @ Exchange Solutions Inc.{" "}
+              </span>
               <span className='text-sm text-gray-500 ml-2'>
                 May 2023 - September 2023
               </span>
@@ -78,14 +80,16 @@ const Experience = () => {
               </li>
             </ul>
 
-            <p className='font-semibold mt-2 flex items-center'>
-              <img
-                src={presentec}
-                alt='presentec icon'
-                className='w-8 h-8 mr-2 object-contain'
-                loading='lazy'
-              />
-              Front-End Developer - Intern @ PresenTEC Solutions.{" "}
+            <p className='font-semibold mt-2 flex items-center justify-between'>
+              <span className='flex items-center'>
+                <img
+                  src={presentec}
+                  alt='presentec icon'
+                  className='w-8 h-8 mr-2 object-contain'
+                  loading='lazy'
+                />
+                Front-End Developer - Intern @ PresenTEC Solutions.{" "}
+              </span>
               <span className='text-sm text-gray-500 ml-2'>
                 December 2022 - April 2023
               </span>
@@ -151,28 +155,32 @@ const Experience = () => {
             <FaGraduationCap className='mr-2' />
           </h2>
           <div className='bg-white shadow-md rounded-md p-4'>
-            <p className='font-semibold flex items-center'>
-              <img
-                src={gbc}
-                alt='GBC Image'
-                className='w-8 h-8 mr-2 object-contain'
-                loading='lazy'
-              />
-              Advanced Diploma, George Brown College, Computer Programming and
-              Analysis{" "}
+            <p className='font-semibold flex items-center justify-between'>
+              <span className='flex items-center'>
+                <img
+                  src={gbc}
+                  alt='GBC Image'
+                  className='w-8 h-8 mr-2 object-contain'
+                  loading='lazy'
+                />
+                Advanced Diploma, George Brown College, Computer Programming and
+                Analysis{" "}
+              </span>
               <span className='text-sm text-gray-500 ml-2'>
                 Graduating April 2025
               </span>
             </p>
-            <p className='font-semibold mt-2 flex items-center'>
-              <img
-                src={uoft}
-                alt='UofT Image'
-                className='w-8 h-8 mr-2 object-contain'
-                loading='lazy'
-              />
-              Honours Bachelor of Science, University of Toronto, Computer
-              Science and Mathematics{" "}
+            <p className='font-semibold mt-2 flex items-center justify-between'>
+              <span className='flex items-center'>
+                <img
+                  src={uoft}
+                  alt='UofT Image'
+                  className='w-8 h-8 mr-2 object-contain'
+                  loading='lazy'
+                />
+                Honours Bachelor of Science, University of Toronto, Computer
+                Science and Mathematics{" "}
+              </span>
               <span className='text-sm text-gray-500 ml-2'>2019 - 2022</span>
             </p>
           </div>
