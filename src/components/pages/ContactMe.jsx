@@ -37,7 +37,7 @@ const ContactMe = () => {
       <Title title='Contact Me' />
 
       <div className={containerClasses}>
-        <div className='bg-gray-300 rounded-lg shadow-md p-6 pb-10 w-full'>
+        <div className='bg-slate-300 rounded-lg shadow-md p-6 pb-10 w-full'>
           <h2 className='text-2xl font-bold mb-4 text-gray-800 flex items-center'>
             Let's Connect!
             <span className='inline-block ml-2'>
@@ -45,7 +45,7 @@ const ContactMe = () => {
             </span>
           </h2>
 
-          <p className='text-lg mb-4 text-gray-800 rounded bg-gray-200 px-3 py-2'>
+          <p className='text-lg mb-4 text-gray-800 rounded bg-slate-50 px-3 py-2'>
             Thank you for exploring my portfolio! Your visit means a lot as I
             strive to connect with potential opportunities. I'm enthusiastic
             about the prospect of collaborating or discussing how my skills
