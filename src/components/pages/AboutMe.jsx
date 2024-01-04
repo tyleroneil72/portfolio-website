@@ -111,12 +111,12 @@ const AboutMe = () => {
           <Button href='/resume.pdf' text='View Resume' />
         </div>
 
-        <div className='border-2 border-gray-300 p-4 w-[calc(100%-2rem)] md:w-2/3 lg:w-2/3 rounded-lg bg-gray-300 mb-14'>
+        <div className='border-2 border-gray-300 p-4 w-[calc(100%-2rem)] md:w-2/3 lg:w-2/3 rounded-lg bg-slate-300 mb-14'>
           <p className='text-lg font-semibold mb-4 text-gray-900'>
             tyleroneil/AboutMe<span className='text-gray-600'>.md</span>
           </p>
 
-          <p className='text-gray-800 rounded bg-gray-200 px-3'>
+          <p className='text-gray-800 rounded bg-slate-50 px-3'>
             <h2 className='text-2xl font-bold mb-2 text-gray-900'>
               Hi, I'm Tyler O'Neil!
             </h2>
@@ -127,7 +127,7 @@ const AboutMe = () => {
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 Profile
               </h2>
-              <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
+              <p className='text-gray-800 rounded bg-slate-50 px-3 py-2'>
                 Highly motivated aspiring Software Developer with hands-on
                 experience in crafting applications and websites. I've served as
                 a{" "}
@@ -163,7 +163,7 @@ const AboutMe = () => {
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 Hobbies and Interests
               </h2>
-              <p className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
+              <p className='text-gray-800 rounded bg-slate-50 px-3 py-2'>
                 Programming is more than a job for me; it's a passion. I'm
                 constantly diving into new side projects and experimenting with
                 the latest tech trends. I particularly enjoy creating things
@@ -189,7 +189,7 @@ const AboutMe = () => {
               <h2 className='text-xl font-semibold mb-2 text-gray-900'>
                 My Skills and Tools
               </h2>
-              <div className='text-gray-800 rounded bg-gray-200 px-3 py-2'>
+              <div className='text-gray-800 rounded bg-slate-50 px-3 py-2'>
                 <p className='flex items-center justify-center pb-2'>
                   <img
                     src='https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,expressjs,php,python,java,cs,bash'
