@@ -19,6 +19,8 @@ import {
 const Experience = () => {
   const [fadeIn, setFadeIn] = useState(false);
 
+  const size = 25;
+
   useEffect(() => {
     setFadeIn(true);
   }, []);
@@ -180,43 +182,53 @@ const Experience = () => {
         </section>
 
         <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>
-          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
+          <h2 className='text-3xl font-extrabold mb-4 flex justify-center items-center md:justify-start'>
             <FaLaptopCode className='mr-2 text-xl' />
             Technical Skills
           </h2>
-          <div className='bg-slate-50 rounded-md p-6 shadow-sm'>
+          <div className='bg-slate-50 rounded-md p-6 shadow-sm text-center md:text-left'>
             <ul className='space-y-4'>
-              <li className='flex items-center text-gray-700'>
-                <div className='text-2xl my-1'>
-                  <FaCode className='text-green-500 mr-2 text-2xl' />
+              <li className='flex flex-col items-center md:items-start text-gray-700'>
+                <div className='flex items-center mb-2'>
+                  <FaCode
+                    className='text-green-500 mr-2 text-2xl'
+                    size={size}
+                  />
+                  <span className='font-semibold'>Languages:</span>
                 </div>
-                <span className='font-semibold mr-1'>Languages:</span>
-                Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL
+                <p>Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL</p>
               </li>
-              <li className='flex items-center text-gray-700'>
-                <div className='text-2xl my-1'>
-                  <FaTools className='text-blue-500 mr-2' />
+              <li className='flex flex-col items-center md:items-start text-gray-700'>
+                <div className='flex items-center mb-2'>
+                  <FaTools className='text-blue-500 mr-2' size={size} />
+                  <span className='font-semibold'>
+                    Technologies and Frameworks:
+                  </span>
                 </div>
-                <span className='font-semibold mr-1'>
-                  Technologies and Frameworks:
-                </span>
-                HTML, CSS, Node.js, Express.js, React.js, Vite, Tailwind CSS,
-                Bootstrap, .NET
+                <p>
+                  HTML, CSS, Node.js, Express.js, React.js, Vite, Tailwind CSS,
+                  Bootstrap, .NET
+                </p>
               </li>
-              <li className='flex items-center text-gray-700'>
-                <div className='text-2xl my-1'>
-                  <FaDatabase className='text-red-500 mr-2' />
+              <li className='flex flex-col items-center md:items-start text-gray-700'>
+                <div className='flex items-center mb-2'>
+                  <FaDatabase className='text-red-500 mr-2' size={size} />
+                  <span className='font-semibold'>Databases:</span>
                 </div>
-                <span className='font-semibold mr-1'>Databases:</span>
-                MySQL, Snowflake
+                <p>MySQL, Snowflake</p>
               </li>
-              <li className='flex items-center text-gray-700'>
-                <div className='text-2xl my-1'>
-                  <FaTools className='text-yellow-500 mr-2 text-2xl' />
+              <li className='flex flex-col items-center md:items-start text-gray-700'>
+                <div className='flex items-center mb-2'>
+                  <FaTools
+                    className='text-yellow-500 mr-2 text-2xl'
+                    size={size}
+                  />
+                  <span className='font-semibold'>Development Tools:</span>
                 </div>
-                <span className='font-semibold mr-1'>Development Tools:</span>
-                AWS, Linux, Git/Github, Firebase Hosting, Wordpress, Jira,
-                Confluence, Slack
+                <p>
+                  AWS, Linux, Git/Github, Firebase Hosting, Wordpress, Jira,
+                  Confluence, Slack
+                </p>
               </li>
             </ul>
           </div>
