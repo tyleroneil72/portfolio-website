@@ -14,6 +14,7 @@ const skills = [
   "Python",
   "SQL",
   "MySQL",
+  "Oracle SQL",
   "Snowflake",
   "Git",
   "Github",
@@ -22,6 +23,7 @@ const skills = [
   "AWS",
   "Firebase",
   "Wordpress",
+  "R",
 ];
 
 export default skills;

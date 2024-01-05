@@ -192,8 +192,8 @@ const AboutMe = () => {
               <div className='text-gray-800 rounded bg-slate-50 px-3 py-2'>
                 <p className='flex items-center justify-center pb-2'>
                   <img
-                    src='https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,expressjs,php,python,java,cs,bash'
-                    alt='HTML, CSS, Bootstrap, Tailwind, JavaScript, TypeScript, React, Node.js, Express.js, PHP, Python, Java, C#, Bash'
+                    src='https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,ts,react,nodejs,expressjs,php,python,java,cs,bash,r'
+                    alt='HTML, CSS, Bootstrap, Tailwind, JavaScript, TypeScript, React, Node.js, Express.js, PHP, Python, Java, C#, Bash, R'
                     loading='lazy'
                   />
                 </p>

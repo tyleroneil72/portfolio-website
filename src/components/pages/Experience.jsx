@@ -197,7 +197,7 @@ const Experience = () => {
                   <span className='font-semibold text-xl'>Languages</span>
                 </div>
                 <p className='text-lg'>
-                  Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL
+                  Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL, R
                 </p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
@@ -217,7 +217,7 @@ const Experience = () => {
                   <FaDatabase className='text-red-500 md:mr-2' size={size} />
                   <span className='font-semibold text-xl'>Databases</span>
                 </div>
-                <p className='text-lg'>MySQL, Snowflake</p>
+                <p className='text-lg'>MySQL, Oracle SQL, Snowflake</p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
