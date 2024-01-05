@@ -194,15 +194,15 @@ const Experience = () => {
                     className='text-green-500 md:mr-2 text-2xl'
                     size={size}
                   />
-                  <span className='font-semibold'>Languages:</span>
+                  <span className='font-semibold text-xl'>Languages</span>
                 </div>
                 <p>Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL</p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
                   <FaTools className='text-blue-500 md:mr-2' size={size} />
-                  <span className='font-semibold'>
-                    Technologies and Frameworks:
+                  <span className='font-semibold text-xl'>
+                    Technologies and Frameworks
                   </span>
                 </div>
                 <p>
@@ -213,7 +213,7 @@ const Experience = () => {
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
                   <FaDatabase className='text-red-500 md:mr-2' size={size} />
-                  <span className='font-semibold'>Databases:</span>
+                  <span className='font-semibold text-xl'>Databases</span>
                 </div>
                 <p>MySQL, Snowflake</p>
               </li>
@@ -223,7 +223,9 @@ const Experience = () => {
                     className='text-yellow-500 md:mr-2 text-2xl'
                     size={size}
                   />
-                  <span className='font-semibold'>Development Tools:</span>
+                  <span className='font-semibold text-xl'>
+                    Development Tools
+                  </span>
                 </div>
                 <p>
                   AWS, Linux, Git/Github, Firebase Hosting, Wordpress, Jira,
