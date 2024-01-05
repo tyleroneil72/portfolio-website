@@ -135,7 +135,7 @@ const AboutMe = () => {
                   href='https://www.exchangesolutions.com/'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-gray-200 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                  className='text-slate-50 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
                 >
                   Software Developer Intern at Exchange Solutions Inc
                 </a>
@@ -146,7 +146,7 @@ const AboutMe = () => {
                   href='https://presentecsolutions.com/'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-gray-200 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                  className='text-slate-50 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
                 >
                   Front-End Developer Intern at PresenTEC Solutions
                 </a>{" "}
@@ -176,7 +176,7 @@ const AboutMe = () => {
                   href='https://www.chess.com/member/tyleroneil'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-gray-200 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
+                  className='text-slate-50 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
                 >
                   Chess.com
                 </a>

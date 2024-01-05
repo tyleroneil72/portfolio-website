@@ -52,7 +52,7 @@ const ContactMe = () => {
             align with your needs. Whether you have inquiries, job
             opportunities, or simply want to connect, please feel free to reach
             out via the form below or directly at{" "}
-            <span className='text-gray-200 bg-indigo-400 rounded px-1 py-1'>
+            <span className='text-slate-50 bg-indigo-400 rounded px-1 py-1'>
               tyleroneildev@gmail.com
             </span>{" "}
             or connect with me on{" "}
