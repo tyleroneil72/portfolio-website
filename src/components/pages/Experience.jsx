@@ -196,7 +196,9 @@ const Experience = () => {
                   />
                   <span className='font-semibold text-xl'>Languages</span>
                 </div>
-                <p>Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL</p>
+                <p className='text-lg'>
+                  Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL
+                </p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
@@ -205,7 +207,7 @@ const Experience = () => {
                     Technologies and Frameworks
                   </span>
                 </div>
-                <p>
+                <p className='text-lg'>
                   HTML, CSS, Node.js, Express.js, React.js, Vite, Tailwind CSS,
                   Bootstrap, .NET
                 </p>
@@ -215,7 +217,7 @@ const Experience = () => {
                   <FaDatabase className='text-red-500 md:mr-2' size={size} />
                   <span className='font-semibold text-xl'>Databases</span>
                 </div>
-                <p>MySQL, Snowflake</p>
+                <p className='text-lg'>MySQL, Snowflake</p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
@@ -227,7 +229,7 @@ const Experience = () => {
                     Development Tools
                   </span>
                 </div>
-                <p>
+                <p className='text-lg'>
                   AWS, Linux, Git/Github, Firebase Hosting, Wordpress, Jira,
                   Confluence, Slack
                 </p>
