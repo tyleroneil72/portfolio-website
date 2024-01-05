@@ -189,9 +189,9 @@ const Experience = () => {
           <div className='bg-slate-50 rounded-md p-6 shadow-sm text-center md:text-left'>
             <ul className='space-y-4'>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
-                <div className='flex items-center mb-2'>
+                <div className='flex flex-col md:flex-row items-center mb-2'>
                   <FaCode
-                    className='text-green-500 mr-2 text-2xl'
+                    className='text-green-500 md:mr-2 text-2xl'
                     size={size}
                   />
                   <span className='font-semibold'>Languages:</span>
@@ -199,8 +199,8 @@ const Experience = () => {
                 <p>Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL</p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
-                <div className='flex items-center mb-2'>
-                  <FaTools className='text-blue-500 mr-2' size={size} />
+                <div className='flex flex-col md:flex-row items-center mb-2'>
+                  <FaTools className='text-blue-500 md:mr-2' size={size} />
                   <span className='font-semibold'>
                     Technologies and Frameworks:
                   </span>
@@ -211,16 +211,16 @@ const Experience = () => {
                 </p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
-                <div className='flex items-center mb-2'>
-                  <FaDatabase className='text-red-500 mr-2' size={size} />
+                <div className='flex flex-col md:flex-row items-center mb-2'>
+                  <FaDatabase className='text-red-500 md:mr-2' size={size} />
                   <span className='font-semibold'>Databases:</span>
                 </div>
                 <p>MySQL, Snowflake</p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
-                <div className='flex items-center mb-2'>
+                <div className='flex flex-col md:flex-row items-center mb-2'>
                   <FaTools
-                    className='text-yellow-500 mr-2 text-2xl'
+                    className='text-yellow-500 md:mr-2 text-2xl'
                     size={size}
                   />
                   <span className='font-semibold'>Development Tools:</span>
