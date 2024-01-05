@@ -190,16 +190,16 @@ const Experience = () => {
                 <div className='text-2xl my-1'>
                   <FaCode className='text-green-500 mr-2 text-2xl' />
                 </div>
-                <span className='font-semibold'>Languages:</span>{" "}
+                <span className='font-semibold mr-1'>Languages:</span>
                 Javascript/Typescript, Python, Java, C#, Bash, PHP, SQL
               </li>
               <li className='flex items-center text-gray-700'>
                 <div className='text-2xl my-1'>
                   <FaTools className='text-blue-500 mr-2' />
                 </div>
-                <span className='font-semibold'>
+                <span className='font-semibold mr-1'>
                   Technologies and Frameworks:
-                </span>{" "}
+                </span>
                 HTML, CSS, Node.js, Express.js, React.js, Vite, Tailwind CSS,
                 Bootstrap, .NET
               </li>
@@ -207,15 +207,15 @@ const Experience = () => {
                 <div className='text-2xl my-1'>
                   <FaDatabase className='text-red-500 mr-2' />
                 </div>
-                <span className='font-semibold'>Databases:</span> MySQL,
-                Snowflake
+                <span className='font-semibold mr-1'>Databases:</span>
+                MySQL, Snowflake
               </li>
               <li className='flex items-center text-gray-700'>
                 <div className='text-2xl my-1'>
                   <FaTools className='text-yellow-500 mr-2 text-2xl' />
                 </div>
-                <span className='font-semibold'>Development Tools:</span> AWS,
-                Linux, Git/Github, Firebase Hosting, Wordpress, Jira,
+                <span className='font-semibold mr-1'>Development Tools:</span>
+                AWS, Linux, Git/Github, Firebase Hosting, Wordpress, Jira,
                 Confluence, Slack
               </li>
             </ul>
