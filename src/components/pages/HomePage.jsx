@@ -59,7 +59,7 @@ function HomePage() {
             Should you have any inquiries or wish to get in touch, please feel
             free to contact me.
           </p>
-
+          {/* Github API Rate Limit sometimes will exceed. TODO: Deploy own instance */}
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
             <div className='w-full'>
               <a
