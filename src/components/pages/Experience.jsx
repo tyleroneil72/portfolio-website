@@ -152,7 +152,8 @@ const Experience = () => {
               <li>
                 Relevant Courses: Advanced Web Programming, Introduction to
                 Full-Stack Development, Advanced Database Development, Advanced
-                Object Oriented Programming, Linux Essentials
+                Object Oriented Programming, Linux Essentials, Data Structures
+                and Algorithms, Agile Software Development
               </li>
             </ul>
             <p className='font-semibold mt-4 flex items-center justify-between border-b pb-3 mb-3'>
