@@ -21,6 +21,8 @@ const techStack = [
   "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
   "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white",
   "https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white",
+  "https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white",
+  "https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white",
 ];
 
 export default techStack;

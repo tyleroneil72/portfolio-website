@@ -4,6 +4,7 @@ import hrPayroll from "../images/hrAndPayroll.png";
 import sorting from "../images/sorting.jpeg";
 import misc from "../images/misc.jpeg";
 import portfolio from "../images/portfolio.png";
+import gpterminal from "../images/GPTerminal.png";
 import techStack from "./techStack";
 
 const projects = [
@@ -75,6 +76,22 @@ const projects = [
   },
   {
     id: 6,
+    title: "GPTerminal",
+    image: gpterminal,
+    description:
+      "GPTerminal is a CLI application that brings the power of chat-based GPT models to your terminal. With GPTerminal, you can have interactive conversations with an AI-powered chatbot right from your command line. This program is currently Linux and Mac only. Please note that this project is currently under active development.",
+    githubLink: "https://github.com/tyleroneil72/GPTerminal",
+    techstack: [
+      techStack[0],
+      techStack[19],
+      techStack[8],
+      techStack[22],
+      techStack[23],
+      techStack[4],
+    ],
+  },
+  {
+    id: 7,
     title: "Miscellaneous Projects",
     image: misc,
     description:
