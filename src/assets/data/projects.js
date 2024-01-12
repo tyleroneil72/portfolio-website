@@ -67,15 +67,6 @@ const projects = [
   },
   {
     id: 5,
-    title: "Portfolio Website",
-    image: portfolio,
-    description:
-      "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. (This is the project you are currently viewing!)",
-    githubLink: "https://github.com/tyleroneil72/portfolio-website",
-    techstack: [techStack[1], techStack[17], techStack[18]],
-  },
-  {
-    id: 6,
     title: "GPTerminal",
     image: gpterminal,
     description:
@@ -89,6 +80,15 @@ const projects = [
       techStack[23],
       techStack[4],
     ],
+  },
+  {
+    id: 6,
+    title: "Portfolio Website",
+    image: portfolio,
+    description:
+      "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. (This is the project you are currently viewing!)",
+    githubLink: "https://github.com/tyleroneil72/portfolio-website",
+    techstack: [techStack[1], techStack[17], techStack[18]],
   },
   {
     id: 7,
