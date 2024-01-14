@@ -56,17 +56,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "Sorting Algorithm Visualizer",
-    image: sorting,
-    description:
-      "This project is a web application designed to visualize the workings of various sorting algorithms, including Bubble Sort, Selection Sort, Insertion Sort, Heap Sort, and Quick Sort. Through dynamic and interactive visualizations, users can observe the step-by-step execution of these algorithms and compare their performance metrics.",
-    githubLink: "https://github.com/tyleroneil72/sorting-algorithm-visualizer",
-    productionLink:
-      "https://htmlpreview.github.io/?https://github.com/tyleroneil72/sorting-algorithm-visualizer/blob/main/sorting_algorithms/index.html",
-    techstack: [techStack[0], techStack[14], techStack[15], techStack[16]],
-  },
-  {
-    id: 5,
     title: "GPTerminal",
     image: gpterminal,
     description:
@@ -80,6 +69,17 @@ const projects = [
       techStack[23],
       techStack[4],
     ],
+  },
+  {
+    id: 5,
+    title: "Sorting Algorithm Visualizer",
+    image: sorting,
+    description:
+      "This project is a web application designed to visualize the workings of various sorting algorithms, including Bubble Sort, Selection Sort, Insertion Sort, Heap Sort, and Quick Sort. Through dynamic and interactive visualizations, users can observe the step-by-step execution of these algorithms and compare their performance metrics.",
+    githubLink: "https://github.com/tyleroneil72/sorting-algorithm-visualizer",
+    productionLink:
+      "https://htmlpreview.github.io/?https://github.com/tyleroneil72/sorting-algorithm-visualizer/blob/main/sorting_algorithms/index.html",
+    techstack: [techStack[0], techStack[14], techStack[15], techStack[16]],
   },
   {
     id: 6,
