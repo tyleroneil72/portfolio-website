@@ -2,7 +2,7 @@ import chatbot from "../images/chatbot.jpeg";
 import learningPath from "../images/learningPath.png";
 import hrPayroll from "../images/hrAndPayroll.png";
 import sorting from "../images/sorting.jpeg";
-import misc from "../images/misc.jpeg";
+import folder from "../images/folder.png";
 import portfolio from "../images/portfolio.png";
 import gpterminal from "../images/GPTerminal.png";
 import techStack from "./techStack";
@@ -93,7 +93,7 @@ const projects = [
   {
     id: 7,
     title: "Miscellaneous Projects",
-    image: misc,
+    image: folder,
     description:
       "Repo for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
     githubLink: "https://github.com/tyleroneil72/misc-code",
