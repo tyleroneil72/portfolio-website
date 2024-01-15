@@ -55,9 +55,11 @@ function HomePage() {
           </h2>
           <p className='mb-6 rounded bg-slate-50 px-3 py-2'>
             Here, I present a collection of my projects and skills. I encourage
-            you to explore the site and delve into the showcased projects.
-            Should you have any inquiries or wish to get in touch, please feel
-            free to contact me.
+            you to explore the site and delve into my showcased work. Each
+            project reflects both my skills and my passion for creating
+            impactful digital solutions. For collaborations, inquiries, or
+            discussions, please feel free to reach out. Your interest and
+            perspectives are highly valued.
           </p>
           {/* Github API Rate Limit sometimes will exceed. TODO: Deploy own instance */}
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
