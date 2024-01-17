@@ -31,6 +31,11 @@ function HomePage() {
     []
   );
 
+  const theme = {
+    light: ["#f4f0ff", "#d8b4ff", "#b780ff", "#963dff", "#5a00e0"],
+    dark: ["#362b4d", "#5a4a6f", "#7c6991", "#9e87b3", "#c0a6d5"],
+  };
+
   return (
     <>
       <Notification
@@ -101,6 +106,9 @@ function HomePage() {
               username='tyleroneil72'
               fontSize={16}
               blockSize={14}
+              blockMargin={2}
+              blockRadius={1}
+              theme={theme}
             />
           </div>
         </div>
