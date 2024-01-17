@@ -97,7 +97,11 @@ function HomePage() {
             />
           </div>
           <div className='flex align-center justify-center mt-10'>
-            <GitHubCalendar username='tyleroneil72' />
+            <GitHubCalendar
+              username='tyleroneil72'
+              fontSize={16}
+              blockSize={14}
+            />
           </div>
         </div>
       </div>
