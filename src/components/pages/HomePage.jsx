@@ -5,6 +5,7 @@ import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
 import { FaArrowTurnUp } from "react-icons/fa6";
 import { MdOutlineWavingHand } from "react-icons/md";
+import GitHubCalendar from "react-github-calendar";
 import { motion } from "framer-motion";
 
 function HomePage() {
@@ -95,7 +96,9 @@ function HomePage() {
               loading='lazy'
             />
           </div>
-          {/* Add Github Calendar Here */}
+          <div className='flex align-center justify-center mt-10'>
+            <GitHubCalendar username='tyleroneil72' />
+          </div>
         </div>
       </div>
     </>
