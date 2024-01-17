@@ -32,8 +32,20 @@ function HomePage() {
   );
 
   const theme = {
-    light: ["#f4f0ff", "#d8b4ff", "#b780ff", "#963dff", "#5a00e0"],
-    dark: ["#362b4d", "#5a4a6f", "#7c6991", "#9e87b3", "#c0a6d5"],
+    light: [
+      "rgba(57, 56, 61,0.35)",
+      "rgba(106, 91, 205,0.7)",
+      "rgba(106, 91, 205,0.8)",
+      "rgba(106, 91, 205,0.9)",
+      "rgba(106, 91, 205,1)",
+    ],
+    dark: [
+      "rgba(57, 56, 61,0.35)",
+      "rgba(106, 91, 205,0.7)",
+      "rgba(106, 91, 205,0.8)",
+      "rgba(106, 91, 205,0.9)",
+      "rgba(106, 91, 205,1)",
+    ],
   };
 
   return (
@@ -102,14 +114,16 @@ function HomePage() {
             />
           </div>
           <div className='flex align-center justify-center mt-10'>
-            <GitHubCalendar
-              username='tyleroneil72'
-              fontSize={16}
-              blockSize={14}
-              blockMargin={2}
-              blockRadius={1}
-              theme={theme}
-            />
+            <div className='rounded-lg bg-slate-50 p-4 max-w-full overflow-hidden'>
+              <GitHubCalendar
+                username='tyleroneil72'
+                fontSize={16}
+                blockSize={14}
+                blockMargin={2}
+                blockRadius={0}
+                theme={theme}
+              />
+            </div>
           </div>
         </div>
       </div>
