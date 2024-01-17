@@ -1,11 +1,11 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, lazy, Suspense } from "react";
+const GitHubCalendar = lazy(() => import("react-github-calendar"));
 import Title from "../Title";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
 import { FaArrowTurnUp } from "react-icons/fa6";
 import { MdOutlineWavingHand } from "react-icons/md";
-import GitHubCalendar from "react-github-calendar";
 import { motion } from "framer-motion";
 
 function HomePage() {
@@ -115,14 +115,16 @@ function HomePage() {
           </div>
           <div className='flex align-center justify-center mt-10'>
             <div className='rounded-lg bg-slate-50 p-4 max-w-full overflow-hidden'>
-              <GitHubCalendar
-                username='tyleroneil72'
-                fontSize={16}
-                blockSize={14}
-                blockMargin={2}
-                blockRadius={0}
-                theme={theme}
-              />
+              <Suspense fallback={<div>Loading Calendar...</div>}>
+                <GitHubCalendar
+                  username='tyleroneil72'
+                  fontSize={16}
+                  blockSize={14}
+                  blockMargin={2}
+                  blockRadius={0}
+                  theme={theme}
+                />
+              </Suspense>
             </div>
           </div>
         </div>
