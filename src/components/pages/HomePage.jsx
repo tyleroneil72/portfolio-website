@@ -113,7 +113,7 @@ function HomePage() {
               loading='lazy'
             />
           </div>
-          <div className='flex align-center justify-center mt-10'>
+          <div className='flex align-center justify-center mt-5'>
             <div className='rounded-lg bg-slate-50 p-4 max-w-full overflow-hidden'>
               <Suspense fallback={<div>Loading Calendar...</div>}>
                 <GitHubCalendar
