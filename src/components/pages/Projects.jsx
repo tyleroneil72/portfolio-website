@@ -45,7 +45,7 @@ const Projects = () => {
             href={project.githubLink}
             target='_blank'
             rel='noopener noreferrer'
-            className='border-2 border-gray-300 rounded-md p-3 bg-slate-300 flex flex-col transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
+            className='border-2 border-gray-300 rounded-md p-3 bg-slate-300 flex flex-col transition-transform transform-gpu md:hover:scale-102 hover:scale:100'
           >
             <div>
               <img

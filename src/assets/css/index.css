@@ -11,3 +11,16 @@ body {
     background-color: rgb(15 23 42 / 1);
     min-height: 100vh;
 }
+/* Custom Hover Scale Effect for Medium and Larger Screens
+   - Purpose: This CSS rule adds a subtle hover scale effect to elements in Projects.jsx. 
+   - Behavior: Elements with the class 'md:hover:scale-102' will scale to 102% of their original size when hovered over, but only on screens with a minimum width of 768px (Tailwind's 'md' breakpoint).
+   - Implementation: Utilizes TailwindCSS's transform utilities to apply a consistent scaling transformation. The custom properties '--tw-scale-x' and '--tw-scale-y' are used to specify the scaling factor, while preserving other transform properties like translation, rotation, and skew.
+   - Note: This customization aligns with TailwindCSS's naming convention and responsive design approach, seamlessly integrating with the existing utility classes. 
+*/
+@media (min-width: 768px) {
+    .md\:hover\:scale-102:hover {
+        --tw-scale-x: 1.02;
+        --tw-scale-y: 1.02;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    }
+}
