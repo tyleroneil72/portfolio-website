@@ -13,7 +13,7 @@ const Footer = () => {
             href='https://github.com/tyleroneil72'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-center mx-4 hover:scale-105 transition-transform duration-300'
+            className='flex items-center mx-4 md:hover:underline transition duration-300'
           >
             <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
               <SiGithub />
@@ -24,7 +24,7 @@ const Footer = () => {
             href='https://linkedin.com/in/tyler-oneil-dev'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-center hover:scale-105 transition-transform duration-300'
+            className='flex items-center md:hover:underline transition duration-300'
           >
             <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
               <SiLinkedin />
