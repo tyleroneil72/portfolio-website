@@ -14,10 +14,9 @@ function HomePage() {
   useEffect(() => {
     setFadeIn(true);
   }, []);
-
   // Use useMemo for containerClasses to prevent unnecessary calculations
   const containerClasses = useMemo(() => {
-    return `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-20 mr-0 pb-10 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-6rem)] ${
+    return `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-[4.5rem] mr-1 pb-10 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-5rem)] ${
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
