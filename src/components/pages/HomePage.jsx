@@ -16,7 +16,7 @@ function HomePage() {
   }, []);
   // Use useMemo for containerClasses to prevent unnecessary calculations
   const containerClasses = useMemo(() => {
-    return `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-[4.5rem] mr-1 pb-10 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-5rem)] ${
+    return `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-[4.5rem] mr-1 pb-14 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-5rem)] ${
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
@@ -56,7 +56,7 @@ function HomePage() {
       <Title title={"Home Page"} />
 
       <div className={containerClasses}>
-        <div className='bg-slate-300 p-6 rounded-lg shadow-md text-gray-800 mb-8 md:mb-16 h-full'>
+        <div className='bg-slate-300 p-6 rounded-lg shadow-md text-gray-800 h-full'>
           <h2 className='text-3xl mb-4 font-semibold'>
             Welcome To My Website!
             <span className='inline-block ml-3'>
