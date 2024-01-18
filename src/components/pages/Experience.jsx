@@ -182,7 +182,7 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>
+        <section className='bg-slate-300 p-5 rounded-lg shadow-lg'>
           <h2 className='text-3xl font-extrabold mb-4 flex justify-center items-center md:justify-start'>
             <FaLaptopCode className='mr-2 text-xl' />
             Technical Skills
