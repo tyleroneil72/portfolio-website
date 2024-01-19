@@ -37,7 +37,7 @@ const ContactMe = () => {
       <Title title='Contact Me' />
 
       <div className={containerClasses}>
-        <div className='bg-slate-300 rounded-lg shadow-md px-3 py-6 md:p-6 pb-10 w-full'>
+        <div className='bg-slate-300 rounded-lg shadow-md px-3 py-4 md:px-6 pb-10 w-full'>
           <h2 className='text-3xl font-extrabold mb-4 text-gray-800 flex items-center'>
             <TfiEmail className='inline-block mr-2' />
             Let's Connect!
