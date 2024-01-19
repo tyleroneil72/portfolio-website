@@ -38,11 +38,9 @@ const ContactMe = () => {
 
       <div className={containerClasses}>
         <div className='bg-slate-300 rounded-lg shadow-md px-3 py-6 md:p-6 pb-10 w-full'>
-          <h2 className='text-2xl font-bold mb-4 text-gray-800 flex items-center'>
+          <h2 className='text-3xl font-extrabold mb-4 text-gray-800 flex items-center'>
+            <TfiEmail className='inline-block mr-2' />
             Let's Connect!
-            <span className='inline-block ml-2'>
-              <TfiEmail />
-            </span>
           </h2>
 
           <p className='text-lg mb-4 text-gray-800 rounded bg-slate-50 px-3 py-2'>
