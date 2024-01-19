@@ -54,7 +54,7 @@ function HomePage() {
       />
 
       <div className={containerClasses}>
-        <div className='bg-slate-300 px-3 py-6 md:p-6 rounded-lg shadow-md text-gray-800 h-full'>
+        <div className='bg-slate-300 px-3 py-4 md:px-6 rounded-lg shadow-md text-gray-800 h-full'>
           <h2 className='text-3xl mb-4 font-semibold'>
             Welcome To My Website!
             <span className='inline-block ml-3'>
