@@ -16,7 +16,7 @@ function HomePage() {
   }, []);
   // Use useMemo for containerClasses to prevent unnecessary calculations
   const containerClasses = useMemo(() => {
-    return `absolute mt-28 md:ml-[5.5rem] md:mr-5 ml-[4.5rem] mr-1 pb-14 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-5rem)] ${
+    return `absolute mt-5 md:ml-[5.5rem] md:mr-5 ml-[4.5rem] mr-1 pb-14 transition-opacity duration-1000 md:w-[calc(100%-7rem)] w-[calc(100%-5rem)] ${
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
@@ -53,7 +53,7 @@ function HomePage() {
         text="I'm currently seeking Summer 2024 Opportunities!"
         icon={() => iconProvider}
       />
-      <Title title={"Home Page"} />
+      {/* <Title title={"Home Page"} /> */}
 
       <div className={containerClasses}>
         <div className='bg-slate-300 px-3 py-6 md:p-6 rounded-lg shadow-md text-gray-800 h-full'>
