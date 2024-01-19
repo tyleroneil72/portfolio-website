@@ -1,6 +1,5 @@
 import { useState, useEffect, useMemo, lazy, Suspense } from "react";
 const GitHubCalendar = lazy(() => import("react-github-calendar"));
-import Title from "../Title";
 import Notification from "../effects/Notification.jsx";
 import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
@@ -53,7 +52,6 @@ function HomePage() {
         text="I'm currently seeking Summer 2024 Opportunities!"
         icon={() => iconProvider}
       />
-      {/* <Title title={"Home Page"} /> */}
 
       <div className={containerClasses}>
         <div className='bg-slate-300 px-3 py-6 md:p-6 rounded-lg shadow-md text-gray-800 h-full'>
