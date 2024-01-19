@@ -55,7 +55,7 @@ function HomePage() {
 
       <div className={containerClasses}>
         <div className='bg-slate-300 px-3 py-4 md:px-6 rounded-lg shadow-md text-gray-800 h-full'>
-          <h2 className='text-3xl mb-4 font-semibold'>
+          <h1 className='text-3xl mb-4 font-semibold'>
             Welcome To My Website!
             <span className='inline-block ml-3'>
               <motion.span
@@ -67,7 +67,7 @@ function HomePage() {
                 <MdOutlineWavingHand />
               </motion.span>
             </span>
-          </h2>
+          </h1>
           <p className='mb-6 rounded bg-slate-50 px-3 py-2'>
             Here, I present a collection of my projects and skills. I encourage
             you to explore the site and delve into my showcased work. Each
