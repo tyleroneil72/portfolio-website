@@ -95,7 +95,7 @@ const Experience = () => {
                   loading='lazy'
                 />
                 <a
-                  href='https://presentecsolutions.com/'
+                  href='https://www.linkedin.com/company/presentec-solutions-inc/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='text-blue-600 hover:text-blue-800 hover:underline'
