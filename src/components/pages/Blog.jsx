@@ -11,7 +11,7 @@ const Blog = () => {
     setFadeIn(true);
   }, []);
 
-  const containerClasses = `absolute mt-28 ml-[5.5rem] transition-opacity duration-1000 ${
+  const containerClasses = `absolute mt-24 ml-[5.5rem] transition-opacity duration-1000 ${
     fadeIn ? "opacity-100" : "opacity-0"
   }`;
 

@@ -26,7 +26,7 @@ const Experience = () => {
   }, []);
 
   const containerClasses = useMemo(() => {
-    return `absolute mt-28 ml-[4.5rem] md:ml-[5.5rem] mr-1 md:mr-5 pb-14 pt-0 transition-opacity duration-1000 text-gray-800 md:w-[calc(100%-7rem)] w-[calc(100%-5rem)] ${
+    return `absolute mt-24 ml-[4.5rem] md:ml-[5.5rem] mr-1 md:mr-5 pb-14 pt-0 transition-opacity duration-1000 text-gray-800 md:w-[calc(100%-7rem)] w-[calc(100%-5rem)] ${
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
