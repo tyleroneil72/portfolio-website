@@ -44,12 +44,12 @@ const Experience = () => {
       <Title title={"Experience"} />
 
       <div className={containerClasses}>
-        <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>
-          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
+        <section className='mb-8 bg-slate-300 p-3 rounded-lg shadow-lg'>
+          <h2 className='text-3xl font-extrabold mb-3 flex items-center justify-center md:justify-start'>
             <FaBriefcase className='mr-2 text-xl' />
             Work Experience
           </h2>
-          <div className='bg-slate-50 rounded-md p-6 shadow-sm'>
+          <div className='bg-slate-50 rounded-md p-3 shadow-sm'>
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3'>
               <span className='flex items-center text-gray-700'>
                 <img
@@ -123,12 +123,12 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='mb-8 bg-slate-300 p-5 rounded-lg shadow-lg'>
-          <h2 className='text-3xl font-extrabold mb-4 flex items-center justify-center md:justify-start'>
+        <section className='mb-8 bg-slate-300 p-3 rounded-lg shadow-lg'>
+          <h2 className='text-3xl font-extrabold mb-3 flex items-center justify-center md:justify-start'>
             <FaGraduationCap className='mr-2 text-xl' />
             Education
           </h2>
-          <div className='bg-slate-50 rounded-md p-6 shadow-sm'>
+          <div className='bg-slate-50 rounded-md p-3 shadow-sm'>
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3'>
               <span className='flex items-center text-gray-700'>
                 <img
@@ -182,12 +182,12 @@ const Experience = () => {
           </div>
         </section>
 
-        <section className='bg-slate-300 p-5 rounded-lg shadow-lg'>
-          <h2 className='text-3xl font-extrabold mb-4 flex justify-center items-center md:justify-start'>
+        <section className='bg-slate-300 p-3 rounded-lg shadow-lg'>
+          <h2 className='text-3xl font-extrabold mb-3 flex justify-center items-center md:justify-start'>
             <FaLaptopCode className='mr-2 text-xl' />
             Technical Skills
           </h2>
-          <div className='bg-slate-50 rounded-md p-6 shadow-sm text-center md:text-left'>
+          <div className='bg-slate-50 rounded-md p-3 shadow-sm text-center md:text-left'>
             <ul className='space-y-4'>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
