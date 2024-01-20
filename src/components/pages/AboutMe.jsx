@@ -55,7 +55,7 @@ const AboutMe = () => {
       <Title title={"About Me"} />
 
       <div className={containerClasses}>
-        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96'>
+        <div className='flex flex-col items-center border-b-2 border-gray-300 pb-4 md:border-b-0 md:pb-0 md:w-80 lg:w-96 md:mt-10 mt-0'>
           <img
             src={headshot}
             alt='Profile'
