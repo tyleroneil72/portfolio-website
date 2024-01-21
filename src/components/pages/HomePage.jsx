@@ -87,7 +87,7 @@ function HomePage() {
                 <img
                   src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=GPTerminal&theme=material-palenight&title_color=FFF'
                   alt='Github Repo Card'
-                  className='w-full h-auto rounded-lg shadow-md transition-transform transform-gpu md:hover:scale-105 hover:scale:100'
+                  className='w-full h-auto rounded-lg shadow-md transition-transform transform-gpu md:hover:scale-102 hover:scale:100'
                   loading='lazy'
                 />
               </a>
