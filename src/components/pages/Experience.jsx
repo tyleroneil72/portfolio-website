@@ -50,6 +50,7 @@ const Experience = () => {
             Work Experience
           </h2>
           <div className='bg-slate-50 rounded-md p-3 shadow-sm'>
+            {/* TODO: Add Tutor/TA Job when necessary */}
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3'>
               <span className='flex items-center text-gray-700'>
                 <img
