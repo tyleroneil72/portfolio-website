@@ -50,8 +50,35 @@ const Experience = () => {
             Work Experience
           </h2>
           <div className='bg-slate-50 rounded-md p-3 shadow-sm'>
-            {/* TODO: Add Tutor/TA Job when necessary */}
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3'>
+              <span className='flex items-center text-gray-700'>
+                <img
+                  src={gbc}
+                  alt='GBC icon'
+                  className='w-10 h-10 mr-2 object-contain'
+                  loading='lazy'
+                />
+                <a
+                  href='https://www.georgebrown.ca/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-blue-600 hover:text-blue-800 hover:underline'
+                >
+                  Teaching Assistant @ George Brown College
+                </a>
+              </span>
+              <span className='text-sm text-gray-500'>
+                January 2024 - Present
+              </span>
+            </p>
+            <ul className='list-disc ml-6 text-gray-700'>
+              <li>
+                Teaching assistant for COMP1234 - Introduction to Web
+                Development, COMP1235 - Introduction to Full Stack Development
+              </li>
+              <li>Additionally, I serve as a Tutor in the T177/T197 Program</li>
+            </ul>
+            <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3 mt-4'>
               <span className='flex items-center text-gray-700'>
                 <img
                   src={ESI}
