@@ -108,7 +108,7 @@ const AboutMe = () => {
               LinkedIn
             </a>
           </div>
-          <Button href='/resume.pdf' text='View Resume' />
+          <Button href='/Tyler-Oneil-Resume.pdf' text='View Resume' />
         </div>
 
         <div className='border-2 border-gray-300 p-2 md:p-4 w-full md:w-2/3 lg:w-2/3 rounded-lg bg-slate-300 mb-14'>
