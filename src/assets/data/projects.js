@@ -97,7 +97,13 @@ const projects = [
     description:
       "Repo for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
     githubLink: "https://github.com/tyleroneil72/misc-code",
-    techstack: [techStack[0], techStack[19], techStack[20], techStack[21]],
+    techstack: [
+      techStack[0],
+      techStack[19],
+      techStack[20],
+      techStack[21],
+      techStack[23],
+    ],
   },
 ];
 
