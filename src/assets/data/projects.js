@@ -88,7 +88,7 @@ const projects = [
     description:
       "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. (This is the project you are currently viewing!)",
     githubLink: "https://github.com/tyleroneil72/portfolio-website",
-    techstack: [techStack[1], techStack[17], techStack[18]],
+    techstack: [techStack[1], techStack[17], techStack[18], techStack[24]],
   },
   {
     id: 7,
