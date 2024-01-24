@@ -86,7 +86,7 @@ const App = () => {
           }}
         />
       )}
-      <Modal />
+      {/* <Modal /> */}
       {renderSelectedComponent()}
       <NavBar selected={selected} setSelected={setSelected} />
       <Footer />
