@@ -76,7 +76,10 @@ const Experience = () => {
                 Teaching assistant for COMP1234 - Introduction to Web
                 Development, COMP1235 - Introduction to Full Stack Development
               </li>
-              <li>Additionally, I serve as a Tutor in the T177/T197 Program</li>
+              <li>
+                Additionally, I contribute as a Tutor in the T177/T197 Mobihelp
+                Program
+              </li>
             </ul>
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3 mt-4'>
               <span className='flex items-center text-gray-700'>
