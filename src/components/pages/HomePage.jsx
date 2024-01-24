@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo, lazy, Suspense } from "react";
 const GitHubCalendar = lazy(() => import("react-github-calendar"));
 import Notification from "../effects/Notification.jsx";
+import Typewriter from "../effects/Typewriter.jsx";
 import { IconContext } from "react-icons";
 import { BiAlarmExclamation } from "react-icons/bi";
 import { FaArrowTurnUp } from "react-icons/fa6";
@@ -56,7 +57,11 @@ function HomePage() {
       <div className={containerClasses}>
         <div className='bg-slate-300 px-3 py-4 md:px-6 rounded-lg shadow-md text-gray-800 h-full'>
           <h1 className='text-3xl mb-4 font-semibold'>
-            Welcome To My Website!
+            <Typewriter
+              text='Welcome To My Website!'
+              delay={70}
+              infinite={false}
+            />
             <span className='inline-block ml-3'>
               <motion.span
                 className='inline-block animate-waving-hand'
