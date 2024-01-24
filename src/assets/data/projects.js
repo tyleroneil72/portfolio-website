@@ -59,7 +59,7 @@ const projects = [
     title: "GPTerminal",
     image: gpterminal,
     description:
-      "GPTerminal is a CLI application that brings the power of chat-based GPT models to your terminal. With GPTerminal, you can have interactive conversations with an AI-powered chatbot right from your command line. This program is currently Linux and Mac only. Please note that this project is currently under active development.",
+      "GPTerminal is a CLI application that brings the power of chat-based GPT models to your terminal. With GPTerminal, you can have interactive conversations with an AI-powered chatbot right from your command line. This program is currently Linux and Mac only.",
     githubLink: "https://github.com/tyleroneil72/GPTerminal",
     techstack: [
       techStack[0],
