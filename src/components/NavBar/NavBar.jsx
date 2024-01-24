@@ -59,14 +59,14 @@ const NavBar = ({ selected, setSelected }) => {
         <FaAddressCard size={navSize} />
       </NavItem>
       {/* Blog */}
-      <NavItem
+      {/* <NavItem
         selected={selected === 5}
         id={5}
         setSelected={setSelected}
         title='Blog'
       >
         <IoIosPaper size={navSize} />
-      </NavItem>
+      </NavItem> */}
     </nav>
   );
 };
