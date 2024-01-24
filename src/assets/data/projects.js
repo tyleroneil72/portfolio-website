@@ -41,7 +41,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Hr & Payroll Management System",
+    title: "HR & Payroll Management System",
     image: hrPayroll,
     description:
       "This project represents a Human Resources Payroll System developed in Java, utilizing JavaFX and Maven for its implementation. FXML and CSS were used for styling. Completed as part of an 'Application Development Using Java' course, the system facilitates employee management functionalities such as addition, editing, and deletion from the payroll. Additionally, it provides the capability to generate individual employee reports.",
