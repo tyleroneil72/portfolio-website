@@ -59,7 +59,7 @@ const Experience = () => {
                   loading='lazy'
                 />
                 <a
-                  href='https://www.georgebrown.ca/'
+                  href='https://gbc.mobihelp.ca/app/user/profile/2052'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='text-blue-600 hover:text-blue-800 hover:underline'
