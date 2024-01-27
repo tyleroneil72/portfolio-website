@@ -18,7 +18,7 @@ const NavBar = ({ selected, setSelected }) => {
         selected={selected === 0}
         id={0}
         setSelected={setSelected}
-        title='Home Page'
+        title='Home'
       >
         <HiHome size={navSize} />
       </NavItem>
