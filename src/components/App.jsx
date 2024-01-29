@@ -7,7 +7,6 @@ import Experience from "./pages/Experience.jsx";
 import ContactMe from "./pages/ContactMe.jsx";
 import Blog from "./pages/Blog.jsx";
 import Footer from "./Footer.jsx";
-import Modal from "./effects/Modal.jsx";
 import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
@@ -86,7 +85,6 @@ const App = () => {
           }}
         />
       )}
-      {/* <Modal /> */}
       {renderSelectedComponent()}
       <NavBar selected={selected} setSelected={setSelected} />
       <Footer />
