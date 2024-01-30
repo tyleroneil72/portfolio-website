@@ -241,7 +241,7 @@ const Experience = () => {
                 </div>
                 <p className='text-lg'>
                   HTML, CSS, Node.js, Express.js, React.js, Vite, Tailwind CSS,
-                  Bootstrap, .NET
+                  Bootstrap, .NET, ASP.NET Core
                 </p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
