@@ -30,7 +30,7 @@ function HomePage() {
     []
   );
 
-  const theme = {
+  const calendarTheme = {
     light: [
       "rgba(57,56,61,0.35)",
       "rgba(106,91,205,0.7)",
@@ -124,7 +124,7 @@ function HomePage() {
                   blockSize={14}
                   blockMargin={2}
                   blockRadius={0}
-                  theme={theme}
+                  theme={calendarTheme}
                 />
               </Suspense>
             </div>
