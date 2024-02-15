@@ -8,8 +8,19 @@
 }
 
 body {
-    background-color: rgb(15 23 42 / 1);
+    background-color: rgb(15, 23, 42);
     min-height: 100vh;
+}
+
+::selection {
+    background: rgba(126, 121, 228, 0.6);
+    color: #000; 
+  }
+  
+/* For browser compatibility */
+::-moz-selection {
+    background: rgba(126, 121, 228, 0.6);
+    color: #000; 
 }
 /* Custom Hover Scale Effect for Medium and Larger Screens
    - Purpose: This CSS rule adds a subtle hover scale effect to elements in Projects.jsx. 
