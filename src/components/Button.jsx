@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Button = ({ href, type, text }) => {
   const buttonClasses = "relative px-5 py-2 font-medium text-white group mt-4";
   const isAnchor = href ? true : false;
@@ -13,7 +15,7 @@ const Button = ({ href, type, text }) => {
   );
 
   return isAnchor ? (
-    <a href={href} className={buttonClasses} target='_blank'>
+    <a href={href} className={buttonClasses} target='_blank' rel='noreferrer'>
       {renderButtonContent()}
     </a>
   ) : (
@@ -21,6 +23,12 @@ const Button = ({ href, type, text }) => {
       {renderButtonContent()}
     </button>
   );
+};
+
+Button.propTypes = {
+  href: PropTypes.string,
+  type: PropTypes.string,
+  text: PropTypes.string.isRequired,
 };
 
 export default Button;
