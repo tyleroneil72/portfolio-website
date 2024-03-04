@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import PropTypes from "prop-types";
 
 // Custom hook for checking window size
 function useWindowSize() {
@@ -64,6 +65,14 @@ const NavItem = ({ children, selected, id, setSelected, title }) => {
       </AnimatePresence>
     </motion.button>
   );
+};
+
+NavItem.propTypes = {
+  children: PropTypes.node.isRequired,
+  selected: PropTypes.bool.isRequired,
+  id: PropTypes.number.isRequired,
+  setSelected: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default NavItem;

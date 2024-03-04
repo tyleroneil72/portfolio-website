@@ -63,7 +63,7 @@ const AboutMe = () => {
           />
 
           <div className='text-center'>
-            <p className='text-lg font-semibold'>Tyler O'Neil</p>
+            <p className='text-lg font-semibold'>Tyler O&apos;Neil</p>
             <p className='text-gray-400'>Aspiring Software Developer</p>
           </div>
 
@@ -118,7 +118,7 @@ const AboutMe = () => {
 
           <p className='text-gray-800 rounded bg-slate-50 px-3'>
             <h2 className='text-2xl font-bold mb-2 text-gray-900'>
-              Hi, I'm Tyler O'Neil!
+              Hi, I&apos;m Tyler O&apos;Neil!
             </h2>
           </p>
 
@@ -129,8 +129,8 @@ const AboutMe = () => {
               </h2>
               <p className='text-gray-800 rounded bg-slate-50 px-3 py-2'>
                 Highly motivated aspiring Software Developer with hands-on
-                experience in crafting applications and websites. I've served as
-                a{" "}
+                experience in crafting applications and websites. I&apos;ve
+                served as a{" "}
                 <a
                   href='https://www.exchangesolutions.com/'
                   target='_blank'
@@ -164,14 +164,14 @@ const AboutMe = () => {
                 Hobbies and Interests
               </h2>
               <p className='text-gray-800 rounded bg-slate-50 px-3 py-2'>
-                Programming is more than a job for me; it's a passion. I'm
-                constantly diving into new side projects and experimenting with
-                the latest tech trends. I particularly enjoy creating things
-                with Raspberry Pi's and Arduino's, and finding innovative ways
-                to bring ideas to life. I'm an enthusiastic NBA fan, with a
-                special loyalty to the Raptors. Additionally, I'm an avid chess
-                player, boasting a bullet rating of 1100+ and a puzzle rating of
-                2100+ on{" "}
+                Programming is more than a job for me; it&apos;s a passion.
+                I&apos;m constantly diving into new side projects and
+                experimenting with the latest tech trends. I particularly enjoy
+                creating things with Raspberry Pi&apos;s and Arduino&apos;s, and
+                finding innovative ways to bring ideas to life. I&apos;m an
+                enthusiastic NBA fan, with a special loyalty to the Raptors.
+                Additionally, I&apos;m an avid chess player, boasting a bullet
+                rating of 1100+ and a puzzle rating of 2100+ on{" "}
                 <a
                   href='https://www.chess.com/member/tyleroneil'
                   target='_blank'

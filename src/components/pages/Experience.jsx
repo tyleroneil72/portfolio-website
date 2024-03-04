@@ -177,8 +177,8 @@ const Experience = () => {
             </p>
             <ul className='list-disc ml-6 text-gray-700'>
               <li>
-                Recognized for academic excellence and placed on the dean's list
-                with a 3.81 / 4.0 GPA (Fall 2022; Winter 2023; Fall 2023)
+                Recognized for academic excellence and placed on the dean&apos;s
+                list with a 3.81 / 4.0 GPA (Fall 2022; Winter 2023; Fall 2023)
               </li>
               <li>
                 Relevant Courses: Advanced Web Programming, Introduction to

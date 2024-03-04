@@ -33,7 +33,7 @@ const App = () => {
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
     };
-  }, []);
+  }, [isMobile]);
 
   useEffect(() => {
     const handleResize = () => {

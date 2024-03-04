@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Typewriter from "./effects/Typewriter";
 
 const Title = ({ title }) => {
@@ -8,6 +9,10 @@ const Title = ({ title }) => {
       </h1>
     </div>
   );
+};
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired,
 };
 
 export default Title;

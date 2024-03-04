@@ -3,9 +3,10 @@ import { IoPerson } from "react-icons/io5";
 import { HiHome } from "react-icons/hi";
 import { FaAddressCard } from "react-icons/fa6";
 import { MdOutlineWork } from "react-icons/md";
-import { IoIosPaper } from "react-icons/io";
+// import { IoIosPaper } from "react-icons/io";
 import mainIcon from "../../assets/images/portfolio.png";
 import NavItem from "./NavItem";
+import PropTypes from "prop-types";
 
 const NavBar = ({ selected, setSelected }) => {
   const navSize = 17;
@@ -69,6 +70,11 @@ const NavBar = ({ selected, setSelected }) => {
       </NavItem> */}
     </nav>
   );
+};
+
+NavBar.propTypes = {
+  selected: PropTypes.number.isRequired,
+  setSelected: PropTypes.func.isRequired,
 };
 
 export default NavBar;
