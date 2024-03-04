@@ -40,14 +40,14 @@ const ContactMe = () => {
         <div className='bg-slate-300 rounded-lg shadow-md px-3 py-4 md:px-6 pb-10 w-full'>
           <h2 className='text-3xl font-extrabold mb-4 text-gray-800 flex items-center'>
             <TfiEmail className='inline-block mr-2' />
-            Let's Connect!
+            Let&apos;s Connect!
           </h2>
 
           <p className='text-lg mb-4 text-gray-800 rounded bg-slate-50 px-3 py-2'>
             Thank you for exploring my portfolio! Your visit means a lot as I
-            strive to connect with potential opportunities. I'm enthusiastic
-            about the prospect of collaborating or discussing how my skills
-            align with your needs. Whether you have inquiries, job
+            strive to connect with potential opportunities. I&apos;m
+            enthusiastic about the prospect of collaborating or discussing how
+            my skills align with your needs. Whether you have inquiries, job
             opportunities, or simply want to connect, please feel free to reach
             out via the form below or directly at{" "}
             <a
