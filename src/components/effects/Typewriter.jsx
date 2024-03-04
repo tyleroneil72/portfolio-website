@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 
 const Typewriter = ({ text, delay, infinite }) => {
   const [currentText, setCurrentText] = useState("");
@@ -39,6 +40,12 @@ const Typewriter = ({ text, delay, infinite }) => {
       </span>
     </span>
   );
+};
+
+Typewriter.propTypes = {
+  text: PropTypes.string.isRequired,
+  delay: PropTypes.number.isRequired,
+  infinite: PropTypes.bool.isRequired,
 };
 
 export default Typewriter;
