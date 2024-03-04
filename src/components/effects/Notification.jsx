@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
+import PropTypes from "prop-types";
 
 const Notification = ({ text, icon: Icon }) => {
   const [showNotification, setShowNotification] = useState(true);
@@ -46,6 +47,11 @@ const Notification = ({ text, icon: Icon }) => {
       )}
     </AnimatePresence>
   );
+};
+
+Notification.propTypes = {
+  text: PropTypes.string.isRequired,
+  icon: PropTypes.elementType,
 };
 
 export default Notification;
