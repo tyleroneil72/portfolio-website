@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='fixed bottom-1 md:right-5 right-1 md:scale-100 scale-95 max-w-md mx-auto bg-slate-950 rounded-md px-3 py-1 w-auto'>
       <p className='text-slate-100'>
         <span className='flex'>
-          &copy; {currentYear} Tyler O'Neil
+          &copy; {currentYear} Tyler O&apos;Neil
           <a
             href='https://github.com/tyleroneil72'
             target='_blank'
