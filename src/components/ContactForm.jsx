@@ -46,7 +46,7 @@ const ContactForm = () => {
         <div className='text-lg text-gray-800 mb-8'>
           Your message has been successfully submitted.
           <br />
-          I'll get back to you as soon as possible.
+          I&apos;ll get back to you as soon as possible.
         </div>
       </div>
     );
