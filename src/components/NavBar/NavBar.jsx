@@ -3,7 +3,7 @@ import { IoPerson } from "react-icons/io5";
 import { HiHome } from "react-icons/hi";
 import { FaAddressCard } from "react-icons/fa6";
 import { MdOutlineWork } from "react-icons/md";
-import { IoIosPaper } from "react-icons/io";
+// import { IoIosPaper } from "react-icons/io";
 import mainIcon from "../../assets/images/portfolio.png";
 import NavItem from "./NavItem";
 
