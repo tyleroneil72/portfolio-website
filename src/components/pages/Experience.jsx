@@ -240,8 +240,8 @@ const Experience = () => {
                   </span>
                 </div>
                 <p className='text-lg'>
-                  HTML, CSS, Node.js, Express.js, React.js, Vite, Tailwind CSS,
-                  Bootstrap, .NET, ASP.NET Core
+                  HTML, CSS, Node.js, Express.js, Mongoose, React.js, Vite,
+                  Tailwind CSS, Bootstrap, .NET, ASP.NET Core
                 </p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
@@ -249,7 +249,7 @@ const Experience = () => {
                   <FaDatabase className='text-red-500 md:mr-2' size={size} />
                   <span className='font-semibold text-xl'>Databases</span>
                 </div>
-                <p className='text-lg'>MySQL, Oracle SQL, Snowflake</p>
+                <p className='text-lg'>MySQL, Oracle SQL, Snowflake, MongoDB</p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
