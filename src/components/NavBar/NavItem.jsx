@@ -37,6 +37,7 @@ const NavItem = ({ children, selected, id, setSelected, title }) => {
       onMouseLeave={() => handleHover(false)}
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
+      aria-label={`Select ${title}`}
     >
       <span className='block relative z-10'>{children}</span>
       <AnimatePresence>

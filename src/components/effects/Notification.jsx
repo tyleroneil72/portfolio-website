@@ -40,7 +40,11 @@ const Notification = ({ text, icon: Icon }) => {
             </div>
           )}
           <p className='text-gray-50'>{text}</p>
-          <button onClick={handleClose} className='ml-4'>
+          <button
+            onClick={handleClose}
+            className='ml-4'
+            aria-label='Close notification'
+          >
             <FiX className='w-4 h-4 text-gray-200' />
           </button>
         </motion.div>
