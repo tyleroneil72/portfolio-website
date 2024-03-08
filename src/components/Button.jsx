@@ -19,7 +19,11 @@ const Button = ({ href, type, text }) => {
       {renderButtonContent()}
     </a>
   ) : (
-    <button type={type} className={buttonClasses}>
+    <button
+      type={type}
+      className={buttonClasses}
+      aria-label='Submit Form Button'
+    >
       {renderButtonContent()}
     </button>
   );
