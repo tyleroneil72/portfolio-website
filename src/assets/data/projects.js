@@ -86,7 +86,7 @@ const projects = [
     title: "Chat Room",
     image: chatbot,
     description:
-      "a chatroom application built to understand the workings of WebSockets. The application allows users to join different chat rooms, send messages in real-time, and see active participants in each room.",
+      "This is a chatroom application built to understand the workings of WebSockets. The application allows users to join different chat rooms, send messages in real-time, and see active participants in each room.",
     githubLink: "https://github.com/tyleroneil72/chat-room",
     techstack: [
       techStack[0],
