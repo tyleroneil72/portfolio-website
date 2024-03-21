@@ -5,6 +5,7 @@ import sorting from "../images/sorting.jpeg";
 import folder from "../images/folder.png";
 import portfolio from "../images/portfolio.png";
 import gpterminal from "../images/GPTerminal.png";
+import chatRoom from "../images/chatRoom.png";
 import techStack from "./techStack";
 
 const projects = [
@@ -83,6 +84,23 @@ const projects = [
   },
   {
     id: 6,
+    title: "Chat Room",
+    image: chatRoom,
+    description:
+      "This is a chatroom application built to understand the workings of WebSockets. The application allows users to join different chat rooms, send messages in real-time, and see active participants in each room.",
+    githubLink: "https://github.com/tyleroneil72/chat-room",
+    techstack: [
+      techStack[0],
+      techStack[14],
+      techStack[15],
+      techStack[16],
+      techStack[2],
+      techStack[3],
+      techStack[25],
+    ],
+  },
+  {
+    id: 7,
     title: "Portfolio Website",
     image: portfolio,
     description:
@@ -91,7 +109,7 @@ const projects = [
     techstack: [techStack[1], techStack[17], techStack[18], techStack[24]],
   },
   {
-    id: 7,
+    id: 8,
     title: "Miscellaneous Projects",
     image: folder,
     description:
