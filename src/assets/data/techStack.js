@@ -25,6 +25,7 @@ const techStack = [
   "https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white",
   "https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white",
   "https://img.shields.io/badge/Web%20Sockets-404D59?style=for-the-badge",
+  "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white",
 ];
 
 export default techStack;

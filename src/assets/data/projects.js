@@ -91,12 +91,12 @@ const projects = [
     githubLink: "https://github.com/tyleroneil72/chat-room",
     techstack: [
       techStack[0],
-      techStack[14],
-      techStack[15],
-      techStack[16],
+      techStack[1],
+      techStack[26],
       techStack[2],
       techStack[3],
       techStack[25],
+      techStack[24],
     ],
   },
   {
