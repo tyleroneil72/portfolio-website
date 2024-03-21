@@ -96,6 +96,7 @@ const projects = [
       techStack[16],
       techStack[2],
       techStack[3],
+      techStack[25],
     ],
   },
   {
