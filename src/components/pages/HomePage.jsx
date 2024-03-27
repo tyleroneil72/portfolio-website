@@ -92,7 +92,7 @@ function HomePage() {
               loading='lazy'
             />
             <img
-              src='https://github-readme-stats.vercel.app/api?username=tyleroneil72&show_icons=true&theme=material-palenight&hide_rank=true&title_color=FFF'
+              src='https://github-readme-stats.vercel.app/api?username=tyleroneil72&show_icons=true&theme=material-palenight&hide_rank=true&title_color=FFF&hide=contribs&show=discussions_started'
               alt='Github Stats Card'
               className='w-full h-auto rounded-lg shadow-md'
               loading='lazy'
