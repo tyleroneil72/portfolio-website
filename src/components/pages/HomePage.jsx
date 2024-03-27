@@ -1,9 +1,6 @@
 import { useState, useEffect, useMemo, lazy, Suspense } from "react";
 const GitHubCalendar = lazy(() => import("react-github-calendar"));
-import Notification from "../effects/Notification.jsx";
 import Typewriter from "../effects/Typewriter.jsx";
-import { IconContext } from "react-icons";
-import { BiAlarmExclamation } from "react-icons/bi";
 import { FaArrowTurnUp } from "react-icons/fa6";
 import { MdOutlineWavingHand } from "react-icons/md";
 import { motion } from "framer-motion";
@@ -20,15 +17,6 @@ function HomePage() {
       fadeIn ? "opacity-100" : "opacity-0"
     }`;
   }, [fadeIn]);
-
-  const iconProvider = useMemo(
-    () => (
-      <IconContext.Provider value={{ className: "w-5 h-5" }}>
-        <BiAlarmExclamation />
-      </IconContext.Provider>
-    ),
-    []
-  );
 
   const calendarTheme = {
     light: [
@@ -49,11 +37,6 @@ function HomePage() {
 
   return (
     <>
-      <Notification
-        text="I'm currently seeking Summer 2024 Opportunities!"
-        icon={() => iconProvider}
-      />
-
       <div className={containerClasses}>
         <div className='bg-slate-300 px-3 py-4 md:px-6 rounded-lg shadow-md text-gray-800 h-full'>
           <h1 className='text-3xl mb-4 font-semibold'>
