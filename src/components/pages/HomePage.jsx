@@ -99,7 +99,7 @@ function HomePage() {
             />
           </div>
           <div className='flex align-center justify-center mt-5'>
-            <div className='rounded-lg bg-slate-50 p-4 max-w-full overflow-hidden'>
+            {/*<div className='rounded-lg bg-slate-50 p-4 max-w-full overflow-hidden'>
               <Suspense fallback={<div>Loading Calendar...</div>}>
                 <GitHubCalendar
                   username='tyleroneil72'
@@ -110,7 +110,7 @@ function HomePage() {
                   theme={calendarTheme}
                 />
               </Suspense>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
