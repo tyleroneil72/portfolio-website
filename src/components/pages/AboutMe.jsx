@@ -199,8 +199,8 @@ const AboutMe = () => {
                 </p>
                 <p className='flex items-center justify-center'>
                   <img
-                    src='https://skillicons.dev/icons?i=aws,vscode,visualstudio,git,github,linux,mysql,mongodb,wordpress,firebase,dotnet,vite,raspberrypi,latex'
-                    alt='AWS, VSCode, Visual Studio, Git, Github, Linux, MySQL, MongoDB, Wordpress, Firebase, .Net, Vite, Raspberry Pi, LaTeX'
+                    src='https://skillicons.dev/icons?i=aws,vscode,visualstudio,git,github,linux,mysql,sqlite,mongodb,wordpress,firebase,dotnet,vite,raspberrypi,latex'
+                    alt='AWS, VSCode, Visual Studio, Git, Github, Linux, MySQL, SQLite, MongoDB, Wordpress, Firebase, .Net, Vite, Raspberry Pi, LaTeX'
                     loading='lazy'
                   />
                 </p>
