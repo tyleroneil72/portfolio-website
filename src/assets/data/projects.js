@@ -6,6 +6,7 @@ import folder from "../images/folder.png";
 import portfolio from "../images/portfolio.png";
 import gpterminal from "../images/GPTerminal.png";
 import chatRoom from "../images/chatRoom.png";
+import connectFour from "../images/connectFour.png";
 import techStack from "./techStack";
 
 const projects = [
@@ -102,7 +103,7 @@ const projects = [
   {
     id: 3,
     title: "Minimax Algorithm for the Connect Four Game",
-    image: hrPayroll,
+    image: connectFour,
     description:
       "This project features a Java application of Connect Four, using a Minimax algorithm with alpha-beta pruning for the AI. The Minimax algorithm is employed to forecast possible moves and their outcomes, enabling the AI to make strategic decisions. Alpha-beta pruning is integrated to trim down the search tree, reducing the number of nodes evaluated and speeding up the decision process. This results in a more challenging and efficient AI opponent.",
     githubLink: "https://github.com/tyleroneil72/connect-four-mini-max",
