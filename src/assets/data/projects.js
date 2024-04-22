@@ -7,11 +7,36 @@ import portfolio from "../images/portfolio.png";
 import gpterminal from "../images/GPTerminal.png";
 import chatRoom from "../images/chatRoom.png";
 import connectFour from "../images/connectFour.png";
+import webVoyager from "../images/webVoyager.png";
 import techStack from "./techStack";
 
 const projects = [
   {
     id: 1,
+    title: "Web Voyager",
+    image: webVoyager,
+    description:
+      "Web Voyager is a comprehensive travel platform designed to simplify the planning process for travelers around the globe. This ASP.NET Core MVC application serves as a one-stop shop for booking flights, hotels, and car rentals, offering users a seamless and intuitive interface to explore a wide range of travel options. Implementing Microsoft's Identity Technology for Authorization and Authentication for security.",
+    githubLink: "https://github.com/tyleroneil72/web-voyager",
+    productionLink: "https://web-voyager.azurewebsites.net/",
+    techstack: [
+      techStack[0],
+      techStack[28],
+      techStack[20],
+      techStack[14],
+      techStack[15],
+      techStack[7],
+      techStack[16],
+      techStack[29],
+      techStack[6],
+      techStack[30],
+      techStack[31],
+      techStack[32],
+      techStack[27],
+    ],
+  },
+  {
+    id: 2,
     title: "Chat Bot",
     image: chatbot,
     description:
@@ -26,7 +51,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Learning Path Creator",
     image: learningPath,
     description:
@@ -42,7 +67,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "HR & Payroll Management System",
     image: hrPayroll,
     description:
@@ -57,7 +82,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "GPTerminal",
     image: gpterminal,
     description:
@@ -73,7 +98,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Sorting Algorithm Visualizer",
     image: sorting,
     description:
@@ -84,7 +109,7 @@ const projects = [
     techstack: [techStack[0], techStack[14], techStack[15], techStack[16]],
   },
   {
-    id: 6,
+    id: 7,
     title: "Chat Room",
     image: chatRoom,
     description:
@@ -101,7 +126,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 8,
     title: "Minimax Algorithm for the Connect Four Game",
     image: connectFour,
     description:
@@ -110,7 +135,7 @@ const projects = [
     techstack: [techStack[0], techStack[10]],
   },
   {
-    id: 7,
+    id: 9,
     title: "Portfolio Website",
     image: portfolio,
     description:
@@ -119,7 +144,7 @@ const projects = [
     techstack: [techStack[1], techStack[17], techStack[18], techStack[24]],
   },
   {
-    id: 8,
+    id: 10,
     title: "Miscellaneous Projects",
     image: folder,
     description:
