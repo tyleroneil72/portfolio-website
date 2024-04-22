@@ -143,7 +143,7 @@ const AboutMe = () => {
                 applications like Retrieval Augmented AI Agents and Digital
                 Coupon Automation. Additionally, my role as a{" "}
                 <a
-                  href='https://www.linkedin.com/company/presentec-solutions-inc/'
+                  href='https://presentecsolutions.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='text-slate-50 bg-indigo-400 rounded px-1 py-1 hover:underline hover:text-white'
