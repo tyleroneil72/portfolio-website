@@ -68,12 +68,12 @@ function HomePage() {
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
             <div className='w-full'>
               <a
-                href='https://github.com/tyleroneil72/chat-room'
+                href='https://github.com/tyleroneil72/web-voyager'
                 target='_blank'
                 rel='noopener noreferrer'
               >
                 <img
-                  src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=chat-room&theme=material-palenight&title_color=FFF'
+                  src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=web-voyager&theme=material-palenight&title_color=FFF'
                   alt='Github Repo Card'
                   className='w-full h-auto rounded-lg shadow-md transition-transform transform-gpu md:hover:scale-102 hover:scale:100'
                   loading='lazy'
