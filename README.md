@@ -2,12 +2,12 @@
 
 ![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![Render](https://img.shields.io/badge/Render-404D59?style=for-the-badge)
 ![eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 
 ## Description
 
-This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Firebase. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. Contact form powered by [Herotofu](https://herotofu.com/).
+This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. Contact form powered by [Herotofu](https://herotofu.com/).
 
 ## Link
 
