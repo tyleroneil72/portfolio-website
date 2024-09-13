@@ -59,6 +59,41 @@ const Experience = () => {
                   loading='lazy'
                 />
                 <a
+                  href='https://www.georgebrown.ca/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-blue-600 hover:text-blue-800 hover:underline'
+                >
+                  Vice President @ George Brown College Computer Science Club
+                </a>
+              </span>
+              <span className='text-sm text-gray-500'>
+                September 2024 - Present
+              </span>
+            </p>
+            <ul className='list-disc ml-6 text-gray-700'>
+              <li>
+                Organizing meetings and planning events to foster collaboration
+                and learning among members.
+              </li>
+              <li>
+                Coordinating workshops, guest speaker sessions, and hackathons
+                for skill development and networking.
+              </li>
+              <li>
+                Leading event logistics and ensuring activities align with the
+                club’s mission.
+              </li>
+            </ul>
+            <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3 mt-3'>
+              <span className='flex items-center text-gray-700'>
+                <img
+                  src={gbc}
+                  alt='GBC icon'
+                  className='w-10 h-10 mr-2 object-contain'
+                  loading='lazy'
+                />
+                <a
                   href='https://gbc.mobihelp.ca/app/user/profile/2052'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -79,6 +114,41 @@ const Experience = () => {
               <li>
                 Additionally, I contribute as a Tutor in the T177/T197 Mobihelp
                 Program
+              </li>
+            </ul>
+            <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3 mt-3'>
+              <span className='flex items-center text-gray-700'>
+                <img
+                  src={ESI}
+                  alt='ESI icon'
+                  className='w-10 h-10 mr-2 object-contain'
+                  loading='lazy'
+                />
+                <a
+                  href='https://www.exchangesolutions.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-blue-600 hover:text-blue-800 hover:underline'
+                >
+                  Software Developer - Intern @ Exchange Solutions Inc.
+                </a>
+              </span>
+              <span className='text-sm text-gray-500'>
+                May 2024 - August 2024
+              </span>
+            </p>
+            <ul className='list-disc ml-6 text-gray-700'>
+              <li>
+                Contributed to both frontend and backend development of the main
+                loyalty product.
+              </li>
+              <li>
+                Implemented new features and optimized existing functionality to
+                enhance the product.
+              </li>
+              <li>
+                Collaborated with senior developers and the tech lead on
+                high-quality code delivery.
               </li>
             </ul>
             <p className='font-semibold flex items-center justify-between border-b pb-3 mb-3 mt-4'>
@@ -178,7 +248,8 @@ const Experience = () => {
             <ul className='list-disc ml-6 text-gray-700'>
               <li>
                 Recognized for academic excellence and placed on the dean&apos;s
-                list with a 3.81 / 4.0 GPA (Fall 2022; Winter 2023; Fall 2023)
+                list with a 3.84 / 4.0 GPA (Fall 2022; Winter 2023; Fall 2023;
+                Winter 2024)
               </li>
               <li>
                 Relevant Courses: Advanced Web Programming, Introduction to
@@ -249,7 +320,9 @@ const Experience = () => {
                   <FaDatabase className='text-red-500 md:mr-2' size={size} />
                   <span className='font-semibold text-xl'>Databases</span>
                 </div>
-                <p className='text-lg'>MySQL, Oracle SQL, SQLite, Snowflake, MongoDB</p>
+                <p className='text-lg'>
+                  MySQL, Oracle SQL, SQLite, Snowflake, MongoDB
+                </p>
               </li>
               <li className='flex flex-col items-center md:items-start text-gray-700'>
                 <div className='flex flex-col md:flex-row items-center mb-2'>
