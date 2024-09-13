@@ -64,7 +64,7 @@ const AboutMe = () => {
 
           <div className='text-center'>
             <p className='text-lg font-semibold'>Tyler O&apos;Neil</p>
-            <p className='text-gray-400'>Aspiring Software Developer</p>
+            <p className='text-gray-400'>Software Developer</p>
           </div>
 
           <div className='text-left mt-4'>
@@ -128,9 +128,9 @@ const AboutMe = () => {
                 Profile
               </h2>
               <p className='text-gray-800 rounded bg-slate-50 px-3 py-2'>
-                Highly motivated aspiring Software Developer with hands-on
-                experience in crafting applications and websites. I&apos;ve
-                served as a{" "}
+                Highly motivated Software Developer with hands-on experience in
+                crafting applications and websites. I&apos;ve completed two
+                internships as a{" "}
                 <a
                   href='https://www.exchangesolutions.com/'
                   target='_blank'
@@ -139,9 +139,8 @@ const AboutMe = () => {
                 >
                   Software Developer Intern at Exchange Solutions Inc
                 </a>
-                , contributing to cutting-edge projects involving Node.js for
-                applications like Retrieval Augmented AI Agents and Digital
-                Coupon Automation. Additionally, my role as a{" "}
+                , contributing to the core loyalty product for clients such as
+                Rexall, Esso, etc. Additionally, my role as a{" "}
                 <a
                   href='https://presentecsolutions.com/'
                   target='_blank'
