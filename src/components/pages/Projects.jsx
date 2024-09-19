@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <>
       <Notification
-        text='If you like any of my projects check out my Github!'
+        text='If you like any of my projects check out my GitHub!'
         icon={() => iconProvider(<SiGithub />)}
       />
       <Title title={"Projects"} />
@@ -84,7 +84,7 @@ const Projects = () => {
                   className='flex items-center text-blue-500 hover:underline gap-1'
                 >
                   {iconProvider(<SiGithub />)}
-                  Github
+                  GitHub
                 </a>
                 {project.productionLink && (
                   <a

@@ -18,7 +18,7 @@ const Footer = () => {
             <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
               <SiGithub />
             </IconContext.Provider>
-            Github
+            GitHub
           </a>
           <a
             href='https://linkedin.com/in/tyler-oneil-dev'

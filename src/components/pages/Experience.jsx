@@ -335,8 +335,8 @@ const Experience = () => {
                   </span>
                 </div>
                 <p className='text-lg'>
-                  AWS, Linux, Git/Github, Jenkins, Wordpress, Jira, Confluence,
-                  Slack
+                  AWS, Linux, Git, GitHub, Jenkins, Wordpress, Jira, Bitbucket
+                  Confluence, Slack
                 </p>
               </li>
             </ul>

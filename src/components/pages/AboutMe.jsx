@@ -93,7 +93,7 @@ const AboutMe = () => {
               <IconContext.Provider value={{ className: "w-5 h-5 mr-1" }}>
                 <SiGithub />
               </IconContext.Provider>
-              Github
+              GitHub
             </a>
 
             <a
@@ -199,7 +199,7 @@ const AboutMe = () => {
                 <p className='flex items-center justify-center'>
                   <img
                     src='https://skillicons.dev/icons?i=aws,azure,vscode,neovim,git,github,linux,mysql,sqlite,mongodb,wordpress,firebase,dotnet,vite,latex'
-                    alt='AWS, Azure, VSCode, NeoVim, Git, Github, Linux, MySQL, SQLite, MongoDB, Wordpress, Firebase, .Net, Vite, LaTeX'
+                    alt='AWS, Azure, VSCode, NeoVim, Git, GitHub, Linux, MySQL, SQLite, MongoDB, Wordpress, Firebase, .Net, Vite, LaTeX'
                     loading='lazy'
                   />
                 </p>
