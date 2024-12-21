@@ -7,7 +7,7 @@
 
 ## Description
 
-This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences. Please note that this project is currently under active development. Contact form powered by [Herotofu](https://herotofu.com/).
+This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences. Contact form powered by [Herotofu](https://herotofu.com/).
 
 ## Link
 
